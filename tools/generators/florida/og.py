@@ -53,9 +53,17 @@ d.text((200, 118), OG["line1"], font=font(74), fill=(28, 38, 48))
 d.text((200, 200), OG["line2"], font=font(96), fill=P["primary"])
 d.text((200, 318), OG["sub1"], font=sans(26), fill=(70, 83, 94))
 d.text((200, 352), OG["sub2"], font=sans(26), fill=(70, 83, 94))
+byline = OG.get("byline", "Darin Weidauer, MBA, RSSA · NPN 18580338")
 pw = 226 + int(sans(24).getlength(OG["domain"])) + 26
 d.rounded_rectangle([200, 536, pw, 592], radius=28, fill=P["dark"])
 d.text((226, 549), OG["domain"], font=sans(24), fill=(255, 255, 255))
-d.text((pw + 24, 552), OG.get("byline", "Darin Weidauer, MBA, RSSA · NPN 18580338"), font=sans(20), fill=P["paper"])
+# The byline sits to the right of the domain pill; a long section path (ecosinsurancesolutions.com/north-carolina)
+# pushes it off the canvas, so step the byline font down, and if it still does not fit put it under the pill.
+for size in (20, 18, 16):
+    if pw + 24 + sans(size).getlength(byline) <= W - 40:
+        d.text((pw + 24, 556 - (size - 16) // 2), byline, font=sans(size), fill=P["paper"])
+        break
+else:
+    d.text((200, 602), byline, font=sans(16), fill=(70, 83, 94))
 img.save(ROOT / "og-image.png", optimize=True)
 print("wrote og-image.png", (ROOT / "og-image.png").stat().st_size, "bytes")
