@@ -1,0 +1,29 @@
+# ECOS Insurance Solutions
+
+> Home of ECOS Medicare Solutions, an independent Medicare insurance agency led by licensed agent Darin Weidauer (NPN 18580338). One website with a section for each state served. Each state section has its own local phone number, 2026 cost figures, city and region pages, and its own llms.txt / llms-full.txt summary.
+
+ECOS Medicare Solutions is not connected with or endorsed by the United States government or the federal Medicare program. Official, independent sources: Medicare.gov, 1-800-MEDICARE (TTY 1-877-486-2048), and every state's SHIP counseling program.
+
+## State sections
+
+- [Arizona](https://www.ecosinsurancesolutions.com/arizona): summary at https://www.ecosinsurancesolutions.com/arizona/llms.txt
+- [California](https://www.ecosinsurancesolutions.com/california): summary at https://www.ecosinsurancesolutions.com/california/llms.txt
+- [Colorado](https://www.ecosinsurancesolutions.com/colorado): summary at https://www.ecosinsurancesolutions.com/colorado/llms.txt
+- [Florida](https://www.ecosinsurancesolutions.com/florida): summary at https://www.ecosinsurancesolutions.com/florida/llms.txt
+- [Georgia](https://www.ecosinsurancesolutions.com/georgia): summary at https://www.ecosinsurancesolutions.com/georgia/llms.txt
+- [Minnesota](https://www.ecosinsurancesolutions.com/minnesota): summary at https://www.ecosinsurancesolutions.com/minnesota/llms.txt
+- [Nevada](https://www.ecosinsurancesolutions.com/nevada): summary at https://www.ecosinsurancesolutions.com/nevada/llms.txt
+- [Tennessee](https://www.ecosinsurancesolutions.com/tennessee): summary at https://www.ecosinsurancesolutions.com/tennessee/llms.txt
+- [Texas](https://www.ecosinsurancesolutions.com/texas): summary at https://www.ecosinsurancesolutions.com/texas/llms.txt
+- [Utah](https://www.ecosinsurancesolutions.com/utah): summary at https://www.ecosinsurancesolutions.com/utah/llms.txt
+
+## Related sites by the same agency
+
+- [MyMedigapRate](https://www.mymedigaprate.com): Medigap premiums and filed rate actions, cited to state insurance filings.
+- [Darin Weidauer at MyECOS360](https://www.myecos360.com/darin-weidauer): author profile.
+- [How Do I Apply for Medicare](https://howdoiapplyformedicare.com)
+- [Medicare Advantage Answers](https://medicareadvantageanswers.com)
+
+## Former domains
+
+The state guides previously lived on their own single-state domains. Those domains now redirect permanently to the matching state section here.

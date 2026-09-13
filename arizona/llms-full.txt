@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Google Analytics (GA4) — REPLACE G-XXXXXXXXXX with your Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+<title>Medicare in Tucson, AZ (2026) | Plans, Costs &amp; Local Enrollment Help</title>
+<meta name="description" content="Medicare guide for Tucson, Arizona (Pima County): 2026 Part A, B, C &amp; D costs, enrollment periods, Medigap, local counseling contacts, and how to compare plans and enroll. Free local help." />
+<link rel="canonical" href="https://www.ecosinsurancesolutions.com/arizona/medicare-tucson-az" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#155e5a" />
+<meta name="author" content="Darin Weidauer, Licensed Medicare Insurance Agent" />
+<meta name="geo.region" content="US-AZ" />
+<meta name="geo.placename" content="Arizona" />
+<!-- Open Graph -->
+<meta property="og:site_name" content="Medicare Enrollment Arizona" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Medicare in Tucson, AZ (2026) | Plans, Costs &amp; Local Enrollment Help" />
+<meta property="og:description" content="Medicare guide for Tucson, Arizona (Pima County): 2026 Part A, B, C &amp; D costs, enrollment periods, Medigap, local counseling contacts, and how to compare plans and enroll. Free local help." />
+<meta property="og:url" content="https://www.ecosinsurancesolutions.com/arizona/medicare-tucson-az" />
+<meta property="og:image" content="https://www.ecosinsurancesolutions.com/arizona/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Medicare in Tucson, AZ (2026) | Plans, Costs &amp; Local Enrollment Help" />
+<meta name="twitter:description" content="Medicare guide for Tucson, Arizona (Pima County): 2026 Part A, B, C &amp; D costs, enrollment periods, Medigap, local counseling contacts, and how to compare plans and enroll. Free local help." />
+<meta name="twitter:image" content="https://www.ecosinsurancesolutions.com/arizona/assets/og-image.png" />
+<!-- Fonts & assets -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/styles.css" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+<link rel="manifest" href="/site.webmanifest" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "InsuranceAgency", "name": "ECOS Medicare Solutions", "alternateName": "Medicare Enrollment Arizona", "url": "https://www.ecosinsurancesolutions.com/arizona", "image": "https://www.ecosinsurancesolutions.com/arizona/assets/og-image.png", "logo": "https://www.ecosinsurancesolutions.com/arizona/assets/ecos-logo.png", "sameAs": ["https://www.ecosinsurancesolutions.com/colorado", "https://www.ecosinsurancesolutions.com/nevada", "https://www.howdoiapplyformedicare.com", "https://www.medicareadvantageanswers.com", "https://www.dentalinsurancetomorrow.com"], "description": "Medicare guidance and enrollment help for Arizona — Parts A, B, C and D, Medigap, 2026 costs, and enrollment periods.", "areaServed": {"@type": "City", "name": "Tucson, Arizona"}, "knowsAbout": ["Medicare", "Medicare Advantage", "Medicare Part D", "Medigap", "Medicare Supplement", "Medicare enrollment"], "founder": {"@type": "Person", "name": "Darin Weidauer", "jobTitle": "Licensed Medicare Insurance Agent"}, "employee": {"@type": "Person", "name": "Darin Weidauer", "jobTitle": "Licensed Medicare Insurance Agent"}, "location": [{"@type": "Place", "name": "ECOS Medicare Solutions — Arizona East", "address": {"@type": "PostalAddress", "streetAddress": "5110 E. Southern Ave, Suite 101", "addressLocality": "Mesa", "addressRegion": "AZ", "postalCode": "85206", "addressCountry": "US"}}, {"@type": "Place", "name": "ECOS Medicare Solutions — Arizona West", "address": {"@type": "PostalAddress", "streetAddress": "10740 W. Bell Rd", "addressLocality": "Sun City", "addressRegion": "AZ", "postalCode": "85351", "addressCountry": "US"}}], "address": {"@type": "PostalAddress", "streetAddress": "5110 E. Southern Ave, Suite 101", "addressLocality": "Mesa", "addressRegion": "AZ", "postalCode": "85206", "addressCountry": "US"}, "contactPoint": {"@type": "ContactPoint", "contactType": "sales", "url": "https://www.ecosinsurancesolutions.com/arizona/contact", "areaServed": "US-AZ"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ecosinsurancesolutions.com/arizona"}, {"@type": "ListItem", "position": 2, "name": "Arizona Medicare by Area", "item": "https://www.ecosinsurancesolutions.com/arizona#areas"}, {"@type": "ListItem", "position": 3, "name": "Medicare in Tucson", "item": "https://www.ecosinsurancesolutions.com/arizona/medicare-tucson-az"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I get free Medicare help in Tucson?", "acceptedAnswer": {"@type": "Answer", "text": "Two easy options: call Arizona's free SHIP counseling line at 1-800-432-4040, or reach your local Pima Council on Aging (PCOA), Region Two at 520-790-7262. These services are free, federally funded, and the counselors don't sell insurance. You can also compare and enroll online anytime, or work with licensed agent Darin Weidauer."}}, {"@type": "Question", "name": "Which hospitals matter for Medicare plans in Tucson?", "acceptedAnswer": {"@type": "Answer", "text": "In and around Tucson, major providers include Banner – University Medical Center Tucson, Tucson Medical Center (TMC), Carondelet St. Joseph's, and Northwest Medical Center. With Original Medicare you can use any provider that accepts Medicare; with a Medicare Advantage plan, confirm these systems and your specific doctors are in the plan's network before you enroll."}}, {"@type": "Question", "name": "When can I enroll in Medicare in Tucson?", "acceptedAnswer": {"@type": "Answer", "text": "The windows are the same statewide and nationwide: your 7-month Initial Enrollment Period around your 65th birthday, Fall Open Enrollment (Oct 15–Dec 7), the Medicare Advantage Open Enrollment Period (Jan 1–Mar 31), and Special Enrollment Periods triggered by events like retiring. Use the enrollment-window tool on this page to find your exact dates."}}, {"@type": "Question", "name": "When am I first eligible for Medicare?", "acceptedAnswer": {"@type": "Answer", "text": "Most people become eligible at age 65. You can also qualify earlier if you've received Social Security Disability benefits for 24 months, or if you have ALS or end-stage renal disease. Your Initial Enrollment Period covers the 7 months around your 65th birthday."}}, {"@type": "Question", "name": "Do I get Medicare automatically?", "acceptedAnswer": {"@type": "Answer", "text": "If you're already getting Social Security before 65, you're usually enrolled in Parts A and B automatically and your card arrives by mail. If you're not drawing Social Security yet, you generally have to sign up yourself through the Social Security Administration — it won't happen on its own."}}, {"@type": "Question", "name": "What is Medigap and do I need it?", "acceptedAnswer": {"@type": "Answer", "text": "Medigap (Medicare Supplement) is private insurance that fills the gaps in Original Medicare — the deductibles and that uncapped 20% coinsurance. It's worth considering if you choose Original Medicare and want protection from large, unpredictable bills. Plans are standardized by letter, so a Plan G from one company covers the same as a Plan G from another; compare on price and service. You don't use Medigap with a Medicare Advantage plan."}}, {"@type": "Question", "name": "I have limited income — can I get help paying?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and many who qualify never apply. The Medicare Savings Program can pay your Part B premium, and Extra Help dramatically lowers drug costs. Arizonans with very limited income may also qualify for AHCCCS (Medicaid). A free SHIP counselor at 1-800-432-4040 can screen you for all of these in one call."}}, {"@type": "Question", "name": "What is the new $2,100 drug cap?", "acceptedAnswer": {"@type": "Answer", "text": "Starting in 2025 and continuing in 2026, there's an annual cap on what you pay out of pocket for covered prescriptions. In 2026 that cap is $2,100 — once your covered-drug spending reaches it, you pay $0 for those drugs the rest of the year. You can also use the Medicare Prescription Payment Plan to spread the cost into monthly installments at no extra charge."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="/" aria-label="Medicare Enrollment Arizona home">
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 19.3 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z" fill="#fff"/></svg></span>
+      <span><b>Medicare Enrollment</b><span class="st">Arizona</span></span>
+    </a>
+    <nav class="navlinks" id="navlinks" aria-label="Primary">
+      <a href="/#basics">The Basics</a>
+      <a href="/#costs">2026 Costs</a>
+      <a href="/#enroll">When to Enroll</a>
+      <a href="/#areas">Local Help</a>
+      <a href="/guides/">Guides</a>
+      <a href="/contact/">Contact</a>
+      <a class="navcta" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">Compare Plans &amp; Enroll</a>
+    </nav>
+    <button class="hamb" id="hamb" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main">
+<div class="wrap"><nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span>&rsaquo;</span><a href="/#areas">Arizona areas</a><span>&rsaquo;</span> Medicare in Tucson</nav></div>
+<div class="hero" style="padding-top:24px;">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> Pima County, Arizona</span>
+        <h1>Medicare in <em>Tucson</em>, Arizona</h1>
+        <p class="lede">Your local guide to 2026 Medicare costs, enrollment deadlines, and free Tucson-area help &mdash; plus an easy way to compare plans and enroll.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">Compare Tucson Plans &amp; Enroll <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#local">See local help</a>
+        </div>
+        <div class="hero-trust"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>Call ECOS Medicare Solutions: <a href="tel:6029354382" style="color:inherit;">602-935-4382</a></span></div>
+      </div>
+      <aside class="callcard" aria-label="Local help">
+        <h3>Tucson contacts</h3>
+        <p>Talk to a licensed agent, or use free local counseling.</p>
+        <div class="phone-row">
+          <a class="phone" href="tel:6029354382"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <span><span class="num">602-935-4382</span><br><span class="lab">ECOS Medicare Solutions &mdash; licensed agent</span></span></a>
+          <a class="phone" href="tel:5207907262"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <span><span class="num">520-790-7262</span><br><span class="lab">Pima Council on Aging (PCOA), Region Two</span></span></a>
+          <a class="phone" href="tel:18004324040"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <span><span class="num">1-800-432-4040</span><br><span class="lab">Arizona SHIP &mdash; free</span></span></a>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <div class="scene" aria-hidden="true">
+    <img src="/assets/scenes/saguaro.svg" alt="" loading="lazy" width="1440" height="340" />
+  </div>
+</div>
+  <div class="wrap" style="padding-top:34px;padding-bottom:0;">
+    <div class="tpmo"><strong>Not connected with or endorsed by the U.S. government or the federal Medicare program.</strong>
+    We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area.
+    Please contact Medicare.gov, 1&#8209;800&#8209;MEDICARE, or your local State Health Insurance Assistance Program (SHIP) to get information on all of your options.</div>
+  </div>
+<section aria-labelledby="i-h">
+  <div class="wrap">
+    <div class="local-grid">
+      <div class="prose">
+        <span class="eyebrow"><span class="dot"></span> Overview</span>
+        <h2 id="i-h">Medicare in Tucson</h2>
+        <p>Tucson, the heart of Pima County and Southern Arizona, has a strong Medicare market with several major hospital systems and a robust set of Advantage and Part D plans. Pima Council on Aging provides well-regarded local Medicare counseling for residents across the metro area.</p>
+        <h3>Original Medicare or Medicare Advantage?</h3>
+        <p>Tucson's mix of large health systems gives Advantage shoppers real network choices, while Original Medicare keeps access open across all of them. <strong>Original Medicare</strong> (Parts A &amp; B) lets you use any provider in the U.S. that accepts Medicare and pairs well with a Medigap supplement and a Part D drug plan for predictable costs. <strong>Medicare Advantage</strong> (Part C) plans bundle your coverage, often add dental, vision and hearing, and may have low or $0 premiums &mdash; but they use local networks, so your Tucson-area doctors and pharmacies need to be in-network.</p>
+        <p>Whichever direction fits you best, you can <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">compare Tucson plans and enroll online</a>, or talk it through first with a free SHIP counselor or licensed agent Darin Weidauer.</p>
+      </div>
+      <div>
+        <div class="costcard"><div class="ch"><h3>2026 quick costs</h3><p>Standard federal amounts</p></div>
+          <table><tbody>
+            <tr><td>Part B premium</td><td>$202.90/mo</td></tr>
+            <tr><td>Part B deductible</td><td>$283</td></tr>
+            <tr><td>Part A deductible</td><td>$1,736</td></tr>
+            <tr><td>Part D drug cap</td><td>$2,100</td></tr>
+            <tr><td>Part A premium (most)</td><td>$0</td></tr>
+          </tbody></table>
+        </div>
+        <p class="costnote">See the <a href="/#costs">full 2026 cost breakdown</a> for Parts A, B, C, D and IRMAA.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="local" class="band-cream" aria-labelledby="lh">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Free local help</span>
+      <h2 id="lh">Tucson-area Medicare resources</h2>
+      <p>These services are free and don't sell insurance &mdash; ideal for unbiased answers before you choose a plan.</p></div>
+    <div class="azgrid">
+      <div class="resbox"><h3>Where to turn in Tucson</h3><div class="reslist">
+        <div class="resitem"><span class="ri" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><div class="rt">Pima Council on Aging (PCOA), Region Two</div><div class="rd">Local SHIP counseling for Pima County. <a href="tel:5207907262">520-790-7262</a></div></div></div>
+        <div class="resitem"><span class="ri" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><div class="rt">Arizona SHIP (statewide)</div><div class="rd">Free one-on-one counseling. <a href="tel:18004324040">1-800-432-4040</a></div></div></div>
+        <div class="resitem"><span class="ri" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><div class="rt">1-800-MEDICARE</div><div class="rd">Official federal help, 24/7. <a href="tel:18006334227">1-800-633-4227</a></div></div></div>
+        <div class="resitem"><span class="ri" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></span><div><div class="rt">Compare Tucson plans</div><div class="rd">See plans for your ZIP and enroll at <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">PlanEnroll</a> or <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener">medicare.gov</a>.</div></div></div>
+      </div></div>
+      <div class="county"><h3>Find your enrollment window</h3>
+        <p style="margin-bottom:14px;">Enter the month and year you turn 65.</p>
+        <div class="tool-row">
+          <div class="field"><label for="iepMonth">Birth month</label>
+            <select id="iepMonth"><option value="">Month&hellip;</option>
+              <option value="0">January</option><option value="1">February</option><option value="2">March</option>
+              <option value="3">April</option><option value="4">May</option><option value="5">June</option>
+              <option value="6">July</option><option value="7">August</option><option value="8">September</option>
+              <option value="9">October</option><option value="10">November</option><option value="11">December</option></select></div>
+          <div class="field"><label for="iepYear">Year</label><select id="iepYear"><option value="">Year&hellip;</option></select></div>
+          <button class="btn" id="iepBtn" style="background:var(--clay);color:#fff;border:none;">Show window</button>
+        </div>
+        <div id="iepResult" role="status" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section aria-labelledby="e-h">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Key dates</span>
+      <h2 id="e-h">Medicare enrollment windows</h2>
+      <p>These deadlines are the same for everyone in Tucson and across Arizona.</p></div>
+    
+    <div class="timeline">
+      <div class="tl"><div class="when">7 months</div><div>
+        <h3>Initial Enrollment Period (IEP)</h3>
+        <p>Your first chance to sign up: the 3 months before your 65th-birthday month, the birthday month itself, and the 3 months after. Enrolling in the first three months means coverage can start the month you turn 65.</p>
+        <span class="pill">Best time to enroll for most people</span></div></div>
+      <div class="tl alt"><div class="when">Oct 15<br>&ndash; Dec 7</div><div>
+        <h3>Fall Open Enrollment (AEP)</h3>
+        <p>Every autumn, anyone with Medicare can join, switch or drop a Medicare Advantage or Part D drug plan. Changes take effect January 1. Review your plan's Annual Notice of Change each fall &mdash; costs and drug lists shift yearly.</p></div></div>
+      <div class="tl alt"><div class="when">Jan 1<br>&ndash; Mar 31</div><div>
+        <h3>Medicare Advantage Open Enrollment</h3>
+        <p>If you're already in a Medicare Advantage plan, you get one more chance early in the year to switch to a different Advantage plan or return to Original Medicare (and add a drug plan).</p></div></div>
+      <div class="tl"><div class="when">Jan 1<br>&ndash; Mar 31</div><div>
+        <h3>General Enrollment Period (GEP)</h3>
+        <p>For people who missed their Initial Enrollment Period and don't qualify for a special exception. Coverage starts the month after you sign up &mdash; and late penalties may apply.</p>
+        <span class="pill">Penalties may apply</span></div></div>
+      <div class="tl alt"><div class="when">Varies</div><div>
+        <h3>Special Enrollment Period (SEP)</h3>
+        <p>Life events can open a no-penalty window &mdash; for example, losing employer coverage when you retire (you generally get 8 months to enroll in Part B), moving out of your plan's area, or qualifying for Extra Help. If you're still working at 65 with good employer coverage, an SEP often lets you delay safely.</p></div></div>
+      <div class="tl"><div class="when">6 months</div><div>
+        <h3>Medigap Open Enrollment</h3>
+        <p>A one-time, 6-month window that begins when you're 65 <em>and</em> enrolled in Part B. During it, insurers can't deny you a Medigap policy or charge more for pre-existing conditions. After it closes, that protection generally goes away.</p>
+        <span class="pill">Guaranteed acceptance</span></div></div>
+    </div>
+  </div>
+</section>
+<section id="faq" class="band-cream" aria-labelledby="f-h">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Tucson FAQ</span>
+      <h2 id="f-h">Common questions in Tucson</h2>
+      <p>More answers are on our <a href="/#faq">full Medicare FAQ</a>.</p></div>
+    <div class="faq" id="faqList">
+      <details class="qa" data-cat="local">
+        <summary><button type="button">How do I get free Medicare help in Tucson?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans">Two easy options: call Arizona's free SHIP counseling line at <strong>1-800-432-4040</strong>, or reach your local Pima Council on Aging (PCOA), Region Two at <strong>520-790-7262</strong>. These services are free, federally funded, and the counselors don't sell insurance. You can also compare and enroll online anytime, or work with licensed agent Darin Weidauer.</div>
+      </details>
+      <details class="qa" data-cat="local">
+        <summary><button type="button">Which hospitals matter for Medicare plans in Tucson?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans">In and around Tucson, major providers include Banner – University Medical Center Tucson, Tucson Medical Center (TMC), Carondelet St. Joseph's, and Northwest Medical Center. With Original Medicare you can use any provider that accepts Medicare; with a Medicare Advantage plan, confirm these systems and your specific doctors are in the plan's network before you enroll.</div>
+      </details>
+      <details class="qa" data-cat="local">
+        <summary><button type="button">When can I enroll in Medicare in Tucson?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans">The windows are the same statewide and nationwide: your 7-month Initial Enrollment Period around your 65th birthday, Fall Open Enrollment (Oct 15–Dec 7), the Medicare Advantage Open Enrollment Period (Jan 1–Mar 31), and Special Enrollment Periods triggered by events like retiring. Use the enrollment-window tool on this page to find your exact dates.</div>
+      </details>
+      <details class="qa" data-cat="start">
+        <summary><button type="button">When am I first eligible for Medicare?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Most people become eligible at <strong>age 65</strong>. You can also qualify earlier if you've received Social Security Disability benefits for 24 months, or if you have ALS or end-stage renal disease. Your Initial Enrollment Period covers the 7 months around your 65th birthday.</p></div>
+      </details>
+      <details class="qa" data-cat="start">
+        <summary><button type="button">Do I get Medicare automatically?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>If you're <strong>already getting Social Security</strong> before 65, you're usually enrolled in Parts A and B automatically and your card arrives by mail. If you're <strong>not</strong> drawing Social Security yet, you generally have to sign up yourself through the Social Security Administration &mdash; it won't happen on its own.</p></div>
+      </details>
+      <details class="qa" data-cat="choose">
+        <summary><button type="button">What is Medigap and do I need it?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Medigap (Medicare Supplement) is private insurance that fills the gaps in Original Medicare &mdash; the deductibles and that uncapped 20% coinsurance. It's worth considering if you choose Original Medicare and want protection from large, unpredictable bills. Plans are standardized by letter, so a Plan G from one company covers the same as a Plan G from another; compare on price and service. You don't use Medigap with a Medicare Advantage plan.</p></div>
+      </details>
+      <details class="qa" data-cat="cost">
+        <summary><button type="button">I have limited income &mdash; can I get help paying?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Yes, and many who qualify never apply. The <strong>Medicare Savings Program</strong> can pay your Part B premium, and <strong>Extra Help</strong> dramatically lowers drug costs. Arizonans with very limited income may also qualify for AHCCCS (Medicaid). A free SHIP counselor at 1-800-432-4040 can screen you for all of these in one call.</p></div>
+      </details>
+      <details class="qa" data-cat="cost">
+        <summary><button type="button">What is the new $2,100 drug cap?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Starting in 2025 and continuing in 2026, there's an annual cap on what you pay out of pocket for covered prescriptions. In <strong>2026 that cap is $2,100</strong> &mdash; once your covered-drug spending reaches it, you pay $0 for those drugs the rest of the year. You can also use the Medicare Prescription Payment Plan to spread the cost into monthly installments at no extra charge.</p></div>
+      </details></div>
+  </div>
+</section>
+<section aria-labelledby="o-h">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Nearby</span>
+      <h2 id="o-h">Medicare help in other Arizona areas</h2></div>
+    <div class="citygrid"><a class="citycard" href="/medicare-phoenix-az/"><span><span class="cn">Phoenix</span><br><span class="cc">Maricopa County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-mesa-az/"><span><span class="cn">Mesa</span><br><span class="cc">Maricopa County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-flagstaff-az/"><span><span class="cn">Flagstaff</span><br><span class="cc">Coconino County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-sedona-az/"><span><span class="cn">Sedona</span><br><span class="cc">Yavapai &amp; Coconino Counties</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-kingman-az/"><span><span class="cn">Kingman</span><br><span class="cc">Mohave County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-lake-havasu-city-az/"><span><span class="cn">Lake Havasu City</span><br><span class="cc">Mohave County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-yuma-az/"><span><span class="cn">Yuma</span><br><span class="cc">Yuma County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+<section id="help" aria-labelledby="hh2">
+  <div class="wrap">
+    <div class="helpcta"><h2 id="hh2">Compare Tucson Medicare plans today</h2>
+      <p>See the plans available in your ZIP code and enroll online, or get free local counseling first.</p>
+      <div class="hero-cta" style="justify-content:center;">
+        <a class="btn btn-white" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">Compare Plans &amp; Enroll <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="tel:6029354382" style="background:rgba(255,255,255,.15);color:#fff;border-color:rgba(255,255,255,.5);">Call 602-935-4382</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="footgrid">
+      <div>
+        <div class="footbrand"><b>Medicare Enrollment Arizona</b></div>
+        <span class="foot-logo" style="margin-top:12px;"><img src="/assets/ecos-logo.png" alt="ECOS Medicare Solutions" width="180" height="56" /></span>
+        <p style="margin-top:12px;max-width:34ch;">Plain-English Medicare guidance for Arizonans turning 65 and current beneficiaries — with free local resources and licensed help from Darin Weidauer when you're ready to enroll.</p>
+        <a class="btn btn-primary" style="margin-top:6px;" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">Compare Plans &amp; Enroll <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <a href="/#basics">The basics</a>
+        <a href="/#costs">2026 costs</a>
+        <a href="/#enroll">When to enroll</a>
+        <a href="/guides/">Guides</a>
+        <a href="/#faq">FAQ</a>
+      </div>
+      <div>
+        <h4>Arizona areas</h4>
+        <a href="/medicare-phoenix-az/">Phoenix</a><a href="/medicare-mesa-az/">Mesa</a><a href="/medicare-tucson-az/">Tucson</a><a href="/medicare-flagstaff-az/">Flagstaff</a><a href="/medicare-sedona-az/">Sedona</a><a href="/medicare-kingman-az/">Kingman</a><a href="/medicare-lake-havasu-city-az/">Lake Havasu City</a><a href="/medicare-yuma-az/">Yuma</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="tel:6029354382">Call 602-935-4382</a>
+        <a href="/contact/">Contact us</a>
+        <a href="/about/">About Darin Weidauer</a>
+        <a href="https://www.medicare.gov" target="_blank" rel="noopener">Medicare.gov</a>
+        <a href="https://www.ssa.gov/medicare" target="_blank" rel="noopener">Social Security</a>
+        <a href="https://des.az.gov/medicare-assistance" target="_blank" rel="noopener">Arizona SHIP / DES</a>
+        <a href="tel:18006334227">1-800-MEDICARE</a>
+      </div>
+    </div>
+    
+    <div class="footoffices">
+      <div class="fo-head">
+        <h4 style="margin:0;">Visit ECOS Medicare Solutions</h4>
+        <span class="appt"><a href="tel:6029354382" style="color:#f0c469;font-weight:700;">602-935-4382</a> &middot; appointments recommended before visiting</span>
+      </div>
+      <div class="officegrid">
+      <div class="officecard">
+        <div class="ot">Arizona East</div>
+        <address>5110 E. Southern Ave, Suite 101<br>Mesa, AZ 85206</address>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=ECOS%20Medicare%20Solutions%205110%20E.%20Southern%20Ave%2C%20Suite%20101%2C%20Mesa%2C%20AZ%2085206" target="_blank" rel="noopener">Get directions <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="officecard">
+        <div class="ot">Arizona West</div>
+        <address>10740 W. Bell Rd<br>Sun City, AZ 85351</address>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=ECOS%20Medicare%20Solutions%2010740%20W.%20Bell%20Rd%2C%20Sun%20City%2C%20AZ%2085351" target="_blank" rel="noopener">Get directions <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div></div>
+      <a class="btn btn-primary" href="/contact/">Contact us <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="footnet">
+      <h4>More Medicare help from ECOS Medicare Solutions</h4>
+      <div class="net-links"><a href="https://www.ecosinsurancesolutions.com/colorado" target="_blank" rel="noopener">Colorado Medicare Enrollment</a><a href="https://www.ecosinsurancesolutions.com/nevada" target="_blank" rel="noopener">Medicare Enrollment Nevada</a><a href="https://www.howdoiapplyformedicare.com" target="_blank" rel="noopener">How Do I Apply for Medicare</a><a href="https://www.medicareadvantageanswers.com" target="_blank" rel="noopener">Medicare Advantage Answers</a><a href="https://www.dentalinsurancetomorrow.com" target="_blank" rel="noopener">Dental Insurance Tomorrow</a></div>
+    </div>
+    <div class="disclaimer">
+      <p><strong>Third-Party Marketing Organization (TPMO) disclosure:</strong> This website is operated by ECOS Medicare Solutions and Darin Weidauer, a licensed insurance agent (National Producer Number 18580338, Arizona License #18580338), and is a Medicare marketing resource. We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE (1-800-633-4227, TTY 1-877-486-2048), 24 hours a day / 7 days a week, to get information on all of your options.</p>
+      <p>This site is <strong>not affiliated with, connected to, or endorsed by</strong> the U.S. government, the federal Medicare program, the Centers for Medicare &amp; Medicaid Services (CMS), or the Social Security Administration. Medicare has neither reviewed nor endorsed this information. Enrollment in a plan may be completed through the licensed agent or the linked self-service enrollment platform; you are never required to use an agent and may enroll directly through Medicare.</p>
+      <p>The educational information here reflects 2026 standard amounts published by CMS and is provided for general guidance only — it is not medical, legal, tax, or insurance advice, and your individual costs and options may differ. Always verify details with official sources before making decisions. Free, unbiased counseling is available from Arizona's State Health Insurance Assistance Program (SHIP) at 1-800-432-4040.</p>
+      <p style="margin-bottom:0;">&copy; <span id="yr"></span> ECOS Medicare Solutions &middot; ecosinsurancesolutions.com/arizona &middot; All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
+
+## Policies
+- Privacy Policy: https://www.ecosinsurancesolutions.com/arizona/privacy
+
+## Topic guides
+- [2026 Medicare costs](https://www.ecosinsurancesolutions.com/arizona/medicare-costs-arizona): Part A, B, D and the full IRMAA table.
+- [Medicare Supplement (Medigap)](https://www.ecosinsurancesolutions.com/arizona/medicare-supplement-arizona): Plan G vs Plan N, the six-month window, snowbird considerations. Arizona has NO Medigap birthday rule.
+- [Medicare Part D](https://www.ecosinsurancesolutions.com/arizona/medicare-part-d-arizona): the $2,100 out-of-pocket cap, the permanent late-enrolment penalty, Extra Help, pharmacy access.
+- [AHCCCS, ALTCS and Medicare Savings Programs](https://www.ecosinsurancesolutions.com/arizona/arizona-medicaid-ahcccs): Arizona applies NO asset or resource test to QMB, SLMB and QI. ALTCS is an entitlement with no waiting list.
+- [Veterans and Medicare](https://www.ecosinsurancesolutions.com/arizona/veterans-medicare-arizona): VA is not creditable coverage for delaying Part B; TRICARE For Life requires Part B.
+- [FAQ](https://www.ecosinsurancesolutions.com/arizona/faq): the questions Arizonans ask most.
+- [Terms of Use](https://www.ecosinsurancesolutions.com/arizona/terms)
+
+## Arizona-specific facts
+- Arizona's Medicaid programme is AHCCCS (Arizona Health Care Cost Containment System); long-term care is ALTCS.
+- Arizona applies no asset/resource test to the Medicare Savings Programs; the AHCCCS eligibility chart lists the QMB, SLMB and QI-1 resource limit as not applicable. Only income is measured.
+- ALTCS is an entitlement programme with no waiting list, unlike the waiver programmes many states run.
+- AHCCCS requires its Complete Care and ALTCS contractors to operate a D-SNP in every service area where they hold a Medicaid contract.
+- Arizona does NOT have a Medigap birthday rule. The initial six-month Medigap open enrolment window at 65 is therefore more consequential here.
+
+## Arizona city guides
+- [Areas we serve](https://www.ecosinsurancesolutions.com/arizona/areas-we-serve): every city and county.
+- [Medicare in Sun City](https://www.ecosinsurancesolutions.com/arizona/medicare-sun-city-az): Maricopa County.
+- [Medicare in Sun City West](https://www.ecosinsurancesolutions.com/arizona/medicare-sun-city-west-az): Maricopa County.
+- [Medicare in Surprise](https://www.ecosinsurancesolutions.com/arizona/medicare-surprise-az): Maricopa County.
+- [Medicare in Peoria](https://www.ecosinsurancesolutions.com/arizona/medicare-peoria-az): Maricopa County.
+- [Medicare in Scottsdale](https://www.ecosinsurancesolutions.com/arizona/medicare-scottsdale-az): Maricopa County.
+- [Medicare in Chandler](https://www.ecosinsurancesolutions.com/arizona/medicare-chandler-az): Maricopa County.
+- [Medicare in Gilbert](https://www.ecosinsurancesolutions.com/arizona/medicare-gilbert-az): Maricopa County.
+- [Medicare in Glendale](https://www.ecosinsurancesolutions.com/arizona/medicare-glendale-az): Maricopa County.
+- [Medicare in Tempe](https://www.ecosinsurancesolutions.com/arizona/medicare-tempe-az): Maricopa County.
+- [Medicare in Green Valley](https://www.ecosinsurancesolutions.com/arizona/medicare-green-valley-az): Pima County.
+- [Medicare in Prescott](https://www.ecosinsurancesolutions.com/arizona/medicare-prescott-az): Yavapai County.
+- [Medicare in Sierra Vista](https://www.ecosinsurancesolutions.com/arizona/medicare-sierra-vista-az): Cochise County.
+- [Medicare in Casa Grande](https://www.ecosinsurancesolutions.com/arizona/medicare-casa-grande-az): Pinal County.
+- [Medicare in Bullhead City](https://www.ecosinsurancesolutions.com/arizona/medicare-bullhead-city-az): Mohave County.

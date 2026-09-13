@@ -1,0 +1,293 @@
+# ECOS Medicare Solutions — Nevada Medicare Enrollment (Full Reference)
+
+> Independent Medicare insurance agency serving all 17 Nevada counties. Led by Darin Weidauer — Gerontologist
+> (USC Davis School of Gerontology), MBA, Registered Social Security Analyst, 22-year USAF veteran, NPN 18580338.
+> Free, unbiased Medicare guidance. No cost to consumers.
+
+- Website: https://www.ecosinsurancesolutions.com/nevada
+- Phone: (702) 706-6564
+- Address: 8524 Del Webb Blvd, Las Vegas, NV 89134
+- Email: darinweidauer@ecos.care
+- NPN: 18580338
+- Service area: all 17 Nevada counties
+
+---
+
+# Dual Special Needs Plans (D-SNP) in Nevada
+
+Hub page: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-nevada
+
+## What a D-SNP is
+
+A Dual Eligible Special Needs Plan (D-SNP) is a Medicare Advantage plan for people who have both Medicare and
+Medicaid. It combines Part A, Part B and Part D prescription coverage into one plan and coordinates with Medicaid.
+Because Medicaid covers most Medicare cost-sharing for people who qualify, these plans typically carry a $0 monthly
+premium and very low or $0 drug copays.
+
+## How Nevada structures its program
+
+Nevada contracts coordination-only D-SNPs, which the state abbreviates CO D-SNP. A coordination-only plan coordinates
+Medicare and Medicaid coverage but does not merge them into a single integrated benefit the way a FIDE-SNP or HIDE-SNP
+does in some other states. Medicare benefits come through the D-SNP; Medicaid benefits continue through Nevada Medicaid.
+
+## Who qualifies in Nevada
+
+Nevada's CO D-SNP program currently enrolls three dual eligibility categories:
+
+- Full Benefit Dual Eligible (FBDE)
+- Qualified Medicare Beneficiary (QMB)
+- Qualified Medicare Beneficiary Plus (QMB+)
+
+The state has moved to expand the enrolled population to include Specified Low-Income Medicare Beneficiary (SLMB)
+and SLMB+ categories. Income and resource limits for Medicare Savings Programs change annually; verify current
+figures with Nevada Medicaid or 1-800-MEDICARE (TTY 1-877-486-2048).
+
+## What changed on January 1, 2026
+
+Nevada expanded Medicaid managed care beyond Clark and Washoe counties to all 17 counties. Roughly 75,000 rural
+Nevadans moved out of fee-for-service Medicaid into managed care. CareSource and SilverSummit Healthplan were awarded
+the rural expansion, joining Health Plan of Nevada, Anthem and Molina, for five MCOs statewide. Members had from
+January 1 to March 31, 2026 to change managed care organizations.
+
+## Enrollment periods for dual eligibles
+
+CMS eliminated the quarterly dual/LIS special enrollment period effective January 1, 2025 and replaced it with:
+
+- A monthly SEP allowing full-benefit duals and people with Extra Help to join or switch a standalone Part D plan.
+- A monthly integrated care SEP for joining an aligned, integrated D-SNP (FIDE-SNP, HIDE-SNP or Applicable Integrated Plan).
+
+Because Nevada's D-SNPs are coordination-only rather than integrated, the integrated care SEP generally does not
+apply in Nevada. Nevada duals typically rely on the Annual Enrollment Period (October 15 – December 7), the Medicare
+Advantage Open Enrollment Period (January 1 – March 31), and SEPs triggered by a change in Medicaid or Extra Help status.
+
+## What these plans typically include
+
+- Part A, Part B and Part D in a single plan
+- $0 or very low monthly premium
+- Low or $0 drug copays via Extra Help (automatic for full duals)
+- Care coordination across Medicare and Medicaid
+- Supplemental benefits varying by plan: dental, vision, hearing, over-the-counter allowance, transportation
+- QMB billing protections: providers generally may not bill a QMB for Medicare deductibles, coinsurance or copays
+
+Benefits, networks and availability vary by plan and county and change annually.
+
+---
+
+# 2026 plan availability
+
+Rural Nevada has historically had far fewer Medicare Advantage options than Clark
+and Washoe counties. For 2026 the number of options across this 11-county service area has expanded, which
+combined with the statewide Medicaid managed care transition makes this a year worth re-comparing coverage.
+Availability is defined county by county and changes each plan year.
+
+# County guides — 11-county D-SNP service area
+
+Counties: Carson City, Churchill, Douglas, Elko, Esmeralda, Lander, Lincoln, Lyon, Mineral, Pershing, Storey.
+
+## Carson City
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-carson-city
+- County seat: Carson City, Nevada's state capital
+- Population: about 58,000; area: approximately 144 square miles
+- Communities and ZIP codes:
+  - Carson City (central and east) — 89701
+  - Carson City (west, Kings Canyon) — 89703
+  - Carson City (north, toward Mound House) — 89706
+- Note: 89702, 89711, 89712, 89713, 89714 and 89721 are PO Box and government-only ZIP codes for Carson City. Mail addressed “Carson City 89705” (Jacks Valley, Indian Hills) is physically in Douglas County, and 89704 (Washoe Valley) is in Washoe County.
+- Local care: Carson Tahoe Regional Medical Center anchors care here, along with the Carson Tahoe Specialty Medical Center campus. Carson City also hosts state health offices and a range of primary care and specialty practices.
+
+## Churchill County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-churchill-county
+- County seat: Fallon
+- Population: about 26,000; area: approximately 4,929 square miles
+- Communities and ZIP codes:
+  - Fallon — 89406
+  - Fallon (PO Boxes) — 89407
+  - NAS Fallon — 89496
+- Note: Communities in Churchill County include Fallon, Stillwater, Hazen, Fallon Station, Cold Springs, Middlegate and Dixie Valley. Most receive mail through the Fallon 89406 ZIP code.
+- Local care: Banner Churchill Community Hospital in Fallon is the county's hospital, and the Fallon Tribal Health Center serves members of the Fallon Paiute-Shoshone Tribe.
+
+## Douglas County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-douglas-county
+- County seat: Minden
+- Population: about 50,000; area: approximately 710 square miles
+- Communities and ZIP codes:
+  - Gardnerville — 89410
+  - Gardnerville Ranchos — 89460
+  - Genoa — 89411
+  - Glenbrook — 89413
+  - Minden — 89423
+  - Zephyr Cove / Round Hill — 89448
+  - Stateline — 89449
+  - Jacks Valley / Indian Hills (Carson City address) — 89705
+- Note: 89705 carries a Carson City mailing address but sits in Douglas County. Because D-SNP service areas follow your county of residence rather than the city on your mail, this distinction can change which plans you are eligible to join.
+- Local care: Carson Valley Medical Center in Gardnerville is the county's hospital. Residents on the Lake Tahoe side often use Barton Health just across the state line in South Lake Tahoe, California, and many also use Carson Tahoe in Carson City.
+
+## Elko County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-elko-county
+- County seat: Elko
+- Population: about 54,000; area: approximately 17,182 square miles
+- Communities and ZIP codes:
+  - Elko — 89801
+  - Elko (PO Boxes) — 89802, 89803
+  - Spring Creek — 89815
+  - Carlin — 89822
+  - Deeth — 89823
+  - Halleck — 89824
+  - Jackpot — 89825
+  - Jarbidge — 89826
+  - Lamoille — 89828
+  - Montello — 89830
+  - Mountain City — 89831
+  - Owyhee — 89832
+  - Ruby Valley — 89833
+  - Tuscarora — 89834
+  - Wells — 89835
+  - West Wendover — 89883
+- Note: West Wendover sits on the Utah state line and observes Mountain Time, and many residents there use providers in the Salt Lake City area rather than driving west to Elko.
+- Local care: Northeastern Nevada Regional Hospital in Elko is the referral hospital for the whole region. The Owyhee Community Health Facility serves the Duck Valley Reservation in the far north of the county.
+
+## Esmeralda County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-esmeralda-county
+- County seat: Goldfield
+- Population: about 720; area: approximately 3,589 square miles
+- Communities and ZIP codes:
+  - Goldfield — 89013
+  - Dyer / Fish Lake Valley — 89010
+  - Silver Peak — 89047
+- Note: Other communities in Esmeralda County include Lida, Gold Point and the Fish Lake Valley area, which receive mail through the ZIP codes above.
+- Local care: There is no hospital in Esmeralda County. Residents travel to Mt. Grant General Hospital in Hawthorne, to Bishop, California, or to Las Vegas. Tonopah, in neighboring Nye County, has a Renown clinic offering primary care and telehealth-based specialty care after the closure of the hospital there.
+
+## Lander County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-lander-county
+- County seat: Battle Mountain
+- Population: about 5,800; area: approximately 5,798 square miles
+- Communities and ZIP codes:
+  - Battle Mountain — 89820
+  - Austin — 89310
+- Note: Kingston and Crescent Valley are also in Lander County and receive mail through the ZIP codes above.
+- Local care: Battle Mountain General Hospital is the county's critical access hospital, offering primary care, imaging and physical therapy.
+
+## Lincoln County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-lincoln-county
+- County seat: Pioche
+- Population: about 4,400; area: approximately 10,635 square miles
+- Communities and ZIP codes:
+  - Alamo — 89001
+  - Caliente — 89008
+  - Hiko — 89017
+  - Panaca — 89042
+  - Pioche — 89043
+- Note: Rachel and Ursine are also in Lincoln County and receive mail through the ZIP codes above.
+- Local care: Grover C. Dils Medical Center in Caliente, run by the Lincoln County Hospital District, is the county hospital and operates clinics in both Caliente and Alamo.
+
+## Lyon County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-lyon-county
+- County seat: Yerington
+- Population: about 64,000; area: approximately 1,994 square miles
+- Communities and ZIP codes:
+  - Dayton — 89403
+  - Fernley — 89408
+  - Silver City — 89428
+  - Silver Springs / Stagecoach — 89429
+  - Smith / Smith Valley — 89430
+  - Wellington — 89444
+  - Yerington — 89447
+- Note: Mound House, on the Carson City side of the county, receives mail through the Carson City 89706 ZIP code even though much of the area sits in Lyon County.
+- Local care: South Lyon Medical Center in Yerington serves Mason Valley and Smith Valley. Residents in Dayton and Fernley more often use Carson Tahoe in Carson City or the Reno–Sparks hospitals, and Silver Springs sits close to Banner Churchill in Fallon.
+
+## Mineral County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-mineral-county
+- County seat: Hawthorne
+- Population: about 4,500; area: approximately 3,757 square miles
+- Communities and ZIP codes:
+  - Hawthorne — 89415
+  - Luning — 89420
+  - Mina — 89422
+  - Schurz — 89427
+- Note: Babbitt and the Walker Lake area also receive mail through the Hawthorne 89415 ZIP code.
+- Local care: Mt. Grant General Hospital in Hawthorne is a county-owned district hospital serving roughly 4,500 residents, about 138 miles southeast of Reno. Schurz is served by the Walker River Paiute Tribe's health clinic.
+
+## Pershing County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-pershing-county
+- County seat: Lovelock
+- Population: about 6,500; area: approximately 6,009 square miles
+- Communities and ZIP codes:
+  - Lovelock — 89419
+  - Imlay — 89418
+- Note: Unionville, Grass Valley and the Rye Patch area are also in Pershing County and receive mail through the ZIP codes above.
+- Local care: Pershing General Hospital in Lovelock is the county's critical access hospital, and also operates long-term care and clinic services.
+
+## Storey County
+- URL: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-storey-county
+- County seat: Virginia City
+- Population: about 4,100; area: approximately 264 square miles
+- Communities and ZIP codes:
+  - Virginia City / Gold Hill — 89440
+- Note: Lockwood and the Tahoe-Reno Industrial Center on the county's north end use Sparks mailing addresses in 89434, even though they sit inside Storey County. Virginia City Highlands and Mark Twain also receive mail through 89440.
+- Local care: There is no hospital in Storey County. Residents use Carson Tahoe Regional Medical Center in Carson City or the Reno–Sparks hospitals, including Renown, Northern Nevada Medical Center and Saint Mary's.
+
+---
+
+# Other Nevada Medicare topics
+
+- Medicare basics (Parts A, B, C, D): https://www.ecosinsurancesolutions.com/nevada/medicare-basics
+- Medicare Advantage vs. Supplement in Nevada: https://www.ecosinsurancesolutions.com/nevada/medicare-advantage-nevada
+- Medigap Plan G vs. Plan N: https://www.ecosinsurancesolutions.com/nevada/medigap-plan-g-vs-plan-n
+- Late enrollment penalty calculators: https://www.ecosinsurancesolutions.com/nevada/medicare-penalty-calculator
+- IRMAA: https://www.ecosinsurancesolutions.com/nevada/irmaa
+- Veterans and Medicare: https://www.ecosinsurancesolutions.com/nevada/veterans-medicare
+- How to enroll: https://www.ecosinsurancesolutions.com/nevada/enroll
+- FAQ: https://www.ecosinsurancesolutions.com/nevada/faq
+- Contact: https://www.ecosinsurancesolutions.com/nevada/contact
+
+# 2026 Medicare figures
+
+- Part B premium: $202.90/month; Part B deductible: $283
+- Part A deductible: $1,736
+- Part D base premium: $38.99/month; Part D out-of-pocket cap: $2,100
+- IRMAA threshold: $109,000 individual / $218,000 joint
+
+# Compliance
+
+We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer
+in your area. Please contact Medicare.gov or 1-800-MEDICARE (TTY 1-877-486-2048), 24/7, to get information on all
+options. ECOS Medicare Solutions is not affiliated with or endorsed by the U.S. government or the federal Medicare
+program. This is a solicitation of insurance. A licensed agent may contact you.
+
+## Medicare topic guides (Nevada)
+- 2026 Medicare costs — Part A, B, D and IRMAA: https://www.ecosinsurancesolutions.com/nevada/medicare-costs
+- Nevada Medigap birthday rule (AB 250 / NRS 687B.352): https://www.ecosinsurancesolutions.com/nevada/medigap-birthday-rule
+- Medicare Part D prescription coverage: https://www.ecosinsurancesolutions.com/nevada/part-d
+- Turning 65 in Nevada: https://www.ecosinsurancesolutions.com/nevada/turning-65
+- Nevada Medicaid and Medicare Savings Programs (QMB, SLMB, QI): https://www.ecosinsurancesolutions.com/nevada/medicaid
+- Chronic Special Needs Plans (C-SNP): https://www.ecosinsurancesolutions.com/nevada/chronic-snp
+- Institutional Special Needs Plans (I-SNP): https://www.ecosinsurancesolutions.com/nevada/institutional-snp
+
+## Nevada Medigap birthday rule
+- Nevada is one of a small number of states with a Medigap birthday rule, created by Assembly Bill 250 and codified at NRS 687B.352, effective January 1, 2022
+- The window opens on the first day of the policyholder's birth month and remains open for at least 60 days
+- Inside the window a current Medigap policyholder may switch to a policy with the same or lesser benefits with no medical underwriting
+- It is a switching right for existing Medigap policyholders; it does not apply to someone moving from Medicare Advantage to Medigap
+
+## Nevada city guides
+- Areas we serve (all 17 counties): https://www.ecosinsurancesolutions.com/nevada/areas-we-serve
+- Medicare in Las Vegas (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-las-vegas-nv
+- Medicare in Henderson (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-henderson-nv
+- Medicare in North Las Vegas (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-north-las-vegas-nv
+- Medicare in Reno (Washoe County): https://www.ecosinsurancesolutions.com/nevada/medicare-reno-nv
+- Medicare in Sparks (Washoe County): https://www.ecosinsurancesolutions.com/nevada/medicare-sparks-nv
+- Medicare in Carson City (Carson City (an independent city)): https://www.ecosinsurancesolutions.com/nevada/medicare-carson-city-nv
+- Medicare in Pahrump (Nye County): https://www.ecosinsurancesolutions.com/nevada/medicare-pahrump-nv
+- Medicare in Mesquite (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-mesquite-nv
+- Medicare in Boulder City (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-boulder-city-nv
+- Medicare in Laughlin (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-laughlin-nv
+- Medicare in Elko (Elko County): https://www.ecosinsurancesolutions.com/nevada/medicare-elko-nv
+- Medicare in Fallon (Churchill County): https://www.ecosinsurancesolutions.com/nevada/medicare-fallon-nv
+- Medicare in Fernley (Lyon County): https://www.ecosinsurancesolutions.com/nevada/medicare-fernley-nv
+- Medicare in Dayton (Lyon County): https://www.ecosinsurancesolutions.com/nevada/medicare-dayton-nv
+- Medicare in Carson Valley (Gardnerville & Minden) (Douglas County): https://www.ecosinsurancesolutions.com/nevada/medicare-carson-valley-nv
+- Medicare in Winnemucca (Humboldt County): https://www.ecosinsurancesolutions.com/nevada/medicare-winnemucca-nv
+
+## Policies
+- Privacy Policy: https://www.ecosinsurancesolutions.com/nevada/privacy
+- Terms of Use: https://www.ecosinsurancesolutions.com/nevada/terms

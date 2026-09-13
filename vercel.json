@@ -1,0 +1,712 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "missing": [
+        {
+          "type": "host",
+          "value": "www.ecosinsurancesolutions.com"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ecosinsurancesolutions.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentarizona\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/arizona",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentarizona\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/arizona",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentarizona\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/arizona/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentarizona\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/arizona/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentarizona\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/arizona/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentarizona\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/arizona/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?californiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/california",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?californiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/california",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?californiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/california/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?californiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/california/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?californiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/california/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?californiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/california/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?coloradomedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/colorado",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?coloradomedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/colorado",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?coloradomedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/colorado/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?coloradomedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/colorado/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?coloradomedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/colorado/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?coloradomedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/colorado/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentflorida\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/florida",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentflorida\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/florida",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentflorida\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/florida/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentflorida\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/florida/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentflorida\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/florida/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentflorida\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/florida/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?georgiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/georgia",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?georgiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/georgia",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?georgiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/georgia/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?georgiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/georgia/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?georgiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/georgia/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?georgiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/georgia/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?minnesotamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/minnesota",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?minnesotamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/minnesota",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?minnesotamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/minnesota/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?minnesotamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/minnesota/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?minnesotamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/minnesota/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?minnesotamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/minnesota/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentnevada\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/nevada",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentnevada\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/nevada",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentnevada\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/nevada/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentnevada\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/nevada/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentnevada\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/nevada/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentnevada\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/nevada/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?tennesseemedicarequotes\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/tennessee",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?tennesseemedicarequotes\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/tennessee",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?tennesseemedicarequotes\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/tennessee/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?tennesseemedicarequotes\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/tennessee/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?tennesseemedicarequotes\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/tennessee/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?tennesseemedicarequotes\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/tennessee/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?texasmedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/texas",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?texasmedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/texas",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?texasmedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/texas/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?texasmedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/texas/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?texasmedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/texas/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?texasmedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/texas/$1",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentutah\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/utah",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentutah\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/utah",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentutah\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/utah/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)\\.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentutah\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/utah/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentutah\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/utah/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentutah\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/utah/$1",
+      "permanent": true
+    }
+  ]
+}

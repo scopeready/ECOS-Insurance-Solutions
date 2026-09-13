@@ -1,0 +1,126 @@
+# ECOS Medicare Solutions — Nevada Medicare Enrollment
+
+> ECOS Medicare Solutions is an independent Medicare insurance agency serving all of Nevada. Led by Darin Weidauer — a certified Gerontologist from USC's Davis School of Gerontology, MBA, 22-year USAF Veteran, Registered Social Security Analyst, and licensed independent insurance agent. Free, unbiased Medicare guidance.
+
+## Website & Contact
+- **Website**: https://www.ecosinsurancesolutions.com/nevada
+- **Phone**: (702) 706-6564
+- **Address**: 8524 Del Webb Blvd, Las Vegas, NV 89134
+- **Email**: darinweidauer@ecos.care
+- **NPN**: 18580338
+- **Service Area**: All 17 Nevada counties
+- **Cost**: Free consultations — no fees to consumers
+
+## About Darin Weidauer
+- Gerontologist — Davis School of Gerontology, USC (only standalone gerontology program)
+- Master of Business Administration (MBA)
+- Master's in Long-Term Care
+- Master's in Psychology
+- Master's in Information Technology
+- Master's in Alternative Dispute Resolution — Straus Institute, Pepperdine Law School
+- Bachelor's in Mathematics & Business
+- Associate's in Construction Management
+- Registered Social Security Analyst (RSSA)
+- 22-Year U.S. Air Force Veteran — Superintendent of Training, NATO CE Contingency Ops School, Ramstein AFB
+- Professor of Aerospace — Loyola Marymount University
+- Lectured at 54+ colleges and universities
+
+## Carrier Appointments (Nevada)
+- Aetna Medicare
+- Alignment Health Plan (Nevada's only 5-star CMS rated carrier, 2026)
+- Anthem Blue Cross and Blue Shield
+- Champion Health Plan
+- HealthSpring
+- Humana
+- SCAN Health Plan
+- Select Health
+- UnitedHealthcare
+- Wellcare
+
+## Nevada Medicare Market (2026)
+- 105+ Medicare Advantage plans statewide
+- 50+ plans in Clark County (Las Vegas) alone
+- Average MA premium: $1.06/month
+- 12 standardized Medigap plans available
+- 17 counties served
+- 540,000+ Nevada residents are Medicare-eligible
+
+## Services
+- Medicare Advantage (Part C) plan comparison
+- Dual Special Needs Plan (D-SNP) guidance for people with both Medicare and Medicaid
+- Medicare Supplement (Medigap) plan comparison — Plan G and Plan N
+- Medicare Part D prescription drug plan comparison
+- Medicare enrollment assistance
+- Medicare penalty avoidance guidance
+- IRMAA education and planning
+- Social Security coordination
+- Veterans Medicare guidance (TRICARE, VA benefits)
+
+## Dual Special Needs Plans (D-SNP) — Medicare + Medicaid
+- **Hub page**: https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-nevada
+- Nevada operates a **coordination-only D-SNP (CO D-SNP)** program — plans coordinate Medicare and Medicaid rather than fully integrating them (not FIDE-SNP or HIDE-SNP)
+- Dual eligibility categories currently enrolled: Full Benefit Dual Eligible (FBDE), Qualified Medicare Beneficiary (QMB), Qualified Medicare Beneficiary Plus (QMB+); the state has moved to expand to SLMB and SLMB+
+- **January 1, 2026**: Nevada expanded Medicaid managed care beyond Clark and Washoe counties to all 17 counties, moving roughly 75,000 rural residents from fee-for-service into managed care. CareSource and SilverSummit Healthplan were awarded the rural expansion
+- Enrollment: CMS eliminated the quarterly dual/LIS special enrollment period on January 1, 2025. A monthly SEP exists for standalone Part D, and a monthly integrated-care SEP applies only to aligned integrated D-SNPs — which generally does not cover Nevada's coordination-only plans. Nevada duals typically use AEP (Oct 15–Dec 7), MA OEP (Jan 1–Mar 31), or an SEP triggered by a change in Medicaid or Extra Help status
+
+## 2026 plan availability in the 11-county service area
+- Rural Nevada has historically had far fewer Medicare Advantage options than Clark and Washoe counties
+- For 2026 the number of options across this 11-county service area has expanded, making it worth re-comparing
+- Availability is defined county by county and changes each plan year; verify at Medicare.gov or 1-800-MEDICARE
+
+## D-SNP County Guides (11-county service area)
+- **Carson City** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-carson-city — seat: Carson City; ZIP codes: 89701, 89703, 89706
+- **Churchill County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-churchill-county — seat: Fallon; ZIP codes: 89406, 89407, 89496
+- **Douglas County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-douglas-county — seat: Minden; ZIP codes: 89410, 89460, 89411, 89413, 89423, 89448, 89449, 89705
+- **Elko County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-elko-county — seat: Elko; ZIP codes: 89801, 89802, 89803, 89815, 89822, 89823, 89824, 89825, 89826, 89828, 89830, 89831, 89832, 89833, 89834, 89835, 89883
+- **Esmeralda County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-esmeralda-county — seat: Goldfield; ZIP codes: 89013, 89010, 89047
+- **Lander County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-lander-county — seat: Battle Mountain; ZIP codes: 89820, 89310
+- **Lincoln County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-lincoln-county — seat: Pioche; ZIP codes: 89001, 89008, 89017, 89042, 89043
+- **Lyon County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-lyon-county — seat: Yerington; ZIP codes: 89403, 89408, 89428, 89429, 89430, 89444, 89447
+- **Mineral County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-mineral-county — seat: Hawthorne; ZIP codes: 89415, 89420, 89422, 89427
+- **Pershing County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-pershing-county — seat: Lovelock; ZIP codes: 89419, 89418
+- **Storey County** — https://www.ecosinsurancesolutions.com/nevada/dual-special-needs-plans-storey-county — seat: Virginia City; ZIP codes: 89440
+
+## 2026 Medicare Figures
+- Part B premium: $202.90/month, deductible: $283
+- Part A deductible: $1,736
+- Part D base premium: $38.99/month, OOP cap: $2,100
+- IRMAA threshold: $109,000 individual / $218,000 joint
+
+## Medicare topic guides (Nevada)
+- 2026 Medicare costs — Part A, B, D and IRMAA: https://www.ecosinsurancesolutions.com/nevada/medicare-costs
+- Nevada Medigap birthday rule (AB 250 / NRS 687B.352): https://www.ecosinsurancesolutions.com/nevada/medigap-birthday-rule
+- Medicare Part D prescription coverage: https://www.ecosinsurancesolutions.com/nevada/part-d
+- Turning 65 in Nevada: https://www.ecosinsurancesolutions.com/nevada/turning-65
+- Nevada Medicaid and Medicare Savings Programs (QMB, SLMB, QI): https://www.ecosinsurancesolutions.com/nevada/medicaid
+- Chronic Special Needs Plans (C-SNP): https://www.ecosinsurancesolutions.com/nevada/chronic-snp
+- Institutional Special Needs Plans (I-SNP): https://www.ecosinsurancesolutions.com/nevada/institutional-snp
+
+## Nevada Medigap birthday rule
+- Nevada is one of a small number of states with a Medigap birthday rule, created by Assembly Bill 250 and codified at NRS 687B.352, effective January 1, 2022
+- The window opens on the first day of the policyholder's birth month and remains open for at least 60 days
+- Inside the window a current Medigap policyholder may switch to a policy with the same or lesser benefits with no medical underwriting
+- It is a switching right for existing Medigap policyholders; it does not apply to someone moving from Medicare Advantage to Medigap
+
+## Nevada city guides
+- Areas we serve (all 17 counties): https://www.ecosinsurancesolutions.com/nevada/areas-we-serve
+- Medicare in Las Vegas (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-las-vegas-nv
+- Medicare in Henderson (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-henderson-nv
+- Medicare in North Las Vegas (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-north-las-vegas-nv
+- Medicare in Reno (Washoe County): https://www.ecosinsurancesolutions.com/nevada/medicare-reno-nv
+- Medicare in Sparks (Washoe County): https://www.ecosinsurancesolutions.com/nevada/medicare-sparks-nv
+- Medicare in Carson City (Carson City (an independent city)): https://www.ecosinsurancesolutions.com/nevada/medicare-carson-city-nv
+- Medicare in Pahrump (Nye County): https://www.ecosinsurancesolutions.com/nevada/medicare-pahrump-nv
+- Medicare in Mesquite (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-mesquite-nv
+- Medicare in Boulder City (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-boulder-city-nv
+- Medicare in Laughlin (Clark County): https://www.ecosinsurancesolutions.com/nevada/medicare-laughlin-nv
+- Medicare in Elko (Elko County): https://www.ecosinsurancesolutions.com/nevada/medicare-elko-nv
+- Medicare in Fallon (Churchill County): https://www.ecosinsurancesolutions.com/nevada/medicare-fallon-nv
+- Medicare in Fernley (Lyon County): https://www.ecosinsurancesolutions.com/nevada/medicare-fernley-nv
+- Medicare in Dayton (Lyon County): https://www.ecosinsurancesolutions.com/nevada/medicare-dayton-nv
+- Medicare in Carson Valley (Gardnerville & Minden) (Douglas County): https://www.ecosinsurancesolutions.com/nevada/medicare-carson-valley-nv
+- Medicare in Winnemucca (Humboldt County): https://www.ecosinsurancesolutions.com/nevada/medicare-winnemucca-nv
+
+## Policies
+- Privacy Policy: https://www.ecosinsurancesolutions.com/nevada/privacy
+- Terms of Use: https://www.ecosinsurancesolutions.com/nevada/terms

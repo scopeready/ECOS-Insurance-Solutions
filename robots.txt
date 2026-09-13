@@ -1,0 +1,67 @@
+# www.ecosinsurancesolutions.com
+# ECOS Insurance Solutions — home of ECOS Medicare Solutions. One site, one section per state.
+# Structured summaries for language models: /llms.txt and /<state>/llms.txt, /<state>/llms-full.txt
+
+User-agent: *
+Allow: /
+Disallow: /*/thank-you
+
+Sitemap: https://www.ecosinsurancesolutions.com/sitemap.xml
+
+# --- AI and answer-engine crawlers: explicitly welcome ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

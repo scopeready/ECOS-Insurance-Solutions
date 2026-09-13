@@ -1,0 +1,111 @@
+# ECOS Medicare Solutions — California
+
+> Free, plain-English Medicare guidance for California retirees and people approaching 65. Compare Medicare Advantage, Medicare Supplement (Medigap) and Part D drug plans with a credentialed, independent agent at no cost. Statewide service by phone and video, from San Diego, Los Angeles and Orange County through the Inland Empire, the Bay Area and Sacramento to the Central Valley, the Central Coast and the far north.
+
+Contact: (702) 706-6564 · darinweidauer@ecos.care · https://www.ecosinsurancesolutions.com/california
+
+## About
+ECOS Medicare Solutions is an independent Medicare insurance agency serving the State of California. Agent: Darin Weidauer, MBA, RSSA — gerontologist, Registered Social Security Analyst, 22-year U.S. Air Force veteran, licensed in California, NPN 18580338, CA License #0M00978. Help is free to the consumer; independent agents are paid by carriers at enrollment, and the premium is the same whichever way you buy. Author page: https://www.myecos360.com/darin-weidauer
+
+## What to know about Medicare in California
+- California uses the federal Medigap plan letters (A–N) and has a 60-day birthday rule: each year, starting on your birthday, you may switch to any carrier's Medigap plan of equal or lesser benefits with no health questions (Cal. Ins. Code §10192.11 as amended 2019, effective 2020). Insurers must offer Medigap to people under 65 on Medicare because of disability, with a six-month open enrollment when Part B begins; that requirement does not extend to under-65 ESRD. Everyone gets a fresh six-month open enrollment at 65. Most California Medigap premiums are attained-age rated.
+- About half of California's Medicare beneficiaries are in Medicare Advantage, and Kaiser Permanente Senior Advantage alone covers more than 1.4 million Californians; Kaiser is a closed, integrated system, so a Medigap policy cannot be used at Kaiser. For the 2026 plan year Anthem Blue Cross ended its Advantage PPO plans in California, Aetna closed plans and left counties, and UnitedHealthcare and Humana exited counties nationally; California's plan count fell from 421 to 402.
+- California's SHIP is HICAP, the Health Insurance Counseling and Advocacy Program, run by the California Department of Aging through local Area Agencies on Aging: 1-800-434-0222.
+- Medi-Cal (California Medicaid) is administered by the Department of Health Care Services with eligibility handled by county offices. The Medi-Cal asset limit, eliminated in 2024, was reinstated on January 1, 2026 at $130,000 for one person plus $65,000 for each additional household member, and it applies to the Medicare Savings Programs (QMB, SLMB, QI). Under CalAIM, Medi-Medi Plans (exclusively aligned D-SNPs) are available in 41 counties for 2026.
+- Darin Weidauer holds California insurance license #0M00978 (NPN 18580338). California law requires the license number to appear next to a licensee's name in advertising (Cal. Ins. Code §1725.5).
+- A FEMA-declared disaster, including wildfires, opens a Special Enrollment Period for people in the declared counties who missed an enrollment deadline because of it, and Part D plans must lift refill-too-soon limits in the emergency area.
+- CalPERS retirees must enroll in Medicare Part B when eligible and choose a CalPERS Medicare plan; the individual-market plans on this site are separate from CalPERS. Military retirees around San Diego, Camp Pendleton, Travis AFB, Vandenberg and Edwards use TRICARE For Life; VA care runs through the Greater Los Angeles, Long Beach, Loma Linda, San Diego, Palo Alto, San Francisco, Northern California and Central California systems.
+
+## Verified 2026 figures (CMS)
+- Medicare Part B standard premium: $202.90/month; annual deductible: $283
+- Part A hospital deductible: $1,736 per benefit period
+- Part D out-of-pocket cap: $2,100/year; maximum deductible: $615; national base premium: $38.99
+- IRMAA (income surcharge) begins above $109,000 (single) / $218,000 (joint), based on 2024 MAGI
+
+## Pages
+- [Home](https://www.ecosinsurancesolutions.com/california): free, plain-English Medicare help across California
+- [Medicare Advantage plans in California](https://www.ecosinsurancesolutions.com/california/medicare-advantage): Medicare Advantage (Part C) in California: how delegated medical groups and networks work, Kaiser Senior Advantage, the 2026 Anthem PPO exit and county withdrawals, and what a discontinued plan gives you
+- [Medicare Supplement (Medigap) plans in California](https://www.ecosinsurancesolutions.com/california/medicare-supplement): Medicare Supplement (Medigap) in California: the 60-day birthday rule, the six-month open enrollment at 65, under-65 rights, guaranteed issue, and how premiums are rated
+- [Medicare Part D plans in California](https://www.ecosinsurancesolutions.com/california/part-d): Medicare Part D drug coverage in California: 2026 $2,100 out-of-pocket cap, choosing a plan by your medications and pharmacy, the late-enrollment penalty, Extra Help, wildfire emergency refills
+- [Kaiser Permanente and Medicare in California: Senior Advantage vs. everything else](https://www.ecosinsurancesolutions.com/california/kaiser): Kaiser Permanente and Medicare in California: Kaiser Senior Advantage, why Medigap does not work at Kaiser, joining or leaving Kaiser at 65, how to decide
+- [2026 Medicare costs, full IRMAA chart, and penalty/IRMAA calculators](https://www.ecosinsurancesolutions.com/california/medicare-costs): 2026 Medicare costs: Part A/B/D premiums and deductibles, the full IRMAA chart, and calculators for IRMAA and the Part B / Part D late penalties
+- [Turning 65 in California guide](https://www.ecosinsurancesolutions.com/california/turning-65): Turning 65 in California: the Initial Enrollment Period, the Kaiser decision, Medigap open enrollment and the birthday rule, CalPERS retirees, working past 65, late penalties
+- [Moving to or from California on Medicare (Arizona, Nevada, Texas, Idaho, and the reverse)](https://www.ecosinsurancesolutions.com/california/moving): Moving to or from California on Medicare: the move Special Enrollment Period, Medigap portability and losing the birthday rule, Kaiser in other states, Part D, and sister agencies in Arizona, Nevada, Texas, Utah, Colorado and Florida
+- [Wildfires and Medicare: disaster Special Enrollment Periods, prescriptions, evacuations](https://www.ecosinsurancesolutions.com/california/wildfires): Wildfires and Medicare in California: the disaster Special Enrollment Period, Part D early refills, out-of-network pharmacies, replacing equipment, evacuation checklist
+- [Medicare for California veterans and military retirees](https://www.ecosinsurancesolutions.com/california/veterans): Medicare for California veterans and military retirees: TRICARE For Life, VA care and Part B, the eight VA health systems in California, base-adjacent communities
+- [Medicare + Medi-Cal: Medicare Savings Programs, the 2026 asset limit, Extra Help, Medi-Medi Plans](https://www.ecosinsurancesolutions.com/california/medi-cal): Medicare and Medi-Cal dual eligibility in California: Medicare Savings Programs (QMB, SLMB, QI), the Medi-Cal asset limit reinstated January 1, 2026, Extra Help, Medi-Medi Plans (exclusively aligned D-SNPs) in 41 counties
+- [Chronic Special Needs Plans (C-SNP) in California](https://www.ecosinsurancesolutions.com/california/chronic-snp): Chronic Special Needs Plans (C-SNP) in California for qualifying chronic conditions
+- [Institutional Special Needs Plans (I-SNP) in California](https://www.ecosinsurancesolutions.com/california/institutional-snp): Institutional Special Needs Plans (I-SNP) in California for facility-level care
+- [Retire With Confidence — free 295-page retirement guide](https://www.ecosinsurancesolutions.com/california/retirement-guide): Medicare, Social Security, and the money decisions that decide your retirement. Free 295-page 2026 guide, emailed on request by a licensed California agent
+- [About Darin Weidauer](https://www.ecosinsurancesolutions.com/california/about): credentials, licensing, compensation disclosure
+- [FAQ](https://www.ecosinsurancesolutions.com/california/faq): the questions Californians ask most
+- [Medicare help in Los Angeles (Los Angeles County)](https://www.ecosinsurancesolutions.com/california/los-angeles)
+- [Medicare help in Long Beach (Los Angeles County)](https://www.ecosinsurancesolutions.com/california/long-beach)
+- [Medicare help in Pasadena (Los Angeles County)](https://www.ecosinsurancesolutions.com/california/pasadena)
+- [Medicare help in Santa Clarita (Los Angeles County)](https://www.ecosinsurancesolutions.com/california/santa-clarita)
+- [Medicare help in Torrance &amp; the South Bay (Los Angeles County)](https://www.ecosinsurancesolutions.com/california/torrance)
+- [Medicare help in Anaheim (Orange County)](https://www.ecosinsurancesolutions.com/california/anaheim)
+- [Medicare help in Irvine &amp; Newport Beach (Orange County)](https://www.ecosinsurancesolutions.com/california/irvine)
+- [Medicare help in Huntington Beach (Orange County)](https://www.ecosinsurancesolutions.com/california/huntington-beach)
+- [Medicare help in Mission Viejo &amp; South Orange County (Orange County)](https://www.ecosinsurancesolutions.com/california/mission-viejo)
+- [Medicare help in San Diego (San Diego County)](https://www.ecosinsurancesolutions.com/california/san-diego)
+- [Medicare help in Chula Vista &amp; the South Bay (San Diego County)](https://www.ecosinsurancesolutions.com/california/chula-vista)
+- [Medicare help in Oceanside &amp; North County (San Diego County)](https://www.ecosinsurancesolutions.com/california/oceanside)
+- [Medicare help in Escondido &amp; Inland North County (San Diego County)](https://www.ecosinsurancesolutions.com/california/escondido)
+- [Medicare help in Riverside (Riverside County)](https://www.ecosinsurancesolutions.com/california/riverside)
+- [Medicare help in San Bernardino (San Bernardino County)](https://www.ecosinsurancesolutions.com/california/san-bernardino)
+- [Medicare help in Temecula &amp; Murrieta (Riverside County)](https://www.ecosinsurancesolutions.com/california/temecula)
+- [Medicare help in Palm Springs &amp; the Coachella Valley (Riverside County)](https://www.ecosinsurancesolutions.com/california/palm-springs)
+- [Medicare help in Victorville &amp; the High Desert (San Bernardino County)](https://www.ecosinsurancesolutions.com/california/victorville)
+- [Medicare help in San Francisco (San Francisco County)](https://www.ecosinsurancesolutions.com/california/san-francisco)
+- [Medicare help in Oakland &amp; the East Bay (Alameda County)](https://www.ecosinsurancesolutions.com/california/oakland)
+- [Medicare help in San Jose &amp; Silicon Valley (Santa Clara County)](https://www.ecosinsurancesolutions.com/california/san-jose)
+- [Medicare help in Walnut Creek &amp; Contra Costa (Contra Costa County)](https://www.ecosinsurancesolutions.com/california/walnut-creek)
+- [Medicare help in Santa Rosa &amp; the North Bay (Sonoma County)](https://www.ecosinsurancesolutions.com/california/santa-rosa)
+- [Medicare help in Sacramento (Sacramento County)](https://www.ecosinsurancesolutions.com/california/sacramento)
+- [Medicare help in Roseville &amp; Placer County (Placer County)](https://www.ecosinsurancesolutions.com/california/roseville)
+- [Medicare help in Elk Grove (Sacramento County)](https://www.ecosinsurancesolutions.com/california/elk-grove)
+- [Medicare help in Folsom &amp; El Dorado Hills (Sacramento County)](https://www.ecosinsurancesolutions.com/california/folsom)
+- [Medicare help in Fresno (Fresno County)](https://www.ecosinsurancesolutions.com/california/fresno)
+- [Medicare help in Bakersfield (Kern County)](https://www.ecosinsurancesolutions.com/california/bakersfield)
+- [Medicare help in Modesto (Stanislaus County)](https://www.ecosinsurancesolutions.com/california/modesto)
+- [Medicare help in Stockton (San Joaquin County)](https://www.ecosinsurancesolutions.com/california/stockton)
+- [Medicare help in Visalia &amp; Tulare County (Tulare County)](https://www.ecosinsurancesolutions.com/california/visalia)
+- [Medicare help in Santa Barbara (Santa Barbara County)](https://www.ecosinsurancesolutions.com/california/santa-barbara)
+- [Medicare help in Ventura &amp; Oxnard (Ventura County)](https://www.ecosinsurancesolutions.com/california/ventura)
+- [Medicare help in San Luis Obispo (San Luis Obispo County)](https://www.ecosinsurancesolutions.com/california/san-luis-obispo)
+- [Medicare help in Monterey &amp; Salinas (Monterey County)](https://www.ecosinsurancesolutions.com/california/monterey)
+- [Medicare help in Redding (Shasta County)](https://www.ecosinsurancesolutions.com/california/redding)
+- [Medicare help in Chico (Butte County)](https://www.ecosinsurancesolutions.com/california/chico)
+- [Medicare help in Eureka &amp; the North Coast (Humboldt County)](https://www.ecosinsurancesolutions.com/california/eureka)
+- [Medicare near Naval Base San Diego, MCAS Miramar and Camp Pendleton](https://www.ecosinsurancesolutions.com/california/san-diego-navy)
+- [Medicare near Travis Air Force Base](https://www.ecosinsurancesolutions.com/california/travis-afb)
+- [Medicare near Vandenberg Space Force Base](https://www.ecosinsurancesolutions.com/california/vandenberg-sfb)
+- [Medicare near NAS Lemoore, Edwards AFB and China Lake](https://www.ecosinsurancesolutions.com/california/lemoore-nas)
+- [Medicare help across Los Angeles County](https://www.ecosinsurancesolutions.com/california/los-angeles-county): counties Los Angeles
+- [Medicare help across Orange County](https://www.ecosinsurancesolutions.com/california/orange-county): counties Orange
+- [Medicare help across San Diego County](https://www.ecosinsurancesolutions.com/california/san-diego-county): counties San Diego
+- [Medicare help across Inland Empire & the Desert](https://www.ecosinsurancesolutions.com/california/inland-empire): counties Riverside, San Bernardino
+- [Medicare help across The San Francisco Bay Area](https://www.ecosinsurancesolutions.com/california/bay-area): counties San Francisco, Alameda, Contra Costa, Santa Clara, San Mateo, Marin, Sonoma, Napa, Solano
+- [Medicare help across Sacramento & the Northern Valley](https://www.ecosinsurancesolutions.com/california/sacramento-valley): counties Sacramento, Placer, El Dorado, Yolo, Sutter, Yuba, Nevada
+- [Medicare help across The Central Valley](https://www.ecosinsurancesolutions.com/california/central-valley): counties Fresno, Kern, Stanislaus, San Joaquin, Tulare, Merced, Madera, Kings
+- [Medicare help across The Central Coast](https://www.ecosinsurancesolutions.com/california/central-coast): counties Santa Barbara, Ventura, San Luis Obispo, Monterey, Santa Cruz
+- [Medicare help across The North State](https://www.ecosinsurancesolutions.com/california/north-state): counties Shasta, Butte, Humboldt, Tehama, Siskiyou, Mendocino, Lake, Del Norte, Trinity, Lassen, Plumas, Modoc, Glenn, Colusa
+- [Privacy Policy](https://www.ecosinsurancesolutions.com/california/privacy)
+- [Terms of Use](https://www.ecosinsurancesolutions.com/california/terms)
+
+## Same agency, other sites
+- [Medicare Enrollment Arizona](https://www.ecosinsurancesolutions.com/arizona)
+- [Medicare Enrollment Nevada](https://www.ecosinsurancesolutions.com/nevada)
+- [Colorado Medicare Enrollment](https://www.ecosinsurancesolutions.com/colorado)
+- [Medicare Enrollment Utah](https://www.ecosinsurancesolutions.com/utah)
+- [Texas Medicare Enrollment](https://www.ecosinsurancesolutions.com/texas)
+- [Medicare Enrollment Florida](https://www.ecosinsurancesolutions.com/florida)
+- [Georgia Medicare Enrollment](https://www.ecosinsurancesolutions.com/georgia)
+- [Minnesota Medicare Enrollment](https://www.ecosinsurancesolutions.com/minnesota)
+- [Tennessee Medicare Quotes](https://www.ecosinsurancesolutions.com/tennessee)
+- [MyMedigapRate — Medigap rate research](https://www.mymedigaprate.com)
+- [MyECOS360 — Darin's author page](https://www.myecos360.com/darin-weidauer)
+
+## Compliance
+We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov, 1-800-MEDICARE, or HICAP (the Health Insurance Counseling and Advocacy Program, California’s State Health Insurance Assistance Program, 1-800-434-0222) to get information on all of your options. Not affiliated with or endorsed by the U.S. government or the federal Medicare program. This is a solicitation for insurance.

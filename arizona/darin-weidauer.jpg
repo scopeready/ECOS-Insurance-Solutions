@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Google Analytics (GA4) — REPLACE G-XXXXXXXXXX with your Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+<title>Medicare Enrollment Arizona | 2026 Costs, Enrollment Periods &amp; Free Local Help</title>
+<meta name="description" content="Plain-English Arizona Medicare guide: how Parts A, B, C & D and Medigap work, 2026 costs, enrollment deadlines, an enrollment-window tool, and free local help. Compare plans and enroll online." />
+<link rel="canonical" href="https://www.medicareenrollmentarizona.com/" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#155e5a" />
+<meta name="author" content="Darin Weidauer, Licensed Medicare Insurance Agent" />
+<meta name="geo.region" content="US-AZ" />
+<meta name="geo.placename" content="Arizona" />
+<!-- Open Graph -->
+<meta property="og:site_name" content="Medicare Enrollment Arizona" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Medicare Enrollment Arizona | 2026 Costs, Enrollment Periods &amp; Free Local Help" />
+<meta property="og:description" content="Plain-English Arizona Medicare guide: how Parts A, B, C & D and Medigap work, 2026 costs, enrollment deadlines, an enrollment-window tool, and free local help. Compare plans and enroll online." />
+<meta property="og:url" content="https://www.medicareenrollmentarizona.com/" />
+<meta property="og:image" content="https://www.medicareenrollmentarizona.com/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Medicare Enrollment Arizona | 2026 Costs, Enrollment Periods &amp; Free Local Help" />
+<meta name="twitter:description" content="Plain-English Arizona Medicare guide: how Parts A, B, C & D and Medigap work, 2026 costs, enrollment deadlines, an enrollment-window tool, and free local help. Compare plans and enroll online." />
+<meta name="twitter:image" content="https://www.medicareenrollmentarizona.com/assets/og-image.png" />
+<!-- Fonts & assets -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/styles.css" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+<link rel="manifest" href="/site.webmanifest" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Medicare Enrollment Arizona", "url": "https://www.medicareenrollmentarizona.com", "inLanguage": "en-US", "potentialAction": {"@type": "SearchAction", "target": "https://www.medicareenrollmentarizona.com/#faq", "query-input": "required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "InsuranceAgency", "name": "ECOS Medicare Solutions", "alternateName": "Medicare Enrollment Arizona", "url": "https://www.medicareenrollmentarizona.com", "image": "https://www.medicareenrollmentarizona.com/assets/og-image.png", "logo": "https://www.medicareenrollmentarizona.com/assets/ecos-logo.png", "sameAs": ["https://www.coloradomedicareenrollment.com", "https://www.medicareenrollmentnevada.com", "https://www.howdoiapplyformedicare.com", "https://www.medicareadvantageanswers.com", "https://www.dentalinsurancetomorrow.com"], "description": "Medicare guidance and enrollment help for Arizona — Parts A, B, C and D, Medigap, 2026 costs, and enrollment periods.", "areaServed": {"@type": "State", "name": "Arizona"}, "knowsAbout": ["Medicare", "Medicare Advantage", "Medicare Part D", "Medigap", "Medicare Supplement", "Medicare enrollment"], "founder": {"@type": "Person", "name": "Darin Weidauer", "jobTitle": "Licensed Medicare Insurance Agent"}, "employee": {"@type": "Person", "name": "Darin Weidauer", "jobTitle": "Licensed Medicare Insurance Agent"}, "location": [{"@type": "Place", "name": "ECOS Medicare Solutions — Arizona East", "address": {"@type": "PostalAddress", "streetAddress": "5110 E. Southern Ave, Suite 101", "addressLocality": "Mesa", "addressRegion": "AZ", "postalCode": "85206", "addressCountry": "US"}}, {"@type": "Place", "name": "ECOS Medicare Solutions — Arizona West", "address": {"@type": "PostalAddress", "streetAddress": "10740 W. Bell Rd", "addressLocality": "Sun City", "addressRegion": "AZ", "postalCode": "85351", "addressCountry": "US"}}], "address": {"@type": "PostalAddress", "streetAddress": "5110 E. Southern Ave, Suite 101", "addressLocality": "Mesa", "addressRegion": "AZ", "postalCode": "85206", "addressCountry": "US"}, "contactPoint": {"@type": "ContactPoint", "contactType": "sales", "url": "https://www.medicareenrollmentarizona.com/contact/", "areaServed": "US-AZ"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Darin Weidauer", "jobTitle": "Licensed Medicare Insurance Agent", "worksFor": {"@type": "Organization", "name": "Medicare Enrollment Arizona"}, "image": "https://www.medicareenrollmentarizona.com/assets/darin-weidauer.jpg", "areaServed": {"@type": "State", "name": "Arizona"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When am I first eligible for Medicare?", "acceptedAnswer": {"@type": "Answer", "text": "Most people become eligible at age 65. You can also qualify earlier if you've received Social Security Disability benefits for 24 months, or if you have ALS or end-stage renal disease. Your Initial Enrollment Period covers the 7 months around your 65th birthday."}}, {"@type": "Question", "name": "Do I have to take Medicare at 65 if I'm still working?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. If you (or your spouse) are still working and have group coverage from an employer with 20 or more employees, you can often delay Part B without penalty and sign up later through a Special Enrollment Period. Many people still take premium-free Part A. Rules differ for smaller employers, COBRA, and retiree plans — a free SHIP counselor can confirm your situation."}}, {"@type": "Question", "name": "Do I get Medicare automatically?", "acceptedAnswer": {"@type": "Answer", "text": "If you're already getting Social Security before 65, you're usually enrolled in Parts A and B automatically and your card arrives by mail. If you're not drawing Social Security yet, you generally have to sign up yourself through the Social Security Administration — it won't happen on its own."}}, {"@type": "Question", "name": "How do I actually sign up for Medicare?", "acceptedAnswer": {"@type": "Answer", "text": "Sign up for Parts A and B through Social Security — online at ssa.gov/medicare, by phone at 1-800-772-1213, or at a local office. To add a Part D drug plan, Medicare Advantage, or Medigap, you enroll through the plan, with a licensed agent, or via the secure compare-and-enroll link on this site."}}, {"@type": "Question", "name": "What happens if I miss my enrollment window?", "acceptedAnswer": {"@type": "Answer", "text": "You may face permanent late-enrollment penalties and a wait for coverage to begin. Part B adds 10% to your premium for each full year you delayed; Part D adds roughly 1% per month without drug coverage. If you missed your window, the General Enrollment Period (Jan 1–Mar 31) is usually your next chance — but check first whether a Special Enrollment Period applies, since that can erase the penalty."}}, {"@type": "Question", "name": "I'm retiring and losing my work insurance. What do I do?", "acceptedAnswer": {"@type": "Answer", "text": "Losing job-based coverage opens a Special Enrollment Period. You generally have 8 months to enroll in Part B without penalty. Don't rely on COBRA to delay Part B — COBRA usually does not count as the kind of coverage that protects you from the penalty."}}, {"@type": "Question", "name": "Can I change my plan after I enroll?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Each fall during Open Enrollment (Oct 15–Dec 7) you can switch Advantage or Part D plans for the next year. If you're in a Medicare Advantage plan, you get an extra switch window Jan 1–Mar 31. Changing a Medigap plan is different — outside your one-time Medigap window, insurers can review your health, so check before you switch."}}, {"@type": "Question", "name": "Original Medicare or Medicare Advantage — which is better?", "acceptedAnswer": {"@type": "Answer", "text": "There's no single right answer. Original Medicare + Medigap + Part D lets you see almost any provider nationwide with very predictable costs, but premiums are higher. Medicare Advantage often has lower (sometimes $0) premiums and extras like dental and vision, but uses a network and may require referrals or prior approvals. Think about your doctors, your medications, how much you travel, and whether you value predictable costs or lower premiums."}}, {"@type": "Question", "name": "What is Medigap and do I need it?", "acceptedAnswer": {"@type": "Answer", "text": "Medigap (Medicare Supplement) is private insurance that fills the gaps in Original Medicare — the deductibles and that uncapped 20% coinsurance. It's worth considering if you choose Original Medicare and want protection from large, unpredictable bills. Plans are standardized by letter, so a Plan G from one company covers the same as a Plan G from another; compare on price and service. You don't use Medigap with a Medicare Advantage plan."}}, {"@type": "Question", "name": "Does Medicare cover dental, vision, or hearing?", "acceptedAnswer": {"@type": "Answer", "text": "Original Medicare generally does not cover routine dental, vision, or hearing care. Many Medicare Advantage plans add these benefits, which is a common reason people choose them. Standalone dental and vision policies also exist."}}, {"@type": "Question", "name": "Does Medicare work when I travel or snowbird out of state?", "acceptedAnswer": {"@type": "Answer", "text": "Original Medicare works anywhere in the U.S. with any provider who accepts it — convenient if you split time between states. Medicare Advantage plans are usually built around a local network, so out-of-area care may be limited to emergencies. Arizona snowbirds should factor travel patterns into the choice."}}, {"@type": "Question", "name": "How much will Medicare cost me in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "For most people Part A is free and the standard Part B premium is $202.90/month in 2026, with a $283 annual deductible. On top of that you may pay for a Part D drug plan, and either a Medigap premium or a Medicare Advantage plan (often low or $0). Higher earners pay an income surcharge (IRMAA)."}}, {"@type": "Question", "name": "I have limited income — can I get help paying?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and many who qualify never apply. The Medicare Savings Program can pay your Part B premium, and Extra Help dramatically lowers drug costs. Arizonans with very limited income may also qualify for AHCCCS (Medicaid). A free SHIP counselor at 1-800-432-4040 can screen you for all of these in one call."}}, {"@type": "Question", "name": "What is the new $2,100 drug cap?", "acceptedAnswer": {"@type": "Answer", "text": "Starting in 2025 and continuing in 2026, there's an annual cap on what you pay out of pocket for covered prescriptions. In 2026 that cap is $2,100 — once your covered-drug spending reaches it, you pay $0 for those drugs the rest of the year. You can also use the Medicare Prescription Payment Plan to spread the cost into monthly installments at no extra charge."}}, {"@type": "Question", "name": "How do I avoid Medicare scams?", "acceptedAnswer": {"@type": "Answer", "text": "Medicare will never call, text, or come to your door to sell you a plan or ask for your Medicare number or bank details out of the blue. Guard your Medicare number like a credit card, review your statements, and report anything suspicious to Arizona's Senior Medicare Patrol at 1-800-432-4040. When in doubt, hang up and call the official number yourself."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="/" aria-label="Medicare Enrollment Arizona home">
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 19.3 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z" fill="#fff"/></svg></span>
+      <span><b>Medicare Enrollment</b><span class="st">Arizona</span></span>
+    </a>
+    <nav class="navlinks" id="navlinks" aria-label="Primary">
+      <a href="/#basics">The Basics</a>
+      <a href="/#costs">2026 Costs</a>
+      <a href="/#enroll">When to Enroll</a>
+      <a href="/#areas">Local Help</a>
+      <a href="/guides/">Guides</a>
+      <a href="/contact/">Contact</a>
+      <a class="navcta" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">Compare Plans &amp; Enroll</a>
+    </nav>
+    <button class="hamb" id="hamb" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<main id="main">
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> Arizona &middot; turning 65 &amp; current members</span>
+        <h1>Medicare in Arizona, <em>made clear.</em></h1>
+        <p class="lede">Get straight, jargon-free answers about Parts A, B, C and D, your 2026 costs, and exactly when to enroll &mdash; then compare plans and sign up online, or get free local help.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">Compare Plans &amp; Enroll <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#enroll">Find my enrollment window</a>
+        </div>
+        <div class="hero-trust"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>Educational guidance, plus licensed help from Darin Weidauer when you're ready.</span></div>
+      </div>
+      <aside class="callcard" aria-label="Phone numbers for Medicare help">
+        <h3>Talk to a person</h3>
+        <p>Compare online anytime, or call for one-on-one help.</p>
+        <div class="phone-row">
+          <a class="phone" href="tel:6029354382"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <span><span class="num">602-935-4382</span><br><span class="lab">ECOS Medicare Solutions &mdash; talk to a licensed agent</span></span></a>
+          <a class="phone" href="tel:18004324040"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <span><span class="num">1-800-432-4040</span><br><span class="lab">Arizona SHIP &mdash; free, unbiased counseling</span></span></a>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <div class="scene" aria-hidden="true">
+    <img src="/assets/scenes/hero.svg" alt="" width="1440" height="340" />
+  </div>
+</div>
+  <div class="wrap" style="padding-top:34px;padding-bottom:0;">
+    <div class="tpmo"><strong>Not connected with or endorsed by the U.S. government or the federal Medicare program.</strong>
+    We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area.
+    Please contact Medicare.gov, 1&#8209;800&#8209;MEDICARE, or your local State Health Insurance Assistance Program (SHIP) to get information on all of your options.</div>
+  </div>
+<section id="journey" aria-labelledby="jh">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Where to begin</span>
+      <h2 id="jh">Where are you in your Medicare journey?</h2>
+      <p>Pick what sounds like you. Each path points to the parts of this guide that matter most.</p></div>
+    <div class="journey">
+      <a class="jcard" href="#enroll"><span class="jico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <h3>I'm turning 65 soon</h3><p>Learn your 7-month sign-up window and how to avoid lifelong late penalties.</p><span class="go">See enrollment timing &rarr;</span></a>
+      <a class="jcard" href="#basics"><span class="jico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 4v5h5M8 13h8M8 17h5"/></svg></span>
+        <h3>I'm new to Medicare</h3><p>Understand Parts A, B, C and D and the choice between Original Medicare and Advantage.</p><span class="go">Learn the basics &rarr;</span></a>
+      <a class="jcard" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener"><span class="jico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5M21 12a9 9 0 0 1-15 6.7L3 16M3 21v-5h5"/></svg></span>
+        <h3>I want to change plans</h3><p>Compare this year's Advantage, Part D and Medigap options side by side and switch online.</p><span class="go">Compare plans &rarr;</span></a>
+      <a class="jcard" href="#areas"><span class="jico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></span>
+        <h3>I'm helping a parent</h3><p>Find free, trustworthy local counselors anywhere in Arizona, by city and county.</p><span class="go">Find local help &rarr;</span></a>
+    </div>
+  </div>
+</section>
+<section id="basics" class="band-cream" aria-labelledby="bh">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> The building blocks</span>
+      <h2 id="bh">The parts of Medicare, in plain English</h2>
+      <p>Medicare comes in four "parts." Most people combine them one of two ways &mdash; Original Medicare (Parts A &amp; B, usually plus a Part D drug plan and a Medigap supplement) <em>or</em> a Medicare Advantage plan (Part C) that bundles everything together.</p></div>
+    <div class="parts">
+      <div class="part"><span class="tag" aria-hidden="true">A</span><h3>Part A</h3><div class="sub">Hospital insurance</div>
+        <ul><li>Covers <strong>inpatient hospital stays</strong>, skilled nursing after a hospital stay, hospice, and some home health care.</li>
+        <li><strong>Free for most people</strong> &mdash; if you or a spouse paid Medicare taxes about 10 years (40 quarters).</li>
+        <li>You still pay a deductible for each hospital "benefit period."</li></ul></div>
+      <div class="part"><span class="tag" aria-hidden="true">B</span><h3>Part B</h3><div class="sub">Medical insurance</div>
+        <ul><li>Covers <strong>doctor visits, outpatient care, lab tests, preventive screenings</strong>, and durable medical equipment.</li>
+        <li>Has a monthly premium and annual deductible; then you generally pay <strong>20%</strong> of approved costs.</li>
+        <li>Original Medicare has <strong>no cap</strong> on that 20% &mdash; a big reason people add Medigap or choose Advantage.</li></ul></div>
+      <div class="part"><span class="tag" aria-hidden="true">C</span><h3>Part C</h3><div class="sub">Medicare Advantage</div>
+        <ul><li>A <strong>private plan that bundles</strong> Part A, Part B and usually Part D into one package.</li>
+        <li>Often includes <strong>extras</strong> like dental, vision, hearing and fitness, sometimes with a $0 premium.</li>
+        <li>Uses <strong>provider networks</strong> and sets a yearly out-of-pocket maximum.</li></ul></div>
+      <div class="part"><span class="tag" aria-hidden="true">D</span><h3>Part D</h3><div class="sub">Prescription drugs</div>
+        <ul><li>Covers <strong>prescription medications</strong> through private plans; each has its own drug list (formulary).</li>
+        <li>In 2026 your out-of-pocket drug costs are <strong>capped at $2,100</strong> a year.</li>
+        <li>Skipping it when first eligible can mean a <strong>permanent late penalty</strong>.</li></ul></div>
+    </div>
+    <div class="parts" style="margin-top:22px;grid-template-columns:1fr;">
+      <div class="part"><span class="tag" aria-hidden="true">+</span><h3>Medigap (Medicare Supplement)</h3><div class="sub">Pairs with Original Medicare</div>
+        <ul><li>A private policy that helps pay the <strong>deductibles, copays and coinsurance</strong> Original Medicare leaves to you.</li>
+        <li>Plans are <strong>standardized by letter</strong> (A, B, D, G, K, L, M, N &mdash; Plans C and F are closed to people newly eligible after Jan 1, 2020). A "Plan G" is the same coverage no matter who sells it; only price and service differ.</li>
+        <li>Best time to buy is the <strong>6-month Medigap Open Enrollment Period</strong> that starts when you're 65 and enrolled in Part B &mdash; during it you can't be turned down or charged more for health conditions.</li>
+        <li>You <strong>cannot use Medigap with a Medicare Advantage plan</strong> &mdash; it only works alongside Original Medicare.</li></ul></div>
+    </div>
+  </div>
+</section>
+<section id="costs" aria-labelledby="ch2">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Official 2026 figures</span>
+      <h2 id="ch2">What Medicare costs in 2026</h2>
+      <p>These are the standard amounts set by the federal Centers for Medicare &amp; Medicaid Services (CMS) for 2026. Your actual cost can be lower or higher depending on your income, work history, and the private plans you choose.</p></div>
+    
+    <div class="tabs" role="tablist" aria-label="Choose a part of Medicare">
+      <button class="tab" role="tab" aria-selected="true" id="tab-a" aria-controls="pan-a">Part A</button>
+      <button class="tab" role="tab" aria-selected="false" id="tab-b" aria-controls="pan-b">Part B</button>
+      <button class="tab" role="tab" aria-selected="false" id="tab-c" aria-controls="pan-c">Part C &amp; D</button>
+      <button class="tab" role="tab" aria-selected="false" id="tab-irmaa" aria-controls="pan-irmaa">High-income (IRMAA)</button>
+    </div>
+    <div class="panel active" id="pan-a" role="tabpanel" aria-labelledby="tab-a">
+      <div class="costcard">
+        <div class="ch"><h3>Part A &mdash; Hospital</h3><p>Most people pay <strong>$0</strong> in premiums. The costs below apply when you're admitted.</p></div>
+        <table>
+          <thead><tr><th>What it is</th><th>2026 amount</th></tr></thead>
+          <tbody>
+            <tr><td>Monthly premium (40+ work quarters)</td><td>$0</td></tr>
+            <tr><td>Premium with 30&ndash;39 work quarters</td><td>$311/mo</td></tr>
+            <tr><td>Premium with fewer than 30 quarters</td><td>$565/mo</td></tr>
+            <tr><td>Hospital deductible (per benefit period)</td><td>$1,736</td></tr>
+            <tr><td>Hospital days 1&ndash;60</td><td>$0/day</td></tr>
+            <tr><td>Hospital days 61&ndash;90</td><td>$434/day</td></tr>
+            <tr><td>Lifetime reserve days (91&ndash;150)</td><td>$868/day</td></tr>
+            <tr><td>Skilled nursing days 21&ndash;100</td><td>$217/day</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="costnote">A "benefit period" starts when you're admitted and ends after 60 days out of the hospital. You can have more than one in a year, so the deductible can apply more than once. The $565 premium is for people with fewer than 30 quarters of Medicare-covered work; those with 30&ndash;39 quarters pay $311 in 2026.</p>
+    </div>
+    <div class="panel" id="pan-b" role="tabpanel" aria-labelledby="tab-b">
+      <div class="costcard">
+        <div class="ch"><h3>Part B &mdash; Medical</h3><p>Most people pay the standard premium below. Higher earners pay more (see the IRMAA tab).</p></div>
+        <table>
+          <thead><tr><th>What it is</th><th>2026 amount</th></tr></thead>
+          <tbody>
+            <tr><td>Standard monthly premium</td><td>$202.90</td></tr>
+            <tr><td>Annual deductible</td><td>$283</td></tr>
+            <tr><td>Your share after the deductible</td><td>20%</td></tr>
+            <tr><td>Annual out-of-pocket cap (Original Medicare)</td><td>None</td></tr>
+            <tr><td>Late-enrollment penalty</td><td>+10% / yr*</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="costnote">*The Part B late penalty adds 10% for each full 12 months you could have had Part B but didn't, and it usually lasts as long as you have Part B. Because there's no cap on the 20% coinsurance, many people add a Medigap plan or choose Medicare Advantage for protection.</p>
+    </div>
+    <div class="panel" id="pan-c" role="tabpanel" aria-labelledby="tab-c">
+      <div class="costcard">
+        <div class="ch"><h3>Part C &amp; Part D &mdash; Advantage &amp; Drugs</h3><p>Premiums are set by private insurers and vary by plan, so shop and compare each year.</p></div>
+        <table>
+          <thead><tr><th>What it is</th><th>2026 amount</th></tr></thead>
+          <tbody>
+            <tr><td>Medicare Advantage premium</td><td>Often $0*</td></tr>
+            <tr><td>Medicare Advantage average (national)</td><td>~$14/mo</td></tr>
+            <tr><td>Part D premium</td><td>Varies</td></tr>
+            <tr><td>Part D out-of-pocket drug cap</td><td>$2,100</td></tr>
+            <tr><td>Medicare Prescription Payment Plan</td><td>Spread cost monthly</td></tr>
+            <tr><td>Part D late-enrollment penalty</td><td>~1% / mo*</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="costnote">*Many Medicare Advantage plans in Arizona are available with a <strong>$0 monthly premium</strong> ("low-to-no premium" plans) &mdash; though you still pay your Part B premium, and $0 doesn't mean no costs (you'll have copays up to the plan's yearly out-of-pocket max). The national average across all Advantage plans is about $14/month. The Part D penalty is roughly 1% of the national base premium for every month you went without creditable drug coverage, and it's permanent. Once your drug spending hits $2,100 in 2026, you pay $0 for covered drugs the rest of the year.</p>
+    </div>
+    <div class="panel" id="pan-irmaa" role="tabpanel" aria-labelledby="tab-irmaa">
+      <div class="costcard">
+        <div class="ch"><h3>Higher-income surcharges (IRMAA)</h3><p>Based on your 2024 tax return. Most people are in the first row and pay $0 extra.</p></div>
+        <div class="tablescroll">
+        <table>
+          <thead><tr><th>2024 income &mdash; single</th><th>2024 income &mdash; married/joint</th><th>Part B premium</th><th>+ Part D</th></tr></thead>
+          <tbody>
+            <tr><td>$109,000 or less</td><td>$218,000 or less</td><td>$202.90</td><td>$0</td></tr>
+            <tr><td>$109,001&ndash;$137,000</td><td>$218,001&ndash;$274,000</td><td>$284.10</td><td>+$14.50</td></tr>
+            <tr><td>$137,001&ndash;$171,000</td><td>$274,001&ndash;$342,000</td><td>$405.80</td><td>+$37.50</td></tr>
+            <tr><td>$171,001&ndash;$205,000</td><td>$342,001&ndash;$410,000</td><td>$527.50</td><td>+$60.40</td></tr>
+            <tr><td>$205,001&ndash;$499,999</td><td>$410,001&ndash;$749,999</td><td>$649.20</td><td>+$83.30</td></tr>
+            <tr><td>$500,000 or more</td><td>$750,000 or more</td><td>$689.90</td><td>+$91.00</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <p class="costnote">IRMAA is based on your modified adjusted gross income (MAGI) from two years earlier &mdash; your 2024 return sets your 2026 premiums. The Part D amount is <em>added</em> to your drug plan's premium. If your income dropped after a life-changing event such as retirement, divorce, or the death of a spouse, you can ask Social Security to use more recent income by filing Form SSA-44. <em>Source: CMS, 2026 Medicare Parts B premiums &amp; deductibles.</em></p>
+    </div>
+  </div>
+</section>
+<section id="enroll" class="band-cream" aria-labelledby="eh">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Timing is everything</span>
+      <h2 id="eh">When to enroll &mdash; and how to avoid penalties</h2>
+      <p>Missing your first sign-up window can mean penalties that stick with you for life. Here are the windows that matter, and a quick tool to find yours.</p></div>
+    <div class="tool" aria-labelledby="th"><h3 id="th">Find your Initial Enrollment Period</h3>
+      <p>Tell us the month and year you turn 65. We'll show your 7-month sign-up window.</p>
+      <div class="tool-row">
+        <div class="field"><label for="iepMonth">Birth month</label>
+          <select id="iepMonth"><option value="">Month&hellip;</option>
+            <option value="0">January</option><option value="1">February</option><option value="2">March</option>
+            <option value="3">April</option><option value="4">May</option><option value="5">June</option>
+            <option value="6">July</option><option value="7">August</option><option value="8">September</option>
+            <option value="9">October</option><option value="10">November</option><option value="11">December</option></select></div>
+        <div class="field"><label for="iepYear">Year you turn 65</label><select id="iepYear"><option value="">Year&hellip;</option></select></div>
+        <button class="btn" id="iepBtn">Show my window</button>
+      </div>
+      <div id="iepResult" role="status" aria-live="polite"></div>
+    </div>
+    <div class="tool" aria-labelledby="pth" style="margin-top:22px;">
+      <h3 id="pth">Estimate a late-enrollment penalty</h3>
+      <p>See what waiting could cost. These penalties are usually <strong>permanent</strong> &mdash; which is exactly why timing matters.</p>
+      <div class="tool-row">
+        <div class="field"><label for="penPart">Which penalty?</label>
+          <select id="penPart"><option value="B">Part B (medical)</option><option value="D">Part D (drugs)</option></select></div>
+        <div class="field"><label for="penMonths">Months without coverage</label>
+          <input id="penMonths" type="number" min="0" max="240" inputmode="numeric" placeholder="e.g. 24" /></div>
+        <button class="btn" id="penBtn">Estimate</button>
+      </div>
+      <div id="penResult" role="status" aria-live="polite"></div>
+    </div>
+    <div style="height:34px;"></div>
+    
+    <div class="timeline">
+      <div class="tl"><div class="when">7 months</div><div>
+        <h3>Initial Enrollment Period (IEP)</h3>
+        <p>Your first chance to sign up: the 3 months before your 65th-birthday month, the birthday month itself, and the 3 months after. Enrolling in the first three months means coverage can start the month you turn 65.</p>
+        <span class="pill">Best time to enroll for most people</span></div></div>
+      <div class="tl alt"><div class="when">Oct 15<br>&ndash; Dec 7</div><div>
+        <h3>Fall Open Enrollment (AEP)</h3>
+        <p>Every autumn, anyone with Medicare can join, switch or drop a Medicare Advantage or Part D drug plan. Changes take effect January 1. Review your plan's Annual Notice of Change each fall &mdash; costs and drug lists shift yearly.</p></div></div>
+      <div class="tl alt"><div class="when">Jan 1<br>&ndash; Mar 31</div><div>
+        <h3>Medicare Advantage Open Enrollment</h3>
+        <p>If you're already in a Medicare Advantage plan, you get one more chance early in the year to switch to a different Advantage plan or return to Original Medicare (and add a drug plan).</p></div></div>
+      <div class="tl"><div class="when">Jan 1<br>&ndash; Mar 31</div><div>
+        <h3>General Enrollment Period (GEP)</h3>
+        <p>For people who missed their Initial Enrollment Period and don't qualify for a special exception. Coverage starts the month after you sign up &mdash; and late penalties may apply.</p>
+        <span class="pill">Penalties may apply</span></div></div>
+      <div class="tl alt"><div class="when">Varies</div><div>
+        <h3>Special Enrollment Period (SEP)</h3>
+        <p>Life events can open a no-penalty window &mdash; for example, losing employer coverage when you retire (you generally get 8 months to enroll in Part B), moving out of your plan's area, or qualifying for Extra Help. If you're still working at 65 with good employer coverage, an SEP often lets you delay safely.</p></div></div>
+      <div class="tl"><div class="when">6 months</div><div>
+        <h3>Medigap Open Enrollment</h3>
+        <p>A one-time, 6-month window that begins when you're 65 <em>and</em> enrolled in Part B. During it, insurers can't deny you a Medigap policy or charge more for pre-existing conditions. After it closes, that protection generally goes away.</p>
+        <span class="pill">Guaranteed acceptance</span></div></div>
+    </div>
+  </div>
+</section>
+<section id="areas" aria-labelledby="ah">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Local Medicare help</span>
+      <h2 id="ah">Medicare help in your Arizona community</h2>
+      <p>Plans, provider networks and local counselors differ by city and county. Choose your area for local guidance and contacts.</p></div>
+    <div class="citygrid"><a class="citycard" href="/medicare-phoenix-az/"><span><span class="cn">Phoenix</span><br><span class="cc">Maricopa County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-mesa-az/"><span><span class="cn">Mesa</span><br><span class="cc">Maricopa County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-tucson-az/"><span><span class="cn">Tucson</span><br><span class="cc">Pima County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-flagstaff-az/"><span><span class="cn">Flagstaff</span><br><span class="cc">Coconino County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-sedona-az/"><span><span class="cn">Sedona</span><br><span class="cc">Yavapai &amp; Coconino Counties</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-kingman-az/"><span><span class="cn">Kingman</span><br><span class="cc">Mohave County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-lake-havasu-city-az/"><span><span class="cn">Lake Havasu City</span><br><span class="cc">Mohave County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a class="citycard" href="/medicare-yuma-az/"><span><span class="cn">Yuma</span><br><span class="cc">Yuma County</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+<section id="resources" class="band-cream" aria-labelledby="rh">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Free statewide resources</span>
+      <h2 id="rh">Free, unbiased help across Arizona</h2>
+      <p>Arizona has a federally funded program offering one-on-one Medicare counseling at no cost &mdash; the counselors don't earn commissions. Here's how to reach them, alongside the official federal lines.</p></div>
+    <div class="azgrid">
+      <div class="resbox"><h3>Statewide &amp; federal</h3><div class="reslist">
+        <div class="resitem"><span class="ri" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><div class="rt">Arizona SHIP</div><div class="rd">State Health Insurance Assistance Program &mdash; free counseling via the AZ Dept. of Economic Security. <a href="tel:18004324040">1-800-432-4040</a></div></div></div>
+        <div class="resitem"><span class="ri" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span><div><div class="rt">Senior Medicare Patrol (SMP)</div><div class="rd">Spot and report Medicare fraud, errors and scams &mdash; <a href="tel:18004324040">1-800-432-4040</a>, option 2.</div></div></div>
+        <div class="resitem"><span class="ri" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><div class="rt">1-800-MEDICARE</div><div class="rd">Official federal help, 24/7. <a href="tel:18006334227">1-800-633-4227</a> &middot; TTY <a href="tel:18774862048">1-877-486-2048</a></div></div></div>
+        <div class="resitem"><span class="ri" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></span><div><div class="rt">Medicare Plan Finder</div><div class="rd">Compare every plan and drug cost in your ZIP at <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener">medicare.gov/plan-compare</a></div></div></div>
+      </div></div>
+      <div class="county"><h3>Get help &amp; enroll</h3>
+        <p>Work with your local licensed agent, compare and join plans, or sign up for Parts A &amp; B.</p>
+        <div class="c"><span>ECOS Medicare Solutions &mdash; call us</span><a href="tel:6029354382">602-935-4382</a></div>
+        <div class="c"><span>Contact / book a time</span><a href="/contact/">Contact us</a></div>
+        <div class="c"><span>Compare &amp; enroll in plans</span><a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">PlanEnroll</a></div>
+        <div class="c"><span>Social Security (Parts A &amp; B)</span><a href="https://www.ssa.gov/medicare" target="_blank" rel="noopener">ssa.gov</a></div>
+        <div class="c"><span>Free SHIP counseling</span><a href="tel:18004324040">800-432-4040</a></div>
+        <p style="margin-top:18px;margin-bottom:0;font-size:.9rem;">More locations at <a href="https://des.az.gov/medicare-assistance" target="_blank" rel="noopener" style="text-decoration:underline;">des.az.gov/medicare-assistance</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="agent" aria-labelledby="agh">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Your licensed agent</span>
+      <h2 id="agh">Local, licensed help when you want it</h2></div>
+    <div class="agent">
+      <img class="avatar-img" src="/assets/darin-weidauer.jpg" alt="Darin Weidauer, licensed Medicare insurance agent" width="96" height="96" />
+      <div>
+        <h3>Darin Weidauer</h3>
+        <div class="role">Licensed Medicare Insurance Agent &middot; ECOS Medicare Solutions</div>
+        <p>Comparing Medicare plans can feel overwhelming. Darin Weidauer, founder of ECOS Medicare Solutions, helps Arizonans understand their options and enroll with confidence &mdash; at no cost to you, since the same plan premiums apply whether you use an agent or not. Prefer to do it yourself? Use the secure self-service link to compare and enroll on your own schedule.</p>
+        <p style="font-size:.97rem;color:var(--ink-soft);">Meet with Darin Weidauer at either Arizona office &mdash; <strong>Mesa</strong> (East Valley) or <strong>Sun City</strong> (West Valley). Appointments are recommended.</p>
+        <div class="hero-cta" style="margin-top:0;">
+          <a class="btn btn-primary" href="/contact/">Contact Darin Weidauer <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="/about/">Read Darin's bio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="guides-home" aria-labelledby="gh">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Free guides</span>
+      <h2 id="gh">Popular Arizona Medicare guides</h2>
+      <p>Deeper, plain-English walkthroughs of the decisions Arizonans wrestle with most.</p></div>
+    <div class="journey">
+      <a class="jcard" href="/medicare-advantage-vs-medigap-arizona/"><span class="jico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v18M15 3v18M3 9h18M3 15h18" opacity=".4"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg></span>
+        <h3>Medicare Advantage vs. Medigap</h3><p>The big Arizona decision &mdash; networks and extras vs. nationwide freedom and predictable costs.</p><span class="go">Compare the two &rarr;</span></a>
+      <a class="jcard" href="/turning-65-checklist-arizona/"><span class="jico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+        <h3>Turning 65 checklist</h3><p>A month-by-month to-do list so you enroll on time and skip the penalties.</p><span class="go">Get the checklist &rarr;</span></a>
+      <a class="jcard" href="/guides/"><span class="jico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+        <h3>All guides</h3><p>Browse every Arizona Medicare guide in one place.</p><span class="go">See all guides &rarr;</span></a>
+    </div>
+  </div>
+</section>
+<section id="faq" class="band-cream" aria-labelledby="fh">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow"><span class="dot"></span> Your questions, answered</span>
+      <h2 id="fh">Medicare questions Arizonans ask most</h2>
+      <p>Tap any question to read the answer. Use the filters to jump to a topic.</p></div>
+    <div class="faqcats" role="group" aria-label="Filter questions by topic"><button class="faqcat" data-cat="all" aria-pressed="true">All</button><button class="faqcat" data-cat="start" aria-pressed="false">Getting started</button><button class="faqcat" data-cat="enroll" aria-pressed="false">Enrolling</button><button class="faqcat" data-cat="choose" aria-pressed="false">Choosing coverage</button><button class="faqcat" data-cat="cost" aria-pressed="false">Costs &amp; help</button></div><div class="faq" id="faqList">
+      <details class="qa" data-cat="start">
+        <summary><button type="button">When am I first eligible for Medicare?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Most people become eligible at <strong>age 65</strong>. You can also qualify earlier if you've received Social Security Disability benefits for 24 months, or if you have ALS or end-stage renal disease. Your Initial Enrollment Period covers the 7 months around your 65th birthday.</p></div>
+      </details>
+      <details class="qa" data-cat="start">
+        <summary><button type="button">Do I have to take Medicare at 65 if I'm still working?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Not necessarily. If you (or your spouse) are still working and have <strong>group coverage from an employer with 20 or more employees</strong>, you can often delay Part B without penalty and sign up later through a Special Enrollment Period. Many people still take premium-free Part A. Rules differ for smaller employers, COBRA, and retiree plans &mdash; a free SHIP counselor can confirm your situation.</p></div>
+      </details>
+      <details class="qa" data-cat="start">
+        <summary><button type="button">Do I get Medicare automatically?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>If you're <strong>already getting Social Security</strong> before 65, you're usually enrolled in Parts A and B automatically and your card arrives by mail. If you're <strong>not</strong> drawing Social Security yet, you generally have to sign up yourself through the Social Security Administration &mdash; it won't happen on its own.</p></div>
+      </details>
+      <details class="qa" data-cat="enroll">
+        <summary><button type="button">How do I actually sign up for Medicare?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Sign up for Parts A and B through <strong>Social Security</strong> &mdash; online at ssa.gov/medicare, by phone at 1-800-772-1213, or at a local office. To add a Part D drug plan, Medicare Advantage, or Medigap, you enroll through the plan, with a licensed agent, or via the secure compare-and-enroll link on this site.</p></div>
+      </details>
+      <details class="qa" data-cat="enroll">
+        <summary><button type="button">What happens if I miss my enrollment window?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>You may face <strong>permanent late-enrollment penalties</strong> and a wait for coverage to begin. Part B adds 10% to your premium for each full year you delayed; Part D adds roughly 1% per month without drug coverage. If you missed your window, the General Enrollment Period (Jan 1&ndash;Mar 31) is usually your next chance &mdash; but check first whether a Special Enrollment Period applies, since that can erase the penalty.</p></div>
+      </details>
+      <details class="qa" data-cat="enroll">
+        <summary><button type="button">I'm retiring and losing my work insurance. What do I do?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Losing job-based coverage opens a <strong>Special Enrollment Period</strong>. You generally have <strong>8 months</strong> to enroll in Part B without penalty. Don't rely on COBRA to delay Part B &mdash; COBRA usually does <em>not</em> count as the kind of coverage that protects you from the penalty.</p></div>
+      </details>
+      <details class="qa" data-cat="enroll">
+        <summary><button type="button">Can I change my plan after I enroll?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Yes. Each fall during <strong>Open Enrollment (Oct 15&ndash;Dec 7)</strong> you can switch Advantage or Part D plans for the next year. If you're in a Medicare Advantage plan, you get an extra switch window Jan 1&ndash;Mar 31. Changing a Medigap plan is different &mdash; outside your one-time Medigap window, insurers can review your health, so check before you switch.</p></div>
+      </details>
+      <details class="qa" data-cat="choose">
+        <summary><button type="button">Original Medicare or Medicare Advantage &mdash; which is better?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>There's no single right answer. <strong>Original Medicare + Medigap + Part D</strong> lets you see almost any provider nationwide with very predictable costs, but premiums are higher. <strong>Medicare Advantage</strong> often has lower (sometimes $0) premiums and extras like dental and vision, but uses a network and may require referrals or prior approvals. Think about your doctors, your medications, how much you travel, and whether you value predictable costs or lower premiums.</p></div>
+      </details>
+      <details class="qa" data-cat="choose">
+        <summary><button type="button">What is Medigap and do I need it?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Medigap (Medicare Supplement) is private insurance that fills the gaps in Original Medicare &mdash; the deductibles and that uncapped 20% coinsurance. It's worth considering if you choose Original Medicare and want protection from large, unpredictable bills. Plans are standardized by letter, so a Plan G from one company covers the same as a Plan G from another; compare on price and service. You don't use Medigap with a Medicare Advantage plan.</p></div>
+      </details>
+      <details class="qa" data-cat="choose">
+        <summary><button type="button">Does Medicare cover dental, vision, or hearing?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Original Medicare generally <strong>does not</strong> cover routine dental, vision, or hearing care. Many <strong>Medicare Advantage</strong> plans add these benefits, which is a common reason people choose them. Standalone dental and vision policies also exist.</p></div>
+      </details>
+      <details class="qa" data-cat="choose">
+        <summary><button type="button">Does Medicare work when I travel or snowbird out of state?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p><strong>Original Medicare</strong> works anywhere in the U.S. with any provider who accepts it &mdash; convenient if you split time between states. <strong>Medicare Advantage</strong> plans are usually built around a local network, so out-of-area care may be limited to emergencies. Arizona snowbirds should factor travel patterns into the choice.</p></div>
+      </details>
+      <details class="qa" data-cat="cost">
+        <summary><button type="button">How much will Medicare cost me in 2026?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>For most people Part A is free and the standard <strong>Part B premium is $202.90/month</strong> in 2026, with a $283 annual deductible. On top of that you may pay for a Part D drug plan, and either a Medigap premium or a Medicare Advantage plan (often low or $0). Higher earners pay an income surcharge (IRMAA).</p></div>
+      </details>
+      <details class="qa" data-cat="cost">
+        <summary><button type="button">I have limited income &mdash; can I get help paying?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Yes, and many who qualify never apply. The <strong>Medicare Savings Program</strong> can pay your Part B premium, and <strong>Extra Help</strong> dramatically lowers drug costs. Arizonans with very limited income may also qualify for AHCCCS (Medicaid). A free SHIP counselor at 1-800-432-4040 can screen you for all of these in one call.</p></div>
+      </details>
+      <details class="qa" data-cat="cost">
+        <summary><button type="button">What is the new $2,100 drug cap?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Starting in 2025 and continuing in 2026, there's an annual cap on what you pay out of pocket for covered prescriptions. In <strong>2026 that cap is $2,100</strong> &mdash; once your covered-drug spending reaches it, you pay $0 for those drugs the rest of the year. You can also use the Medicare Prescription Payment Plan to spread the cost into monthly installments at no extra charge.</p></div>
+      </details>
+      <details class="qa" data-cat="cost">
+        <summary><button type="button">How do I avoid Medicare scams?<span class="plus" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button></summary>
+        <div class="ans"><p>Medicare will <strong>never call, text, or come to your door</strong> to sell you a plan or ask for your Medicare number or bank details out of the blue. Guard your Medicare number like a credit card, review your statements, and report anything suspicious to Arizona's Senior Medicare Patrol at 1-800-432-4040. When in doubt, hang up and call the official number yourself.</p></div>
+      </details></div>
+  </div>
+</section>
+<section id="help" aria-labelledby="hh">
+  <div class="wrap">
+    <div class="helpcta"><h2 id="hh">Ready to compare your Medicare options?</h2>
+      <p>Whether you're turning 65, retiring, or rethinking your current plan, you can compare plans and enroll online &mdash; or get free, confidential counseling first.</p>
+      <div class="hero-cta" style="justify-content:center;">
+        <a class="btn btn-white" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">Compare Plans &amp; Enroll <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="tel:6029354382" style="background:rgba(255,255,255,.15);color:#fff;border-color:rgba(255,255,255,.5);">Call 602-935-4382</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="footgrid">
+      <div>
+        <div class="footbrand"><b>Medicare Enrollment Arizona</b></div>
+        <span class="foot-logo" style="margin-top:12px;"><img src="/assets/ecos-logo.png" alt="ECOS Medicare Solutions" width="180" height="56" /></span>
+        <p style="margin-top:12px;max-width:34ch;">Plain-English Medicare guidance for Arizonans turning 65 and current beneficiaries — with free local resources and licensed help from Darin Weidauer when you're ready to enroll.</p>
+        <a class="btn btn-primary" style="margin-top:6px;" href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">Compare Plans &amp; Enroll <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <a href="/#basics">The basics</a>
+        <a href="/#costs">2026 costs</a>
+        <a href="/#enroll">When to enroll</a>
+        <a href="/guides/">Guides</a>
+        <a href="/#faq">FAQ</a>
+      </div>
+      <div>
+        <h4>Arizona areas</h4>
+        <a href="/medicare-phoenix-az/">Phoenix</a><a href="/medicare-mesa-az/">Mesa</a><a href="/medicare-tucson-az/">Tucson</a><a href="/medicare-flagstaff-az/">Flagstaff</a><a href="/medicare-sedona-az/">Sedona</a><a href="/medicare-kingman-az/">Kingman</a><a href="/medicare-lake-havasu-city-az/">Lake Havasu City</a><a href="/medicare-yuma-az/">Yuma</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="tel:6029354382">Call 602-935-4382</a>
+        <a href="/contact/">Contact us</a>
+        <a href="/about/">About Darin Weidauer</a>
+        <a href="https://www.medicare.gov" target="_blank" rel="noopener">Medicare.gov</a>
+        <a href="https://www.ssa.gov/medicare" target="_blank" rel="noopener">Social Security</a>
+        <a href="https://des.az.gov/medicare-assistance" target="_blank" rel="noopener">Arizona SHIP / DES</a>
+        <a href="tel:18006334227">1-800-MEDICARE</a>
+      </div>
+    </div>
+    
+    <div class="footoffices">
+      <div class="fo-head">
+        <h4 style="margin:0;">Visit ECOS Medicare Solutions</h4>
+        <span class="appt"><a href="tel:6029354382" style="color:#f0c469;font-weight:700;">602-935-4382</a> &middot; appointments recommended before visiting</span>
+      </div>
+      <div class="officegrid">
+      <div class="officecard">
+        <div class="ot">Arizona East</div>
+        <address>5110 E. Southern Ave, Suite 101<br>Mesa, AZ 85206</address>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=ECOS%20Medicare%20Solutions%205110%20E.%20Southern%20Ave%2C%20Suite%20101%2C%20Mesa%2C%20AZ%2085206" target="_blank" rel="noopener">Get directions <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="officecard">
+        <div class="ot">Arizona West</div>
+        <address>10740 W. Bell Rd<br>Sun City, AZ 85351</address>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=ECOS%20Medicare%20Solutions%2010740%20W.%20Bell%20Rd%2C%20Sun%20City%2C%20AZ%2085351" target="_blank" rel="noopener">Get directions <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div></div>
+      <a class="btn btn-primary" href="/contact/">Contact us <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="footnet">
+      <h4>More Medicare help from ECOS Medicare Solutions</h4>
+      <div class="net-links"><a href="https://www.coloradomedicareenrollment.com" target="_blank" rel="noopener">Colorado Medicare Enrollment</a><a href="https://www.medicareenrollmentnevada.com" target="_blank" rel="noopener">Medicare Enrollment Nevada</a><a href="https://www.howdoiapplyformedicare.com" target="_blank" rel="noopener">How Do I Apply for Medicare</a><a href="https://www.medicareadvantageanswers.com" target="_blank" rel="noopener">Medicare Advantage Answers</a><a href="https://www.dentalinsurancetomorrow.com" target="_blank" rel="noopener">Dental Insurance Tomorrow</a></div>
+    </div>
+    <div class="disclaimer">
+      <p><strong>Third-Party Marketing Organization (TPMO) disclosure:</strong> This website is operated by ECOS Medicare Solutions and Darin Weidauer, a licensed insurance agent (National Producer Number 18580338), and is a Medicare marketing resource. We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE (1-800-633-4227, TTY 1-877-486-2048), 24 hours a day / 7 days a week, to get information on all of your options.</p>
+      <p>This site is <strong>not affiliated with, connected to, or endorsed by</strong> the U.S. government, the federal Medicare program, the Centers for Medicare &amp; Medicaid Services (CMS), or the Social Security Administration. Medicare has neither reviewed nor endorsed this information. Enrollment in a plan may be completed through the licensed agent or the linked self-service enrollment platform; you are never required to use an agent and may enroll directly through Medicare.</p>
+      <p>The educational information here reflects 2026 standard amounts published by CMS and is provided for general guidance only — it is not medical, legal, tax, or insurance advice, and your individual costs and options may differ. Always verify details with official sources before making decisions. Free, unbiased counseling is available from Arizona's State Health Insurance Assistance Program (SHIP) at 1-800-432-4040.</p>
+      <p style="margin-bottom:0;">&copy; <span id="yr"></span> ECOS Medicare Solutions &middot; medicareenrollmentarizona.com &middot; All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

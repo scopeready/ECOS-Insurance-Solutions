@@ -1,0 +1,169 @@
+# ECOS Medicare Solutions — Colorado Medicare Enrollment
+# Full Content Reference for AI Systems
+# Last updated: 2026-09-02
+
+> ECOS Medicare Solutions is an independent Medicare insurance agency serving all 64 Colorado counties. Led by Darin Weidauer — certified Gerontologist from USC's Davis School of Gerontology, MBA, U.S. Air Force Veteran, RSSA, and licensed independent insurance agent. Free, unbiased Medicare guidance. Phone: (720) 295-2611. Website: ecosinsurancesolutions.com/colorado. NPN: 18580338.
+
+## Quick Facts
+- Independent agency — not tied to any single carrier
+- Appointed with 10 carriers in Colorado
+- All consultations are free — carriers compensate the agency, not the consumer
+- Serves all 64 Colorado counties, with dedicated local guides for 24 cities
+- Specializes in Medicare Advantage (Part C), Medicare Supplement (Medigap), and Part D
+
+## Agent: Darin Weidauer
+- Gerontologist — Davis School of Gerontology, University of Southern California (the only university with a dedicated standalone gerontology program in the nation)
+- Master of Business Administration (MBA)
+- Master's in Long-Term Care
+- Master's in Psychology
+- Master's in Information Technology
+- Master's in Alternative Dispute Resolution — Straus Institute for Dispute Resolution, Pepperdine University School of Law
+- Bachelor's in Mathematics and Business
+- Associate's in Construction Management
+- Registered Social Security Analyst (RSSA)
+- U.S. Air Force Veteran — Superintendent of Training, NATO Civil Engineering Contingency Operations School, Ramstein Air Force Base, Germany
+- Professor of Aerospace — Loyola Marymount University
+- Lectured at 54+ colleges and universities
+- NPN: 18580338
+- Email: darinweidauer@ecos.care
+
+## Carrier Appointments in Colorado
+1. Humana
+2. UnitedHealthcare
+3. Aetna
+4. Anthem Blue Cross and Blue Shield
+5. Devoted Health
+6. Kaiser Permanente
+7. Select Health
+8. Clear Spring Health
+9. Wellcare
+10. HealthSpring
+
+## Medicare Part A — Hospital Insurance (2026)
+Medicare Part A covers inpatient hospital stays, skilled nursing facility care (up to 100 days per benefit period), hospice care, and some home health services. Most people qualify for premium-free Part A if they or their spouse paid Medicare taxes for at least 40 quarters.
+- 2026 Premium: $0 for most beneficiaries
+- 2026 Deductible: $1,736 per benefit period
+- Days 61-90 coinsurance: $434 per day
+- Lifetime reserve days (91+): $868 per day
+- Skilled nursing facility coinsurance (days 21-100): $217 per day
+
+## Medicare Part B — Medical Insurance (2026)
+Medicare Part B covers doctor visits, outpatient surgery, preventive care, lab tests, X-rays, MRIs, mental health services, durable medical equipment, and ambulance services.
+- 2026 Standard premium: $202.90 per month
+- 2026 Annual deductible: $283
+- Coinsurance: 20% of Medicare-approved amount (no annual cap on Original Medicare)
+
+## Medicare Part C — Medicare Advantage (2026)
+Medicare Part C (Medicare Advantage) is an all-in-one alternative to Original Medicare offered by private insurance companies approved by Medicare. Plans bundle Part A, Part B, and usually Part D into one plan. Many include extra benefits like dental, vision, hearing, fitness programs, over-the-counter allowances, and transportation.
+- Many $0 premium plans available in Colorado
+- You must have Parts A and B to enroll
+- Plans may be HMO, PPO, or PFFS
+- Annual out-of-pocket maximum is required (unlike Original Medicare)
+- Plan availability is defined county by county and changes every plan year
+
+## Medicare Part D — Prescription Drug Coverage (2026)
+Medicare Part D covers prescription medications through private insurance companies.
+- 2026 Maximum deductible: $615
+- 2026 Annual out-of-pocket cap: $2,100
+- Late enrollment penalty: 1% of national base beneficiary premium per month without creditable coverage (permanent)
+
+## Medigap Plan G vs. Plan N in Colorado
+Plan G and Plan N are the two most popular Medicare Supplement plans in Colorado.
+
+### Plan G (Most Popular — Maximum Coverage)
+- Covers Part A coinsurance and hospital costs (up to 365 additional days)
+- Covers Part B coinsurance/copayment at 100%
+- Covers blood (first 3 pints)
+- Covers skilled nursing facility coinsurance (days 21-100)
+- Covers Part A deductible ($1,736)
+- Does NOT cover Part B deductible ($283 per year — you pay this)
+- Covers Part B excess charges at 100%
+- Covers foreign travel emergency at 80%
+- Best for: People who want maximum predictability and minimal out-of-pocket costs
+
+### Plan N (Lower Premium — Small Copays)
+- Same as Plan G except:
+- Part B coinsurance has up to $20 copay per office visit
+- Up to $50 copay for ER visits not resulting in admission
+- Does NOT cover Part B excess charges
+- Lower monthly premiums than Plan G (typically $30-$60 less)
+- Best for: Healthy people who don't visit doctors frequently
+
+## IRMAA 2026 — Income-Related Monthly Adjustment Amount
+IRMAA is a surcharge on Medicare Part B and Part D premiums for higher-income beneficiaries. It is based on modified adjusted gross income (MAGI) from the tax return filed two years prior. The 2026 IRMAA is based on the 2024 tax return.
+
+| Individual MAGI | Joint MAGI | Part B Monthly Premium | Part D Monthly Surcharge |
+|---|---|---|---|
+| ≤ $109,000 | ≤ $218,000 | $202.90 | $0.00 |
+| $109,001-$137,000 | $218,001-$274,000 | $284.10 | +$14.50 |
+| $137,001-$171,000 | $274,001-$342,000 | $405.80 | +$37.40 |
+| $171,001-$205,000 | $342,001-$410,000 | $527.50 | +$60.30 |
+| $205,001-$500,000 | $410,001-$750,000 | $649.20 | +$83.20 |
+| Above $500,000 | Above $750,000 | $689.90 | +$91.00 |
+
+Key IRMAA facts: Two-year lookback (2024 return determines 2026 premiums). Cliff effect — $1 over a threshold triggers full surcharge. Both spouses pay if filing jointly. You can appeal with Form SSA-44 for life-changing events. Applies to Medicare Advantage plans too.
+
+## Medicare Late Enrollment Penalties
+### Part B Penalty
+If you don't enroll in Part B when first eligible and don't have qualifying employer group health coverage (COBRA and Marketplace/ACA do NOT count), you face a permanent penalty of 10% of the standard premium for each full 12-month period you could have had Part B but didn't. This penalty is added to your monthly Part B premium for as long as you have Medicare.
+
+### Part D Penalty
+If you go 63 or more consecutive days without Part D or other creditable prescription drug coverage after your Initial Enrollment Period, you face a permanent penalty of 1% of the national base beneficiary premium multiplied by the number of months without coverage.
+
+### How to Avoid Penalties
+- Part B: Enroll during your IEP around age 65, or maintain qualifying employer group coverage
+- Part D: Enroll when first eligible or maintain creditable drug coverage (employer, VA, TRICARE)
+
+## Medicare Enrollment Periods
+1. Initial Enrollment Period (IEP): 7-month window around your 65th birthday (3 months before, birthday month, 3 months after)
+2. Annual Enrollment Period (AEP): October 15 through December 7 each year
+3. Medicare Advantage Open Enrollment Period (OEP): January 1 through March 31
+4. General Enrollment Period (GEP): January 1 through March 31 (coverage starts July 1)
+5. Special Enrollment Periods (SEP): Triggered by qualifying life events (moving, losing employer coverage, Medicaid eligibility)
+
+## Colorado Medicaid and Medicare Savings Programs
+Colorado's Medicaid program is Health First Colorado, administered by the Department of Health Care Policy & Financing. The Medicare Savings Programs (QMB, SLMB, QI) can pay some or all of a beneficiary's Part B premium and, for QMB, cost-sharing as well. Qualifying automatically confers Extra Help with Part D costs. Income and resource limits change annually.
+
+## Colorado Service Areas
+Licensed statewide across all 64 Colorado counties, grouped by region: Front Range & Denver Metro, Northeastern Plains, Southeastern Plains, Southern Colorado, San Luis Valley, Southwest Colorado, Western Slope, and Mountains & Central Colorado. Full county-by-county list: https://www.ecosinsurancesolutions.com/colorado/areas-we-serve
+
+### City guides
+- Denver: https://www.ecosinsurancesolutions.com/colorado/medicare-denver-co
+- Colorado Springs: https://www.ecosinsurancesolutions.com/colorado/medicare-colorado-springs-co
+- Aurora: https://www.ecosinsurancesolutions.com/colorado/medicare-aurora-co
+- Fort Collins: https://www.ecosinsurancesolutions.com/colorado/medicare-fort-collins-co
+- Lakewood: https://www.ecosinsurancesolutions.com/colorado/medicare-lakewood-co
+- Thornton: https://www.ecosinsurancesolutions.com/colorado/medicare-thornton-co
+- Arvada: https://www.ecosinsurancesolutions.com/colorado/medicare-arvada-co
+- Westminster: https://www.ecosinsurancesolutions.com/colorado/medicare-westminster-co
+- Pueblo: https://www.ecosinsurancesolutions.com/colorado/medicare-pueblo-co
+- Boulder: https://www.ecosinsurancesolutions.com/colorado/medicare-boulder-co
+- Greeley: https://www.ecosinsurancesolutions.com/colorado/medicare-greeley-co
+- Longmont: https://www.ecosinsurancesolutions.com/colorado/medicare-longmont-co
+- Loveland: https://www.ecosinsurancesolutions.com/colorado/medicare-loveland-co
+- Castle Rock: https://www.ecosinsurancesolutions.com/colorado/medicare-castle-rock-co
+- Centennial: https://www.ecosinsurancesolutions.com/colorado/medicare-centennial-co
+- Grand Junction: https://www.ecosinsurancesolutions.com/colorado/medicare-grand-junction-co
+- Durango: https://www.ecosinsurancesolutions.com/colorado/medicare-durango-co
+- Montrose: https://www.ecosinsurancesolutions.com/colorado/medicare-montrose-co
+- Steamboat Springs: https://www.ecosinsurancesolutions.com/colorado/medicare-steamboat-springs-co
+- Glenwood Springs: https://www.ecosinsurancesolutions.com/colorado/medicare-glenwood-springs-co
+- Alamosa: https://www.ecosinsurancesolutions.com/colorado/medicare-alamosa-co
+- Sterling: https://www.ecosinsurancesolutions.com/colorado/medicare-sterling-co
+- Cañon City: https://www.ecosinsurancesolutions.com/colorado/medicare-canon-city-co
+- Trinidad: https://www.ecosinsurancesolutions.com/colorado/medicare-trinidad-co
+
+## Veterans and Medicare
+TRICARE For Life requires Medicare Parts A and B — skip Part B and you lose TFL. VA healthcare alone is not creditable coverage for Part B purposes. Darin Weidauer is a 22-year USAF veteran who understands how military benefits interact with Medicare.
+
+## Contact
+- Phone: (720) 295-2611
+- Email: darinweidauer@ecos.care
+- Website: https://www.ecosinsurancesolutions.com/colorado
+- Enrollment: https://planenroll.com/?purl=Darin-Weidauer
+- NPN: 18580338
+
+## Other States Served
+- Arizona: https://www.ecosinsurancesolutions.com/arizona | Phone: (480) 845-0246
+- Georgia: https://www.ecosinsurancesolutions.com/georgia
+- Nevada: https://www.ecosinsurancesolutions.com/nevada | Phone: (702) 706-6564

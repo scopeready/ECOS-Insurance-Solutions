@@ -1,0 +1,12 @@
+{
+  "name": "Medicare Enrollment Arizona",
+  "short_name": "Medicare AZ",
+  "description": "Plain-English Medicare guidance for Arizona — Parts A, B, C & D, 2026 costs, enrollment periods, and free local help.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6efe2",
+  "theme_color": "#155e5a",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any maskable" }
+  ]
+}
