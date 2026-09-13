@@ -12,6 +12,13 @@ ICON = lambda p: f'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" s
 SITE = dict(
     url="https://medicareenrollmentflorida.com", domain="medicareenrollmentflorida.com", name="Medicare Enrollment Florida",
     org="ECOS Medicare Solutions", state="Florida", abbr="FL", demonym="Floridians",
+    # Ronilin Weidauer holds the Florida licence; Darin is the founder and the author of the pages. The engine
+    # names the agent in the footer, forms, bylines, About and structured data, and keeps Darin as author.
+    agent=dict(name="Ronilin Weidauer", first="Ronilin", npn="19427652", license="W690636", license_label="FL License"),
+    about=dict(crumb="About Ronilin &amp; Darin", h1="Ronilin Weidauer and Darin Weidauer",
+               sub="Ronilin Weidauer is the licensed Florida insurance agent behind this site (NPN 19427652, FL License #W690636). Darin Weidauer, the agency&rsquo;s founder, gerontologist and Registered Social Security Analyst, writes the pages. Here is who you are talking to, how we are paid, and what we are not.",
+               title="About Ronilin Weidauer and Darin Weidauer | ECOS Medicare Solutions",
+               desc="Ronilin Weidauer, licensed Florida insurance agent (NPN 19427652, FL License #W690636), and Darin Weidauer, founder, gerontologist and Registered Social Security Analyst. How we are paid."),
     # TODO(Darin): swap for a Florida (305 / 407 / 813 / 904) number.
     phone="(702) 706-6564", tel="+17027066564", email="darinweidauer@ecos.care", npn="18580338",
     web3forms_key="fc793a1c-1dd6-4a2e-9078-e907c4ab0428", quote_url="https://planenroll.com/?purl=Darin-Weidauer",
@@ -50,7 +57,8 @@ SITE = dict(
                   title="Florida Medicare FAQ [[YEAR]] | ECOS Medicare Solutions",
                   desc="Plain answers to the Medicare questions Floridians ask most: the 2026 Advantage changes, Medigap issue-age rating and under-65 rights, moving to Florida on Medicare, hurricane SEPs, SHINE, and 2026 costs."),
     llm_summary="Free, plain-English Medicare guidance for Florida retirees, new residents and people approaching 65. Compare Medicare Advantage, Medicare Supplement (Medigap) and Part D drug plans with a credentialed, independent agent at no cost. Statewide service by phone and video, from Pensacola and Jacksonville through Orlando, Tampa Bay and The Villages to Miami, Naples and the Keys.",
-    llm_facts=["Florida uses the federal Medigap plan letters (A–N), requires issue-age rating (premiums cannot rise because you get older) and prohibits attained-age rating; it has no birthday rule. Since 2009 Florida gives people under 65 on Medicare a six-month guaranteed-issue window when they enroll in Part B, and insurers must offer them at least one plan. The Office of Insurance Regulation regulates Medigap.",
+    llm_facts=["Ronilin Weidauer holds Florida insurance license #W690636 (NPN 19427652) and is the licensed Florida agent for ECOS Medicare Solutions; Darin Weidauer (NPN 18580338) is the agency's founder and the author of the pages.",
+               "Florida uses the federal Medigap plan letters (A–N), requires issue-age rating (premiums cannot rise because you get older) and prohibits attained-age rating; it has no birthday rule. Since 2009 Florida gives people under 65 on Medicare a six-month guaranteed-issue window when they enroll in Part B, and insurers must offer them at least one plan. The Office of Insurance Regulation regulates Medigap.",
                "More than half of Florida's Medicare beneficiaries are in Medicare Advantage. For the 2026 plan year AvMed left the Florida Medicare market (about 35,000 members), UnitedHealthcare reduced plans in Broward, Miami-Dade, Palm Beach, Hillsborough, Pinellas, Lee, Collier and other counties, and several carriers trimmed dental, vision and OTC extras. Florida Blue sells Advantage plans in every county.",
                "Florida's SHIP is SHINE (Serving Health Insurance Needs of Elders), run by the Florida Department of Elder Affairs through the Area Agencies on Aging: 1-800-963-5337 (the Elder Helpline).",
                "Florida Medicaid is administered by the Agency for Health Care Administration; eligibility is determined by the Department of Children and Families through ACCESS Florida (myaccessflorida.com). Long-term care runs through the Statewide Medicaid Managed Care Long-Term Care program, and Florida aligns D-SNPs with Medicaid plans. Medicare Savings Programs (QMB, SLMB, QI) are applied for through DCF and automatically qualify the enrollee for Part D Extra Help.",
@@ -66,7 +74,7 @@ FOOTER_COLS = [
                '<a href="/part-d">Part D drug plans</a>', '<a href="/chronic-snp">Chronic SNPs</a>', '<a href="/institutional-snp">Institutional SNPs</a>']),
     ("Resources", ['<a href="/retirement-guide">Free retirement guide</a>', '<a href="/turning-65">Turning 65 in Florida</a>', '<a href="/medicare-costs">[[YEAR]] costs &amp; IRMAA</a>',
                    '<a href="/new-to-florida">Moving to Florida &amp; snowbirds</a>', '<a href="/hurricanes">Hurricanes &amp; Medicare</a>', '<a href="/veterans">Veterans</a>',
-                   '<a href="/medicaid">Florida Medicaid &amp; savings programs</a>', '<a href="/faq">Questions Floridians ask</a>', '<a href="/about">About Darin</a>',
+                   '<a href="/medicaid">Florida Medicaid &amp; savings programs</a>', '<a href="/faq">Questions Floridians ask</a>', '<a href="/about">About Ronilin &amp; Darin</a>',
                    '<a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a>']),
     ("Official &amp; independent", ['<a href="https://www.medicare.gov" rel="noopener">Medicare.gov</a>', '<a href="tel:+18006334227">1-800-MEDICARE</a>',
                                     '<a href="https://elderaffairs.org/programs-and-services/serving-health-insurance-needs-of-elders-shine/" rel="noopener">SHINE (Florida&rsquo;s SHIP)</a>, 1-800-963-5337',
@@ -86,7 +94,7 @@ HOME = dict(
     eyebrow="Medicare made clear · Statewide in Florida",
     h1="Medicare in Florida, explained by someone who actually teaches it.",
     sub="Turning 65, just moved here, or re-shopping because your plan dropped your doctor? Sit down with a credentialed independent agent who will walk you through Medicare Advantage, Medigap and Part D in plain English &mdash; patiently, and at no cost to you.",
-    trust=[(ICON('<path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/>'), "Licensed in Florida (NPN 18580338)"),
+    trust=[(ICON('<path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/>'), "Ronilin Weidauer, licensed in Florida &middot; FL License #W690636 &middot; NPN 19427652"),
            (ICON('<path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/>'), "Gerontologist &amp; RSSA&reg;"),
            (ICON('<circle cx="12" cy="8" r="5"/><path d="M8 13l-2 9 6-4 6 4-2-9"/>'), "22-year U.S. Air Force veteran"),
            (ICON('<path d="M20 6L9 17l-5-5"/>'), "Always free to you")],
@@ -107,7 +115,7 @@ HOME = dict(
         ("Medicare + Florida Medicaid", "The Medicare Savings Programs that pay your Part B premium, Extra Help, SMMC long-term care, and the D-SNPs that coordinate both.", "/medicaid", "Dual-eligible help"),
     ],
     guide_p="A clear, step-by-step walk-through of your enrollment windows, the Florida-specific choices in front of you, and the deadlines that carry a lifelong penalty if you miss them. No sign-up required.",
-    author_html=("<p>Darin Weidauer is an independent Medicare insurance agent, credentialed gerontologist, and Registered Social Security Analyst&reg; who helps Florida retirees, new residents and people approaching 65 make sense of their options &mdash; clearly, patiently, and with no cost to them. A 22-year U.S. Air Force veteran who retired as an officer, Darin holds five master&rsquo;s degrees, including an MBA and a Master&rsquo;s in Dispute Resolution from Pepperdine and a Master&rsquo;s in Long-Term Care from USC, and became a credentialed gerontologist in 2014 &mdash; studying the human side of aging, not just the paperwork.</p>"
+    author_html=("<p><strong>Ronilin Weidauer</strong> is the licensed Florida insurance agent for ECOS Medicare Solutions (NPN 19427652, FL License #W690636) and the person who will take your call and walk you through your options. <strong>Darin Weidauer</strong>, the agency&rsquo;s founder, is a credentialed gerontologist and Registered Social Security Analyst&reg; who writes the pages on this site to help Florida retirees, new residents and people approaching 65 make sense of their options &mdash; clearly, patiently, and with no cost to them. A 22-year U.S. Air Force veteran who retired as an officer, Darin holds five master&rsquo;s degrees, including an MBA and a Master&rsquo;s in Dispute Resolution from Pepperdine and a Master&rsquo;s in Long-Term Care from USC, and became a credentialed gerontologist in 2014 &mdash; studying the human side of aging, not just the paperwork.</p>"
                  "<p>A former Professor of Aerospace Studies at Loyola Marymount University who has lectured at more than 50 colleges and universities, Darin now channels that teaching instinct into plain-English Medicare education through one-on-one reviews, no-cost workshops, and his book <em>Retire With Confidence</em>. <a href=\"/about\">More about Darin &rarr;</a></p>"),
     areas_lede="We work with Floridians by phone and video across all 67 counties. Find Medicare guidance for your city:",
     bases_lede="Near a base? We help military retirees and veterans coordinate TRICARE, VA care and Medicare:",
@@ -124,6 +132,6 @@ HOME = dict(
 )
 
 OG = dict(line1="Medicare help in", line2="Florida", sub1="Plain-English, no-cost guidance from a licensed independent agent,",
-          sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="medicareenrollmentflorida.com", mark="sun",
+          sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", byline="Ronilin Weidauer · FL License #W690636 · NPN 19427652", domain="medicareenrollmentflorida.com", mark="sun",
           palette=dict(primary=(15, 92, 110), dark=(10, 63, 76), gold=(231, 196, 134), paper=(246, 242, 232), sky=(217, 233, 238),
                        far=(201, 214, 217), mid=(122, 154, 74), green=(58, 122, 90)))

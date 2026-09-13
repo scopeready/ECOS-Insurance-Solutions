@@ -48,6 +48,9 @@ Three template families were consolidated. Respect each one's conventions inside
 - **Run `python3 scripts/check_links.py` before every push.** It checks every internal
   reference resolves under the cleanUrls rules, no old domain survives, every JSON-LD block
   parses, and each section still has its index, sitemap, llms.txt and 404.
+- **Florida's licensed agent is Ronilin Weidauer** (NPN 19427652, FL License #W690636), set through
+  `SITE["agent"]` in the Florida generator; the engine names the agent of record while Darin remains
+  the author. Any other section may name a different agent the same way.
 - Each state keeps its own phone number and licence number. Several sections use the
   agency's main line (702-706-6564) as a deliberate placeholder; see the state notes.
 

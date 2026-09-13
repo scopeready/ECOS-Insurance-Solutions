@@ -33,3 +33,11 @@ CMS/TPMO rules apply.
 python3 source/generate.py && python3 -m http.server 8000   # open /index.html, /tampa.html
 ```
 After a build: every JSON-LD block must parse, every `/slug` link must have a file, no `[[TOKEN]]` may remain, and `sitemap.xml` must list exactly the indexable pages.
+
+## Agent of record (added 2026-09-13, consolidated site)
+
+Ronilin Weidauer holds the Florida licence: **NPN 19427652, FL License #W690636**. `SITE["agent"]` in
+`tools/generators/florida/content_site.py` names her, and the shared engine puts her in the footer, the
+form copy, the byline's "reviewed by", the About page and the structured data (`#agent` Person,
+`employee` of the agency). Darin stays the author of every page and is not described as licensed in
+Florida anywhere in this section. Do not revert the trust strip, About, FAQ or Terms to Darin's name.

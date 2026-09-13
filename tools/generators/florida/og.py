@@ -56,6 +56,6 @@ d.text((200, 352), OG["sub2"], font=sans(26), fill=(70, 83, 94))
 pw = 226 + int(sans(24).getlength(OG["domain"])) + 26
 d.rounded_rectangle([200, 536, pw, 592], radius=28, fill=P["dark"])
 d.text((226, 549), OG["domain"], font=sans(24), fill=(255, 255, 255))
-d.text((pw + 24, 552), "Darin Weidauer, MBA, RSSA · NPN 18580338", font=sans(20), fill=P["paper"])
+d.text((pw + 24, 552), OG.get("byline", "Darin Weidauer, MBA, RSSA · NPN 18580338"), font=sans(20), fill=P["paper"])
 img.save(ROOT / "og-image.png", optimize=True)
 print("wrote og-image.png", (ROOT / "og-image.png").stat().st_size, "bytes")

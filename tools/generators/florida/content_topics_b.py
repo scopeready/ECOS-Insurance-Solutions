@@ -277,7 +277,7 @@ dict(slug="retirement-guide", nav_title="Retire With Confidence &mdash; free 295
      sub="Medicare, Social Security, and the money decisions that decide your retirement &mdash; the ones that come at you between 62 and 75, most with deadlines, several expensive to get wrong in ways nobody tells you about until later. It is free, and there is nothing to buy at the end of it.",
      form_title="Where should we send it?",
      keyfacts=["Forty-seven chapters in six parts: Medicare fundamentals, IRMAA and the income traps, Social Security claiming, retirement income, long-term care and final expense, and a 2026 quick-reference section.",
-               "Written by Darin Weidauer, gerontologist, Registered Social Security Analyst and retired Air Force officer &mdash; the licensed agent behind this site.",
+               "Written by Darin Weidauer, gerontologist, Registered Social Security Analyst and retired Air Force officer &mdash; the founder of the agency behind this site.",
                "Emailed on request. Nothing downloads from this page, nothing is for sale, and a phone call is optional."],
      body="""<h2>What&rsquo;s in it: forty-seven chapters, six parts</h2>
 <div class="grid grid--3" style="margin:1.4rem 0 2rem">
@@ -289,7 +289,7 @@ dict(slug="retirement-guide", nav_title="Retire With Confidence &mdash; free 295
 <article class="card"><h3>Future-proofing &amp; reference</h3><p>The annual Medicare review, the decision timeline from 59&frac12; to 75+, a glossary of 60+ terms, a 2026 quick-reference card, and what changed for 2026.</p></article>
 </div>
 <h2>Who wrote it</h2>
-<p>Darin Weidauer &mdash; gerontologist, 22-year U.S. Air Force veteran, independent insurance agent licensed in Florida, and Registered Social Security Analyst. He is the licensed agent behind this site, and he is independent &mdash; appointed with a number of carriers rather than employed by one. That is worth knowing before you read anything he has written about insurance.</p>
+<p>Darin Weidauer &mdash; gerontologist, 22-year U.S. Air Force veteran, independent insurance agent, and Registered Social Security Analyst. He founded the agency behind this site, where Ronilin Weidauer is the licensed Florida agent, and the agency is independent &mdash; appointed with a number of carriers rather than employed by one. That is worth knowing before you read anything he has written about insurance.</p>
 <p>Why give it away? The rest of this site answers a narrow question: what Medicare plans are available where you live in Florida. The book answers the wider one &mdash; the decisions that arrive between 62 and 75.</p>
 <div class="note-box"><p>The guide is educational &mdash; it is not a quote, an offer of coverage, or a recommendation to buy, drop or change any policy. Use the form at the top of the page and it will be in your inbox within a few minutes; check your spam folder if not.</p></div>""",
      faqs=[("Is the guide really free?", "Yes. It is emailed to you at no cost, with nothing to buy and no obligation. A licensed agent will call only if you ask for a call on the form."),
