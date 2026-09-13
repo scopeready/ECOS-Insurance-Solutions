@@ -1,11 +1,11 @@
 """Builds og-image.png (1200x630), the social-share card, from OG in content.py.
 Run from the repo root: python3 source/og.py"""
-import math
+import math, os
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from content import OG
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(os.environ.get("ECOS_OUT") or Path(__file__).resolve().parent.parent)  # see tools/build_state.py
 W, H = 1200, 630
 P = OG["palette"]  # primary, dark, gold, paper, sky, far, mid, green
 
