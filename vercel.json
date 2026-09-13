@@ -71,6 +71,28 @@
       "permanent": true
     },
     {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentarizona\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/arizona",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentarizona\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
+      "permanent": true
+    },
+    {
       "source": "/(.*)/index.html",
       "has": [
         {
@@ -134,6 +156,28 @@
         }
       ],
       "destination": "https://www.ecosinsurancesolutions.com/california",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?californiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/california",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?californiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
       "permanent": true
     },
     {
@@ -203,6 +247,28 @@
       "permanent": true
     },
     {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?coloradomedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/colorado",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?coloradomedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
+      "permanent": true
+    },
+    {
       "source": "/(.*)/index.html",
       "has": [
         {
@@ -266,6 +332,28 @@
         }
       ],
       "destination": "https://www.ecosinsurancesolutions.com/florida",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentflorida\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/florida",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentflorida\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
       "permanent": true
     },
     {
@@ -335,6 +423,28 @@
       "permanent": true
     },
     {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?georgiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/georgia",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?georgiamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
+      "permanent": true
+    },
+    {
       "source": "/(.*)/index.html",
       "has": [
         {
@@ -398,6 +508,28 @@
         }
       ],
       "destination": "https://www.ecosinsurancesolutions.com/minnesota",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?minnesotamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/minnesota",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?minnesotamedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
       "permanent": true
     },
     {
@@ -467,6 +599,28 @@
       "permanent": true
     },
     {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentnevada\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/nevada",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentnevada\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
+      "permanent": true
+    },
+    {
       "source": "/(.*)/index.html",
       "has": [
         {
@@ -530,6 +684,28 @@
         }
       ],
       "destination": "https://www.ecosinsurancesolutions.com/tennessee",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?tennesseemedicarequotes\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/tennessee",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?tennesseemedicarequotes\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
       "permanent": true
     },
     {
@@ -599,6 +775,28 @@
       "permanent": true
     },
     {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?texasmedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/texas",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?texasmedicareenrollment\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
+      "permanent": true
+    },
+    {
       "source": "/(.*)/index.html",
       "has": [
         {
@@ -662,6 +860,28 @@
         }
       ],
       "destination": "https://www.ecosinsurancesolutions.com/utah",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentutah\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/utah",
+      "permanent": true
+    },
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?medicareenrollmentutah\\.com"
+        }
+      ],
+      "destination": "https://www.ecosinsurancesolutions.com/robots.txt",
       "permanent": true
     },
     {
