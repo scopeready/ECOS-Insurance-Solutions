@@ -17,7 +17,7 @@
  *   Admin -> Events -> toggle "Mark as key event"
  */
 (function () {
-  var MEASUREMENT_ID = 'G-XXXXXXXXXX';
+  var MEASUREMENT_ID = 'G-7CXH7ZLSP1';
 
   // Refuse to run on an unconfigured or malformed ID.
   // The all-X placeholder is itself a valid-looking A-Z string, so it is

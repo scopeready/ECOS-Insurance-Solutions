@@ -54,6 +54,10 @@ Three template families were consolidated. Respect each one's conventions inside
 - **Florida's licensed agent is Ronilin Weidauer** (NPN 19427652, FL License #W690636), set through
   `SITE["agent"]` in the Florida generator; the engine names the agent of record while Darin remains
   the author. Any other section may name a different agent the same way.
+- **Google Analytics 4 is one property for the whole site**, Measurement ID G-7CXH7ZLSP1, set as
+  `MEASUREMENT_ID` in every section's `analytics.js`, in the generator copies under
+  `tools/generators/*/analytics.js`, and in the root `analytics.js` the hub and 404 load.
+  Change it everywhere at once or not at all.
 - Each state keeps its own phone number and licence number. Several sections use the
   agency's main line (702-706-6564) as a deliberate placeholder; see the state notes.
 
