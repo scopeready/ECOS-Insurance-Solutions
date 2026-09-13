@@ -6,14 +6,16 @@ Everything state-specific lives in source/content.py (SITE, HOME, NAV, CITIES,
 REGIONS, BASES, TOPIC_PAGES, …) and source/scenes.py (hero art). This file is
 the engine and is meant to be identical across the ECOS state sites.
 """
-import json, re, html
+import json, os, re, html
 from pathlib import Path
 
 from scenes import SCENES
 from content import (SITE, HOME, NAV, FOOTER_COLS, PLACE_CARDS, CITIES, REGIONS, BASES,
                      TOPIC_PAGES, ABOUT_BODY, FAQ_PAGE, PRIVACY_BODY, TERMS_BODY)
 
-ROOT = Path(__file__).resolve().parent.parent
+# Output directory. Stand-alone: the repo root above source/. In the consolidated site, tools/build_state.py
+# sets ECOS_OUT to a scratch directory and then prefixes every link with /<state> before copying the pages in.
+ROOT = Path(os.environ.get("ECOS_OUT") or Path(__file__).resolve().parent.parent)
 S = SITE
 SITE_URL, ORG, PHONE, TEL, EMAIL, NPN = S["url"], S["org"], S["phone"], S["tel"], S["email"], S["npn"]
 STATE, PLAN_YEAR, ISO, REVIEWED, FIG = S["state"], S["plan_year"], S["iso"], S["reviewed"], S["fig"]
