@@ -1,0 +1,94 @@
+# ECOS Medicare Solutions — Indiana
+
+> Free, plain-English Medicare guidance for Indiana retirees and people approaching 65. Compare Medicare Advantage, Medicare Supplement (Medigap) and Part D drug plans with a credentialed, independent agent at no cost. Statewide service by phone and video, from Indianapolis, Fort Wayne, Evansville and South Bend to the Region, the Wabash Valley and the Ohio River towns.
+
+Contact: (702) 706-6564 · darinweidauer@ecos.care · https://www.ecosinsurancesolutions.com/indiana
+
+## About
+ECOS Medicare Solutions is an independent Medicare insurance agency serving the State of Indiana. Agent: Darin Weidauer, MBA, RSSA — gerontologist, Registered Social Security Analyst, 22-year U.S. Air Force veteran, licensed in Indiana, NPN 18580338, IN License #3951814. Help is free to the consumer; independent agents are paid by carriers at enrollment, and the premium is the same whichever way you buy. Author page: https://www.myecos360.com/darin-weidauer
+
+## What to know about Medicare in Indiana
+- Darin Weidauer holds Indiana insurance license #3951814 (NPN 18580338).
+- Indiana uses the federal Medigap plan letters (A–N), regulated by the Indiana Department of Insurance. Since 2026 Indiana has a Medigap birthday rule (HEA 1226 of 2025, amended by HEA 1260 of 2026): a policyholder 65 or older can switch to the same plan letter with another insurer, without health questions, in a window that opens 31 days before their birthday and closes 31 days after it; the new policy starts the first of the following month.
+- Since January 1, 2025 (SEA 215, Indiana Code 27-8-13-9.1), Hoosiers under 65 who have Medicare because of a disability or ESRD get their own six-month Medigap open enrollment, and insurers must offer them coverage.
+- Roughly half of Indiana's Medicare beneficiaries are in Medicare Advantage. IU Health Plans, the Advantage plan built on the IU Health system, was acquired by Elevance Health (Anthem's parent) on January 1, 2025, and its members were moved to Anthem plans for 2026. Nationally UnitedHealthcare and Humana withdrew from hundreds of counties for 2026, and Humana has announced further exits for 2027.
+- Indiana's SHIP is the State Health Insurance Assistance Program, run by the Indiana Department of Insurance: 800-452-4800, with counseling sites across the state.
+- Indiana Medicaid is administered by the Family and Social Services Administration (FSSA). Since July 1, 2024, Hoosiers 60 and older who qualify for Medicaid on the basis of age, blindness or disability, including people with both Medicare and Medicaid, receive it through Indiana PathWays for Aging, a managed-care program run by Anthem, Humana and UnitedHealthcare. Apply through the FSSA Benefits Portal or 800-403-0864. Medicare Savings Programs (QMB, SLMB, QI) are handled by FSSA's Division of Family Resources and automatically qualify the enrollee for Part D Extra Help. HoosierRx, the state pharmaceutical assistance program, pays up to $70 a month toward a Part D premium for eligible Hoosiers 65 and older.
+- Indiana is home to more than 325,000 veterans. VA care runs through the Richard L. Roudebush VA Medical Center in Indianapolis, the VA Northern Indiana Health Care System (Fort Wayne and Marion campuses) and the Evansville VA Health Care Center, part of the Marion, Illinois VA. Indiana's main installations are Naval Support Activity Crane and Grissom Air Reserve Base.
+- Many Hoosiers winter in Florida or Arizona, and many along the borders use hospitals in Louisville, Cincinnati and Chicago. A Medigap policy with Original Medicare works in every state; most Medicare Advantage HMOs cover only emergencies out of area.
+
+## Verified 2026 figures (CMS)
+- Medicare Part B standard premium: $202.90/month; annual deductible: $283
+- Part A hospital deductible: $1,736 per benefit period
+- Part D out-of-pocket cap: $2,100/year; maximum deductible: $615; national base premium: $38.99
+- IRMAA (income surcharge) begins above $109,000 (single) / $218,000 (joint), based on 2024 MAGI
+
+## Pages
+- [Home](https://www.ecosinsurancesolutions.com/indiana): free, plain-English Medicare help across Indiana
+- [Medicare Advantage plans in Indiana](https://www.ecosinsurancesolutions.com/indiana/medicare-advantage): Medicare Advantage (Part C) in Indiana: how hospital-system networks and bundled benefits work, the IU Health Plans transition to Anthem for 2026, the national 2026 carrier exits, and what a non-renewal notice gives you
+- [Medicare Supplement (Medigap) plans in Indiana, including the birthday rule](https://www.ecosinsurancesolutions.com/indiana/medicare-supplement): Medicare Supplement (Medigap) in Indiana: standardized plans A-N, the six-month open enrollment, the Indiana Medigap birthday rule (HEA 1226 / HEA 1260, 2026), under-65 guaranteed issue (SEA 215, 2025), guaranteed-issue events, comparing carriers on filed rate history
+- [Medicare Part D plans in Indiana](https://www.ecosinsurancesolutions.com/indiana/part-d): Part D drug plans in Indiana: 2026 $2,100 cap, choosing by your medications and pharmacy, penalties, Extra Help through Indiana Medicare Savings Programs, and HoosierRx premium help
+- [2026 Medicare costs, full IRMAA chart, and penalty/IRMAA calculators](https://www.ecosinsurancesolutions.com/indiana/medicare-costs): 2026 Medicare costs: Part A/B/D premiums and deductibles, the full IRMAA chart, and calculators for IRMAA and the Part B / Part D late penalties
+- [Turning 65 in Indiana guide](https://www.ecosinsurancesolutions.com/indiana/turning-65): Turning 65 in Indiana: enrollment windows, the parts of Medicare, the choice between Advantage and Medigap, union and employer retiree plans, deadlines with lifelong penalties, and a checklist
+- [Medicare for Hoosier snowbirds and border commuters](https://www.ecosinsurancesolutions.com/indiana/snowbirds): Medicare for Indiana snowbirds who winter in Florida, Arizona or the Gulf Coast, and for Hoosiers who cross into Kentucky, Ohio, Illinois or Michigan for care: which plans work out of area, residency rules, Part D away from home
+- [Medicare for Indiana veterans and military retirees](https://www.ecosinsurancesolutions.com/indiana/veterans): Medicare for Indiana veterans and military retirees: TRICARE For Life vs VA coordination, the Part B timing mistake, Indiana's VA medical centers (Roudebush, VA Northern Indiana, Evansville), NSA Crane and Grissom ARB
+- [Medicare + Indiana Medicaid: PathWays for Aging, Medicare Savings Programs, Extra Help, HoosierRx](https://www.ecosinsurancesolutions.com/indiana/medicaid): Medicare and Indiana Medicaid (dual eligible): Indiana PathWays for Aging (60+, since July 2024; Anthem, Humana, UnitedHealthcare), Medicare Savings Programs (QMB/SLMB/QI) through FSSA, Extra Help, HoosierRx, D-SNPs, applying through the FSSA Benefits Portal
+- [Chronic Special Needs Plans (C-SNP) in Indiana](https://www.ecosinsurancesolutions.com/indiana/chronic-snp): Chronic Special Needs Plans (C-SNP) in Indiana for qualifying chronic conditions
+- [Institutional Special Needs Plans (I-SNP) in Indiana](https://www.ecosinsurancesolutions.com/indiana/institutional-snp): Institutional Special Needs Plans (I-SNP) in Indiana for facility-level care
+- [Retire With Confidence — free 295-page retirement guide](https://www.ecosinsurancesolutions.com/indiana/retirement-guide): Medicare, Social Security, and the money decisions that decide your retirement. Free 295-page 2026 guide, emailed on request by a licensed Indiana agent
+- [About Darin Weidauer](https://www.ecosinsurancesolutions.com/indiana/about): credentials, licensing, compensation disclosure
+- [FAQ](https://www.ecosinsurancesolutions.com/indiana/faq): the questions Hoosiers ask most
+- [Medicare help in Indianapolis (Marion County)](https://www.ecosinsurancesolutions.com/indiana/indianapolis)
+- [Medicare help in Fort Wayne (Allen County)](https://www.ecosinsurancesolutions.com/indiana/fort-wayne)
+- [Medicare help in Evansville (Vanderburgh County)](https://www.ecosinsurancesolutions.com/indiana/evansville)
+- [Medicare help in South Bend (St. Joseph County)](https://www.ecosinsurancesolutions.com/indiana/south-bend)
+- [Medicare help in Carmel (Hamilton County)](https://www.ecosinsurancesolutions.com/indiana/carmel)
+- [Medicare help in Fishers (Hamilton County)](https://www.ecosinsurancesolutions.com/indiana/fishers)
+- [Medicare help in Noblesville (Hamilton County)](https://www.ecosinsurancesolutions.com/indiana/noblesville)
+- [Medicare help in Greenwood (Johnson County)](https://www.ecosinsurancesolutions.com/indiana/greenwood)
+- [Medicare help in Kokomo (Howard County)](https://www.ecosinsurancesolutions.com/indiana/kokomo)
+- [Medicare help in Anderson (Madison County)](https://www.ecosinsurancesolutions.com/indiana/anderson)
+- [Medicare help in Bloomington (Monroe County)](https://www.ecosinsurancesolutions.com/indiana/bloomington)
+- [Medicare help in Hammond (Lake County)](https://www.ecosinsurancesolutions.com/indiana/hammond)
+- [Medicare help in Gary (Lake County)](https://www.ecosinsurancesolutions.com/indiana/gary)
+- [Medicare help in Lafayette (Tippecanoe County)](https://www.ecosinsurancesolutions.com/indiana/lafayette)
+- [Medicare help in Muncie (Delaware County)](https://www.ecosinsurancesolutions.com/indiana/muncie)
+- [Medicare help in Terre Haute (Vigo County)](https://www.ecosinsurancesolutions.com/indiana/terre-haute)
+- [Medicare help in Elkhart (Elkhart County)](https://www.ecosinsurancesolutions.com/indiana/elkhart)
+- [Medicare help in Mishawaka (St. Joseph County)](https://www.ecosinsurancesolutions.com/indiana/mishawaka)
+- [Medicare help in Columbus (Bartholomew County)](https://www.ecosinsurancesolutions.com/indiana/columbus)
+- [Medicare help in Jeffersonville &amp; New Albany (Clark and Floyd counties)](https://www.ecosinsurancesolutions.com/indiana/jeffersonville-new-albany)
+- [Medicare help across Indianapolis Metro & Central Indiana](https://www.ecosinsurancesolutions.com/indiana/central-indiana): counties Marion, Hamilton, Hendricks, Johnson, Hancock, Boone, Morgan, Shelby, Madison, Howard, Tipton, Clinton, Putnam
+- [Medicare help across Northwest Indiana & the Region](https://www.ecosinsurancesolutions.com/indiana/northwest-indiana): counties Lake, Porter, LaPorte, Jasper, Newton, Starke, Pulaski
+- [Medicare help across South Bend, Elkhart & North Central Indiana](https://www.ecosinsurancesolutions.com/indiana/north-central-indiana): counties St. Joseph, Elkhart, Marshall, Kosciusko, Fulton, Cass, Miami
+- [Medicare help across Fort Wayne & Northeast Indiana](https://www.ecosinsurancesolutions.com/indiana/northeast-indiana): counties Allen, DeKalb, Steuben, LaGrange, Noble, Whitley, Huntington, Wells, Adams, Wabash, Grant
+- [Medicare help across Lafayette, Terre Haute & the Wabash Valley](https://www.ecosinsurancesolutions.com/indiana/west-central-indiana): counties Tippecanoe, White, Carroll, Benton, Warren, Fountain, Montgomery, Vermillion, Parke, Vigo, Clay, Sullivan
+- [Medicare help across Muncie, Richmond & East Central Indiana](https://www.ecosinsurancesolutions.com/indiana/east-central-indiana): counties Delaware, Henry, Randolph, Jay, Blackford, Wayne, Fayette, Union, Rush
+- [Medicare help across Evansville & Southwest Indiana](https://www.ecosinsurancesolutions.com/indiana/southwest-indiana): counties Vanderburgh, Warrick, Posey, Gibson, Pike, Dubois, Spencer, Perry, Knox, Daviess, Martin
+- [Medicare help across Bloomington, Columbus & South Central Indiana](https://www.ecosinsurancesolutions.com/indiana/south-central-indiana): counties Monroe, Brown, Bartholomew, Jackson, Lawrence, Orange, Washington, Greene, Owen
+- [Medicare help across Southeast Indiana & the Ohio River towns](https://www.ecosinsurancesolutions.com/indiana/southeast-indiana): counties Clark, Floyd, Harrison, Crawford, Scott, Jefferson, Switzerland, Ohio, Dearborn, Ripley, Franklin, Decatur, Jennings
+- [Privacy Policy](https://www.ecosinsurancesolutions.com/indiana/privacy)
+- [Terms of Use](https://www.ecosinsurancesolutions.com/indiana/terms)
+
+## Same agency, other sites
+- [Medicare Enrollment Arizona](https://www.ecosinsurancesolutions.com/arizona)
+- [California Medicare Enrollment](https://www.ecosinsurancesolutions.com/california)
+- [Colorado Medicare Enrollment](https://www.ecosinsurancesolutions.com/colorado)
+- [Medicare Enrollment Florida](https://www.ecosinsurancesolutions.com/florida)
+- [Georgia Medicare Enrollment](https://www.ecosinsurancesolutions.com/georgia)
+- [Hawaii Medicare Enrollment](https://www.ecosinsurancesolutions.com/hawaii)
+- [Minnesota Medicare Enrollment](https://www.ecosinsurancesolutions.com/minnesota)
+- [Medicare Enrollment Nevada](https://www.ecosinsurancesolutions.com/nevada)
+- [New Mexico Medicare Enrollment](https://www.ecosinsurancesolutions.com/new-mexico)
+- [North Carolina Medicare Enrollment](https://www.ecosinsurancesolutions.com/north-carolina)
+- [Ohio Medicare Enrollment](https://www.ecosinsurancesolutions.com/ohio)
+- [South Carolina Medicare Enrollment](https://www.ecosinsurancesolutions.com/south-carolina)
+- [Tennessee Medicare Quotes](https://www.ecosinsurancesolutions.com/tennessee)
+- [Texas Medicare Enrollment](https://www.ecosinsurancesolutions.com/texas)
+- [Medicare Enrollment Utah](https://www.ecosinsurancesolutions.com/utah)
+- [Washington Medicare Enrollment](https://www.ecosinsurancesolutions.com/washington)
+- [MyMedigapRate — Medigap rate research](https://www.mymedigaprate.com)
+- [MyECOS360 — Darin's author page](https://www.myecos360.com/darin-weidauer)
+
+## Compliance
+We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov, 1-800-MEDICARE, or Indiana SHIP (the State Health Insurance Assistance Program, run by the Indiana Department of Insurance, 800-452-4800) to get information on all of your options. Not affiliated with or endorsed by the U.S. government or the federal Medicare program. This is a solicitation for insurance.

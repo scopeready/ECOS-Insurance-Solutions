@@ -11,16 +11,23 @@ state, all deployed together from this repository through Vercel.
 | `/colorado` | coloradomedicareenrollment.com | 44 |
 | `/florida` | medicareenrollmentflorida.com | 52 |
 | `/georgia` | georgiamedicareenrollment.com | 36 |
+| `/hawaii` | new, built here | 47 |
+| `/indiana` | new, built here | 47 |
 | `/minnesota` | minnesotamedicareenrollment.com | 42 |
 | `/nevada` | medicareenrollmentnevada.com | 51 |
+| `/new-mexico` | new, built here | 47 |
+| `/north-carolina` | new, built here | 50 |
+| `/ohio` | new, built here | 48 |
+| `/south-carolina` | new, built here | 49 |
 | `/tennessee` | tennesseemedicarequotes.com | 46 |
 | `/texas` | texasmedicareenrollment.com | 47 |
 | `/utah` | medicareenrollmentutah.com | 40 |
+| `/washington` | new, built here | 53 |
 
 The root (`index.html`) is the hub: it lists the states with their local phone numbers
-and links out to the research sites. Everything under a state folder is the original
-site, moved, with its links, canonicals and sitemap rewritten to the new address. No
-copy was rewritten and no page was rebuilt.
+and links out to the research sites. The ten moved sections are the original sites with
+their links, canonicals and sitemaps rewritten to the new address; the seven new sections
+were built here with the shared generator (`docs/state-build-brief.md`).
 
 ## Layout
 

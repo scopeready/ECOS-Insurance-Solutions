@@ -5,10 +5,12 @@ Guidance for Claude Code when working in this repository.
 ## What this is
 
 The consolidated ECOS Medicare Solutions website (agent: Darin Weidauer, NPN 18580338),
-live at https://www.ecosinsurancesolutions.com. Ten former single-state sites now live
-here as sections: `/arizona`, `/california`, `/colorado`, `/florida`, `/georgia`,
-`/minnesota`, `/nevada`, `/tennessee`, `/texas`, `/utah`. The root `index.html` is a hub
-that lists them. Static HTML, no framework, no build step; hosted on Vercel, auto-deploying
+live at https://www.ecosinsurancesolutions.com. Seventeen state sections: ten former
+single-state sites moved in (`/arizona`, `/california`, `/colorado`, `/florida`, `/georgia`,
+`/minnesota`, `/nevada`, `/tennessee`, `/texas`, `/utah`) and seven built here with the
+generator (`/hawaii`, `/indiana`, `/new-mexico`, `/north-carolina`, `/ohio`,
+`/south-carolina`, `/washington`; see `docs/state-build-brief.md`). The root `index.html`
+is a hub that lists them. Static HTML, no framework, no build step; hosted on Vercel, auto-deploying
 from `main`.
 
 Read `README.md` for the layout, and `docs/state-notes/<state>.md` before editing a state
@@ -20,11 +22,12 @@ people who built it. Those rules still apply.
 
 Three template families were consolidated. Respect each one's conventions inside its folder:
 
-- **Generator family** (California, Florida, Minnesota, Texas, Utah): built by
-  `tools/generators/<state>/generate.py`. The generator writes root-absolute links for a
-  site at `/`, so re-running it into a state folder needs the same `/<state>` prefixing
-  that `scripts/migrate.py` does. Until the generator is taught the prefix, hand-edits in
-  these folders are the practical route; keep them small and note them in the state's doc.
+- **Generator family** (California, Florida, Minnesota, Texas, Utah, and the seven new
+  states): built by `tools/generators/<state>/generate.py`. Never hand-edit these folders;
+  edit the `content_*.py` modules and run `python3 tools/build_state.py <state> --og`,
+  which prefixes every link with `/<state>` and copies the result in. Adding a state:
+  build it, then run `scripts/update_network.py`, rebuild every generator state, and add
+  the hub card, footer entry, sitemap-index line and root `llms.txt` line.
 - **Nevada template family** (Colorado, Nevada, Tennessee): hand-editable flat HTML; the
   Python build scripts were never in the repos. Header, nav, footer and JSON-LD are
   duplicated in every page, so a site-wide change in one of these folders means editing

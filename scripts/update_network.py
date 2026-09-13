@@ -106,7 +106,10 @@ def fix_generator_source(path, own):
 
 
 def main():
+    global STATES
     root = os.getcwd()
+    # Only link sections that exist; the list grows as states are built and this script is re-run.
+    STATES = [t for t in STATES if os.path.isdir(os.path.join(root, t[0]))]
     changed = 0
     for slug, _, _ in STATES:
         d = os.path.join(root, slug)

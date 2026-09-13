@@ -1,0 +1,94 @@
+# ECOS Medicare Solutions — Ohio
+
+> Free, plain-English Medicare guidance for Ohio retirees and people approaching 65. Compare Medicare Advantage, Medicare Supplement (Medigap) and Part D drug plans with a credentialed, independent agent at no cost. Statewide service by phone and video, across all 88 counties from Cleveland, Columbus and Cincinnati to Toledo, Dayton, Youngstown and the Ohio River valley.
+
+Contact: (702) 706-6564 · darinweidauer@ecos.care · https://www.ecosinsurancesolutions.com/ohio
+
+## About
+ECOS Medicare Solutions is an independent Medicare insurance agency serving the State of Ohio. Agent: Darin Weidauer, MBA, RSSA — gerontologist, Registered Social Security Analyst, 22-year U.S. Air Force veteran, licensed in Ohio, NPN 18580338, OH License #1616139. Help is free to the consumer; independent agents are paid by carriers at enrollment, and the premium is the same whichever way you buy. Author page: https://www.myecos360.com/darin-weidauer
+
+## What to know about Medicare in Ohio
+- Darin Weidauer holds Ohio insurance license #1616139 (NPN 18580338).
+- Ohio uses the federal Medigap plan letters (A–N) and has no birthday or anniversary rule; outside the six-month open enrollment at 65 and guaranteed-issue events, Ohio insurers can use medical underwriting. Ohio does not require insurers to sell Medigap to people under 65 on Medicare because of a disability. The Ohio Department of Insurance regulates Medigap.
+- Ohio has roughly 2.1 million Medicare beneficiaries. For 2026 Medical Mutual of Ohio did not renew some plans in 44 counties and Aetna ended its Smart Fit plan; the national carriers scaled back county footprints as well, and Humana has announced further reductions for 2027. Ohio-based Medicare Advantage carriers include Medical Mutual (MedMutual Advantage and Paramount Elite), MediGold (Mount Carmel / Trinity Health) and SummaCare (Summa Health).
+- Ohio's SHIP is the Ohio Senior Health Insurance Information Program (OSHIIP), part of the Ohio Department of Insurance since 1992: 800-686-1578.
+- Ohio Medicaid is administered by the Ohio Department of Medicaid; apply at benefits.ohio.gov or 800-324-8680. People with both Medicare and Medicaid are served by MyCare Ohio, which relaunched on January 1, 2026 as Next Generation MyCare, a fully integrated dual-eligible special needs plan (FIDE-SNP) offered by Anthem Blue Cross and Blue Shield, Buckeye Health Plan, CareSource and Molina Healthcare of Ohio, starting in the original 29 counties and scheduled to reach all 88 by August 1, 2026. Medicare Savings Programs (QMB, SLMB, QI) are handled by Ohio Medicaid and automatically qualify the enrollee for Part D Extra Help.
+- Ohio public pension retirees keep employer coverage that decides their Medicare choice: OPERS pays a Health Reimbursement Arrangement only when the retiree buys a Medicare plan through Via Benefits (the OPERS Connector); STRS Ohio and SERS Ohio enrol Medicare-eligible retirees in a group Aetna Medicare Advantage PPO; OP&F pays a stipend through Alight Retiree Health Solutions. All require Medicare Parts A and B.
+- Ohio has about 606,000 veterans (Census Bureau 2020–2024 estimate). VA care runs through the Louis Stokes Cleveland VA Medical Center, the Cincinnati, Dayton and Chillicothe VA Medical Centers and the Chalmers P. Wylie VA Ambulatory Care Center in Columbus. Wright-Patterson Air Force Base near Dayton anchors a large Air Force retiree community; the Defense Supply Center Columbus in Whitehall is the ID-card and retiree hub for central Ohio.
+
+## Verified 2026 figures (CMS)
+- Medicare Part B standard premium: $202.90/month; annual deductible: $283
+- Part A hospital deductible: $1,736 per benefit period
+- Part D out-of-pocket cap: $2,100/year; maximum deductible: $615; national base premium: $38.99
+- IRMAA (income surcharge) begins above $109,000 (single) / $218,000 (joint), based on 2024 MAGI
+
+## Pages
+- [Home](https://www.ecosinsurancesolutions.com/ohio): free, plain-English Medicare help across Ohio
+- [Medicare Advantage plans in Ohio](https://www.ecosinsurancesolutions.com/ohio/medicare-advantage): Medicare Advantage (Part C) in Ohio: how hospital-system networks and bundled benefits work, Ohio-based carriers, the 2026 plan non-renewals, and what a non-renewal notice gives you
+- [Medicare Supplement (Medigap) plans in Ohio](https://www.ecosinsurancesolutions.com/ohio/medicare-supplement): Medicare Supplement (Medigap) in Ohio: standardized plans A-N, the six-month open enrollment, no birthday rule, no under-65 requirement, guaranteed-issue events including Ohio’s Medicaid-disenrollment window, comparing carriers on filed rate history
+- [Medicare Part D plans in Ohio](https://www.ecosinsurancesolutions.com/ohio/part-d): Part D drug plans in Ohio: 2026 $2,100 cap, choosing by your medications and pharmacy, penalties, Extra Help through Ohio Medicare Savings Programs, retiree drug coverage from STRS, SERS and the UAW trust
+- [2026 Medicare costs, full IRMAA chart, and penalty/IRMAA calculators](https://www.ecosinsurancesolutions.com/ohio/medicare-costs): 2026 Medicare costs: Part A/B/D premiums and deductibles, the full IRMAA chart, and calculators for IRMAA and the Part B / Part D late penalties
+- [Turning 65 in Ohio guide](https://www.ecosinsurancesolutions.com/ohio/turning-65): Turning 65 in Ohio: enrollment windows, the parts of Medicare, the choice between Advantage and Medigap by county and hospital system, public-pension retiree steps, deadlines with lifelong penalties, and a checklist
+- [Medicare for Ohio public-pension and union retirees: OPERS, STRS, SERS, OP&F, UAW trust](https://www.ecosinsurancesolutions.com/ohio/retiree-coverage): Medicare for Ohio public-pension and union retirees: OPERS HRA via Via Benefits, STRS Ohio and SERS Ohio group Aetna Medicare Advantage PPO with SilverScript Part D, OP&F stipend via Alight, UAW Retiree Medical Benefits Trust Part A/B rules, spouses, snowbirds
+- [Medicare for Ohio veterans and military retirees](https://www.ecosinsurancesolutions.com/ohio/veterans): Medicare for Ohio veterans and military retirees: TRICARE For Life vs VA coordination, the Part B timing mistake, Ohio VA medical centers, Wright-Patterson AFB and the Defense Supply Center Columbus retiree communities
+- [Medicare + Ohio Medicaid: Next Generation MyCare Ohio, Medicare Savings Programs, Extra Help](https://www.ecosinsurancesolutions.com/ohio/medicaid): Medicare and Ohio Medicaid (dual eligible): Next Generation MyCare Ohio FIDE-SNP from 2026, Medicare Savings Programs (QMB/SLMB/QI) through the Ohio Department of Medicaid, Extra Help, applying at benefits.ohio.gov
+- [Chronic Special Needs Plans (C-SNP) in Ohio](https://www.ecosinsurancesolutions.com/ohio/chronic-snp): Chronic Special Needs Plans (C-SNP) in Ohio for qualifying chronic conditions, including their role for under-65 beneficiaries who cannot buy Medigap in Ohio
+- [Institutional Special Needs Plans (I-SNP) in Ohio](https://www.ecosinsurancesolutions.com/ohio/institutional-snp): Institutional Special Needs Plans (I-SNP) in Ohio for facility-level care, and how they compare with Next Generation MyCare Ohio when Medicaid pays for care
+- [Retire With Confidence — free 295-page retirement guide](https://www.ecosinsurancesolutions.com/ohio/retirement-guide): Medicare, Social Security, and the money decisions that decide your retirement. Free 295-page 2026 guide, emailed on request by a licensed Ohio agent
+- [About Darin Weidauer](https://www.ecosinsurancesolutions.com/ohio/about): credentials, licensing, compensation disclosure
+- [FAQ](https://www.ecosinsurancesolutions.com/ohio/faq): the questions Ohioans ask most
+- [Medicare help in Columbus (Franklin County)](https://www.ecosinsurancesolutions.com/ohio/columbus)
+- [Medicare help in Cleveland (Cuyahoga County)](https://www.ecosinsurancesolutions.com/ohio/cleveland)
+- [Medicare help in Cincinnati (Hamilton County)](https://www.ecosinsurancesolutions.com/ohio/cincinnati)
+- [Medicare help in Toledo (Lucas County)](https://www.ecosinsurancesolutions.com/ohio/toledo)
+- [Medicare help in Akron (Summit County)](https://www.ecosinsurancesolutions.com/ohio/akron)
+- [Medicare help in Dayton (Montgomery County)](https://www.ecosinsurancesolutions.com/ohio/dayton)
+- [Medicare help in Parma (Cuyahoga County)](https://www.ecosinsurancesolutions.com/ohio/parma)
+- [Medicare help in Canton (Stark County)](https://www.ecosinsurancesolutions.com/ohio/canton)
+- [Medicare help in Youngstown (Mahoning County)](https://www.ecosinsurancesolutions.com/ohio/youngstown)
+- [Medicare help in Lorain (Lorain County)](https://www.ecosinsurancesolutions.com/ohio/lorain)
+- [Medicare help in Hamilton (Butler County)](https://www.ecosinsurancesolutions.com/ohio/hamilton)
+- [Medicare help in Springfield (Clark County)](https://www.ecosinsurancesolutions.com/ohio/springfield)
+- [Medicare help in Kettering (Montgomery County)](https://www.ecosinsurancesolutions.com/ohio/kettering)
+- [Medicare help in Elyria (Lorain County)](https://www.ecosinsurancesolutions.com/ohio/elyria)
+- [Medicare help in Lakewood (Cuyahoga County)](https://www.ecosinsurancesolutions.com/ohio/lakewood)
+- [Medicare help in Newark (Licking County)](https://www.ecosinsurancesolutions.com/ohio/newark)
+- [Medicare help in Mansfield (Richland County)](https://www.ecosinsurancesolutions.com/ohio/mansfield)
+- [Medicare help in Findlay (Hancock County)](https://www.ecosinsurancesolutions.com/ohio/findlay)
+- [Medicare help in Zanesville (Muskingum County)](https://www.ecosinsurancesolutions.com/ohio/zanesville)
+- [Medicare help in Lancaster (Fairfield County)](https://www.ecosinsurancesolutions.com/ohio/lancaster)
+- [Medicare near Wright-Patterson Air Force Base, Fairborn and Beavercreek](https://www.ecosinsurancesolutions.com/ohio/wright-patterson-afb)
+- [Medicare for military retirees around Defense Supply Center Columbus](https://www.ecosinsurancesolutions.com/ohio/defense-supply-center-columbus)
+- [Medicare help across Northeast Ohio](https://www.ecosinsurancesolutions.com/ohio/northeast-ohio): counties Cuyahoga, Lake, Geauga, Ashtabula, Lorain, Medina, Summit, Portage, Stark, Wayne, Holmes, Mahoning, Trumbull, Columbiana, Ashland, Richland, Crawford
+- [Medicare help across Central Ohio](https://www.ecosinsurancesolutions.com/ohio/central-ohio): counties Franklin, Delaware, Licking, Fairfield, Pickaway, Madison, Union, Morrow, Knox, Marion, Fayette
+- [Medicare help across Southwest Ohio](https://www.ecosinsurancesolutions.com/ohio/southwest-ohio): counties Hamilton, Butler, Warren, Clermont, Clinton, Brown, Montgomery, Greene
+- [Medicare help across Northwest Ohio](https://www.ecosinsurancesolutions.com/ohio/northwest-ohio): counties Lucas, Wood, Fulton, Williams, Defiance, Henry, Paulding, Putnam, Van Wert, Allen, Hancock, Hardin, Wyandot, Seneca, Sandusky, Ottawa, Erie, Huron
+- [Medicare help across West Central Ohio](https://www.ecosinsurancesolutions.com/ohio/west-central-ohio): counties Clark, Champaign, Logan, Miami, Shelby, Darke, Mercer, Auglaize, Preble
+- [Medicare help across East Ohio & the Appalachian counties](https://www.ecosinsurancesolutions.com/ohio/east-ohio-appalachian): counties Muskingum, Coshocton, Tuscarawas, Carroll, Harrison, Jefferson, Belmont, Guernsey, Noble, Monroe, Perry
+- [Medicare help across Southeast Ohio & the Ohio River](https://www.ecosinsurancesolutions.com/ohio/southeast-ohio-river): counties Washington, Athens, Meigs, Gallia, Lawrence, Morgan
+- [Medicare help across South Central Ohio](https://www.ecosinsurancesolutions.com/ohio/south-central-ohio): counties Ross, Pike, Scioto, Adams, Highland, Jackson, Vinton, Hocking
+- [Privacy Policy](https://www.ecosinsurancesolutions.com/ohio/privacy)
+- [Terms of Use](https://www.ecosinsurancesolutions.com/ohio/terms)
+
+## Same agency, other sites
+- [Medicare Enrollment Arizona](https://www.ecosinsurancesolutions.com/arizona)
+- [California Medicare Enrollment](https://www.ecosinsurancesolutions.com/california)
+- [Colorado Medicare Enrollment](https://www.ecosinsurancesolutions.com/colorado)
+- [Medicare Enrollment Florida](https://www.ecosinsurancesolutions.com/florida)
+- [Georgia Medicare Enrollment](https://www.ecosinsurancesolutions.com/georgia)
+- [Hawaii Medicare Enrollment](https://www.ecosinsurancesolutions.com/hawaii)
+- [Indiana Medicare Enrollment](https://www.ecosinsurancesolutions.com/indiana)
+- [Minnesota Medicare Enrollment](https://www.ecosinsurancesolutions.com/minnesota)
+- [Medicare Enrollment Nevada](https://www.ecosinsurancesolutions.com/nevada)
+- [New Mexico Medicare Enrollment](https://www.ecosinsurancesolutions.com/new-mexico)
+- [North Carolina Medicare Enrollment](https://www.ecosinsurancesolutions.com/north-carolina)
+- [South Carolina Medicare Enrollment](https://www.ecosinsurancesolutions.com/south-carolina)
+- [Tennessee Medicare Quotes](https://www.ecosinsurancesolutions.com/tennessee)
+- [Texas Medicare Enrollment](https://www.ecosinsurancesolutions.com/texas)
+- [Medicare Enrollment Utah](https://www.ecosinsurancesolutions.com/utah)
+- [Washington Medicare Enrollment](https://www.ecosinsurancesolutions.com/washington)
+- [MyMedigapRate — Medigap rate research](https://www.mymedigaprate.com)
+- [MyECOS360 — Darin's author page](https://www.myecos360.com/darin-weidauer)
+
+## Compliance
+We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov, 1-800-MEDICARE, or the Ohio Senior Health Insurance Information Program (OSHIIP, Ohio’s State Health Insurance Assistance Program, run by the Ohio Department of Insurance, 800-686-1578) to get information on all of your options. Not affiliated with or endorsed by the U.S. government or the federal Medicare program. This is a solicitation for insurance.
