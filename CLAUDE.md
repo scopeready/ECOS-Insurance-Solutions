@@ -10,8 +10,18 @@ single-state sites moved in (`/arizona`, `/california`, `/colorado`, `/florida`,
 `/minnesota`, `/nevada`, `/tennessee`, `/texas`, `/utah`) and seven built here with the
 generator (`/hawaii`, `/indiana`, `/new-mexico`, `/north-carolina`, `/ohio`,
 `/south-carolina`, `/washington`; see `docs/state-build-brief.md`). The root `index.html`
-is a hub that lists them. Static HTML, no framework, no build step; hosted on Vercel, auto-deploying
-from `main`.
+is the homepage: it lists the states, carries the enrollment module (call, free plan review,
+online comparison), the four offices, the review form and the About section. Its form redirects
+to the root `thank-you.html` (noindex). Static HTML, no framework, no build step; hosted on
+Vercel, auto-deploying from `main`.
+
+The root `assets/` folder holds the navy-and-gold brand assets the homepage uses (logo SVGs,
+favicon, hero image). It is served but is not a state section; `scripts/check_links.py` lists
+it in `ASSET_DIRS` so it is not expected to carry an index, sitemap, llms.txt or 404.
+
+The homepage phone rule: 424-295-0627 is the **national number**, labelled as such wherever it
+appears, and it is the number shown for every state and office with no local line (Seal Beach
+included). Arizona, Colorado, Georgia, Nevada and Florida keep their local lines.
 
 Read `README.md` for the layout, and `docs/state-notes/<state>.md` before editing a state
 section: each note carries that state's rules (Medigap plan structure, Medicaid program
