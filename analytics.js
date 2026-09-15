@@ -1,35 +1,36 @@
-/* ECOS Medicare Solutions — site analytics (Google Analytics 4)
+/* ECOS Insurance Solutions — site analytics (Google Analytics 4), v2
  *
- * ONE place to configure. Replace MEASUREMENT_ID below with this site's GA4
- * Measurement ID (Google Analytics -> Admin -> Data Streams -> your web stream).
- * It looks like G-ABC123XYZ4.
- *
- * Until a real ID is set, this file does nothing at all -- no network requests,
- * no broken hits. That is deliberate: a placeholder that silently fails looks
- * installed while collecting zero data.
+ * Drop-in replacement for /analytics.js. Same Measurement ID, same two
+ * events as before, plus one new event for the online-enrollment links.
  *
  * Tracks, beyond standard pageviews:
- *   click_to_call  -- every tap/click on a phone number, labelled by where on
- *                     the page it sat (header, hero, footer, call-to-action...)
- *   generate_lead  -- every lead form submitted, labelled by page and form
+ *   click_to_call        every tap/click on a phone number, labelled by where on
+ *                        the page it sat and which number it was
+ *   generate_lead        every lead form submitted
+ *   click_enroll_online  every click on an outbound enrollment/quote link
+ *                        (DestinationRx PlanCompare, PlanEnroll). A click is NOT
+ *                        an enrollment: it only means the visitor left for the
+ *                        platform. Completed enrollments are reported by the
+ *                        platform operator, not by this site.
  *
- * Mark BOTH as key events (conversions) in GA4:
- *   Admin -> Events -> toggle "Mark as key event"
+ * Mark click_to_call and generate_lead as key events in GA4. Leave
+ * click_enroll_online as a plain event so the two are never added together.
+ *
+ * Outbound links are recognised by host, so no page markup has to change:
+ *   destinationrx.com  -> platform "destinationrx"
+ *   planenroll.com     -> platform "planenroll"
+ * A link may also carry data-enroll="destinationrx|planenroll" to force it.
  */
 (function () {
   var MEASUREMENT_ID = 'G-7CXH7ZLSP1';
 
-  // Refuse to run on an unconfigured or malformed ID.
-  // The all-X placeholder is itself a valid-looking A-Z string, so it is
-  // rejected explicitly -- otherwise an unconfigured site fires live hits.
   if (!/^G-[A-Z0-9]{8,12}$/.test(MEASUREMENT_ID) || /^G-X+$/.test(MEASUREMENT_ID)) {
     if (window.console && console.info) {
-      console.info('[analytics] No GA4 Measurement ID configured yet — tracking is off. Set MEASUREMENT_ID in analytics.js.');
+      console.info('[analytics] No GA4 Measurement ID configured yet — tracking is off.');
     }
     return;
   }
 
-  // --- Standard GA4 loader -------------------------------------------------
   var s = document.createElement('script');
   s.async = true;
   s.src = 'https://www.googletagmanager.com/gtag/js?id=' + MEASUREMENT_ID;
@@ -41,20 +42,21 @@
   gtag('js', new Date());
   gtag('config', MEASUREMENT_ID);
 
-  // --- Helpers -------------------------------------------------------------
-  // Describe where on the page an element sits, so you can tell a header call
-  // from a footer call.
+  // Where on the page an element sits. Covers the hub homepage (new classes),
+  // the state templates and the legacy templates.
   function placement(el) {
-    // Covers all three ECOS sites, whose templates use different class names.
     var map = [
-      ['.top-bar', 'top bar'],
-      ['.site-header', 'header'], ['.site-head', 'header'],            // NV/GA, AZ
-      ['.callcard', 'hero call card'], ['.cta-strip', 'cta strip'],    // AZ
-      ['.bottom-cta', 'bottom cta'],                                   // NV/GA
+      ['.top-bar', 'top bar'], ['.topbar', 'top bar'],
+      ['.site-header', 'header'], ['.site-head', 'header'], ['header.site', 'header'],
+      ['.enroll-module', 'enrollment module'],
+      ['.offices', 'offices'],
+      ['.callcard', 'hero call card'], ['.cta-strip', 'cta strip'],
+      ['.bottom-cta', 'bottom cta'],
       ['.hero', 'hero'], ['.inner-hero', 'hero'],
-      ['.lead-card', 'lead form'], ['.form-card', 'lead form'],
+      ['.lead-card', 'lead form'], ['.form-card', 'lead form'], ['.review-form', 'lead form'],
+      ['.state-grid', 'state grid'],
       ['.faq-list', 'faq'], ['.page-links', 'page links'],
-      ['.site-footer', 'footer'], ['.site-foot', 'footer'], ['.tpmo', 'footer'],
+      ['.site-footer', 'footer'], ['.site-foot', 'footer'], ['footer', 'footer'], ['.tpmo', 'footer'],
       ['.band', 'body content']
     ];
     for (var i = 0; i < map.length; i++) {
@@ -64,13 +66,20 @@
   }
 
   function pageInfo() {
-    return {
-      page_path: location.pathname,
-      page_title: (document.title || '').slice(0, 100)
-    };
+    return { page_path: location.pathname, page_title: (document.title || '').slice(0, 100) };
   }
 
-  // --- click_to_call -------------------------------------------------------
+  function platformFor(a) {
+    var forced = a.getAttribute('data-enroll');
+    if (forced) return forced;
+    var host = '';
+    try { host = new URL(a.href, location.href).hostname; } catch (e) { return ''; }
+    if (/destinationrx\.com$/i.test(host)) return 'destinationrx';
+    if (/planenroll\.com$/i.test(host)) return 'planenroll';
+    return '';
+  }
+
+  // click_to_call
   document.addEventListener('click', function (e) {
     var a = e.target && e.target.closest && e.target.closest('a[href^="tel:"]');
     if (!a) return;
@@ -84,9 +93,24 @@
     });
   }, true);
 
-  // --- generate_lead -------------------------------------------------------
-  // Fires on submit. transport_type 'beacon' so the hit survives the page
-  // navigating away to Web3Forms.
+  // click_enroll_online — outbound to the enrollment platforms only.
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var platform = platformFor(a);
+    if (!platform) return;
+    var info = pageInfo();
+    gtag('event', 'click_enroll_online', {
+      platform: platform,
+      link_text: (a.textContent || '').trim().slice(0, 60),
+      link_placement: placement(a),
+      page_path: info.page_path,
+      page_title: info.page_title,
+      transport_type: 'beacon'
+    });
+  }, true);
+
+  // generate_lead
   document.addEventListener('submit', function (e) {
     var f = e.target;
     if (!f || f.tagName !== 'FORM') return;
