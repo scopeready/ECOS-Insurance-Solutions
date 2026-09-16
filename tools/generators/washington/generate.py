@@ -101,6 +101,7 @@ def footer():
       {bases}
     </nav>
     <div class="footer-net"><span>Our network of sites:</span> {net}</div>
+    <div class="enroll-self" style="margin:0 0 1.2em;padding:14px 16px;border:1px solid rgba(255,255,255,.28);border-radius:10px;font-size:.95rem;line-height:1.5"><strong>Prefer to enroll on your own?</strong> <a href="https://my.destinationrx.com/hub/s/S3TQKLMRA" target="_blank" rel="noopener">Search plans and enroll online</a> at your own pace, or visit <a href="{S['quote_url']}" target="_blank" rel="noopener">{S['quote_url'].replace('https://','')}</a>. Both open in a new tab, so this site stays open for you to come back to. Questions at any step? Call and {A_FIRST} will walk you through it.</div>
     <div class="disclaimer">
       <p><strong>Medicare disclaimer.</strong> {S["tpmo"]}</p>
       <p>{ORG} is not connected with or endorsed by the U.S. government or the federal Medicare program, and is not affiliated with {S["not_affiliated"]}, the U.S. Department of Veterans Affairs, the Department of Defense, or the TRICARE program. This is a solicitation for insurance. A licensed insurance agent may contact you.</p>
