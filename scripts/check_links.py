@@ -26,6 +26,8 @@ OLD_DOMAINS = ["georgiamedicareenrollment.com", "medicareenrollmentarizona.com",
                "tennesseemedicarequotes.com", "texasmedicareenrollment.com", "medicareenrollmentutah.com",
                "medicareenrollmentflorida.com"]
 IGNORE_DIRS = {".git", "scripts", "tools", "docs", "node_modules"}
+# Served, but not a state section: no index/sitemap/llms/404 expected inside.
+ASSET_DIRS = {"assets"}
 
 
 def served_files(root):
@@ -93,7 +95,7 @@ def main():
                 errors.append(f"{rel}: internal link keeps .html: {r}")
             if not resolves(r, files):
                 errors.append(f"{rel}: broken internal reference {r}")
-    for d in sorted(x for x in os.listdir(root) if os.path.isdir(x) and x not in IGNORE_DIRS):
+    for d in sorted(x for x in os.listdir(root) if os.path.isdir(x) and x not in IGNORE_DIRS and x not in ASSET_DIRS):
         for need in ("index.html", "sitemap.xml", "llms.txt", "404.html"):
             if f"{d}/{need}" not in files:
                 errors.append(f"{d}/: missing {need}")
