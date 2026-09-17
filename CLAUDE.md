@@ -91,6 +91,48 @@ CMS/TPMO rules apply to every page, the hub included.
 - The hub page names the agency as "ECOS Medicare Solutions" inside "ECOS Insurance
   Solutions"; keep the agency name the state pages use unless the user asks to rebrand.
 
+## Free book lead magnet (root site only)
+
+The homepage offers a free copy of *Retire With Confidence: The Medicare Guide* as a
+gated lead magnet (section `#book` in `index.html`, plus a respectful pop-up). This is
+**server-validated**, not a plain Web3Forms POST: the book is never a directly
+downloadable static file, and it is only ever emailed after a real server-side check.
+
+- `assets/book-request.js` — dependency-free client script: renders the request modal
+  (name, email, phone, ZIP, honeypot, optional marketing-consent checkbox linking to
+  `/privacy`), wires every `.js-book-open` button, and runs the pop-up trigger (never
+  before 15s; then the first of 25s or 50% scroll depth; 30-day suppression after a
+  manual dismiss; permanent suppression after a successful submission; never shown on
+  `/privacy`, `/terms`, `/thank-you` or an error page — enforced by not loading the
+  script there, plus a path check as defense in depth). Fires GA4 events
+  `book_offer_displayed`, `book_form_opened`, `book_request_succeeded/failed` — never
+  with a name, email, phone or ZIP in the payload.
+- `api/request-book.js` — `POST` endpoint. Re-validates and sanitizes every field
+  server-side (`api/_lib/validate.js`), rejects a filled honeypot or an implausibly fast
+  submission, applies a best-effort in-process rate limit per IP and per email
+  (`api/_lib/ratelimit.js` — see the note in that file about why a real deployment
+  should pair this with a Vercel Firewall rate-limit rule), then emails the visitor a
+  signed download link and records the lead.
+- `api/download-book.js` — `GET` endpoint gated by a signed, time-limited token
+  (`api/_lib/token.js`; HMAC over an expiry + random nonce, **no personal data in the
+  token or the URL**, no external storage needed to verify it). The PDF's bytes live
+  base64-encoded in `api/_lib/book-pdf-base64.js` (an underscore-prefixed module, so
+  Vercel never turns it into a route or serves it as a static file) — regenerate it from
+  the editable source at `docs/retire-with-confidence-2026.pdf` (already outside the
+  deployment per `.vercelignore`) if the book is ever revised.
+- `api/_lib/email.js` sends through Resend's HTTP API (no SDK). `api/_lib/leads.js`
+  optionally writes to a Supabase `website_leads` table with a **server-side service-role
+  key** (not the anon-key pattern still visible, inert, in `arizona/assets/site.js`);
+  if unset, a lead is never silently dropped — `sendLeadNotification` emails it instead.
+  `api/_lib/ga.js` fires a non-PII GA4 Measurement Protocol event when the emailed link
+  is actually clicked, since that request never touches the client-side script.
+- Required env vars: `BOOK_LINK_SECRET`, `RESEND_API_KEY`, `RESEND_FROM_EMAIL`,
+  `PUBLIC_BASE_URL`. Optional: `LEAD_NOTIFY_EMAIL`, `SUPABASE_URL`,
+  `SUPABASE_SERVICE_ROLE_KEY`, `GA_MEASUREMENT_ID`, `GA_MEASUREMENT_API_SECRET`. None are
+  hard-coded anywhere in this repo — every one must be set in Vercel Project Settings.
+- This currently covers the root hub only. The 17 state sections' own `retirement-guide`
+  pages are unrelated static Web3Forms lead forms and are not part of this flow.
+
 ## Photos
 
 Each state home page carries a photo band under its hero: `<state>/img/hero-<state>-1600.webp`
