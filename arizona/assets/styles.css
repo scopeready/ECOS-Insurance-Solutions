@@ -287,3 +287,18 @@ table{border-collapse:collapse;}
 .city-index a:hover{box-shadow:0 4px 16px rgba(0,0,0,.08);transform:translateY(-2px);border-color:var(--teal)}
 .city-index strong{display:block;color:var(--teal-dark)}
 .city-index span{display:block;font-size:.85rem;color:var(--ink-soft);margin-top:2px}
+
+/* ---- Homepage hero v2: single-column copy over the photo, request card pulled into its own wide section ---- */
+.hero-inner--solo{grid-template-columns:1fr;}
+.hero-inner--solo .hero-copy{max-width:640px;}
+.trust{background:var(--cream);border-block:1px solid var(--line-soft);}
+.trust__inner{display:flex;flex-wrap:wrap;gap:1.2rem 2.2rem;align-items:center;justify-content:center;padding-block:1.1rem;}
+.trust__item{font-weight:700;color:var(--ink);font-size:.95rem;display:flex;align-items:center;gap:.5em;}
+.trust__item::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold);flex:0 0 auto;}
+.section--lead-wide{padding-block:clamp(2rem,3vw,3rem);}
+.callcard--wide{max-width:none;display:grid;grid-template-columns:minmax(240px,320px) 1fr;gap:clamp(1.6rem,3vw,3rem);align-items:center;padding:clamp(1.6rem,2vw,2.2rem) clamp(1.6rem,2.5vw,2.6rem);}
+.callcard--wide .cc-actions{margin-bottom:.6em;}
+@media (max-width:760px){
+  .hero-inner--solo .hero-copy{max-width:none;}
+  .callcard--wide{grid-template-columns:1fr;}
+}

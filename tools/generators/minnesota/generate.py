@@ -464,7 +464,7 @@ CONSENT_TEXT = ("By checking the consent box and submitting this form, I give EC
                 "Medicare Cost, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, "
                 "and that I can opt out at any time.")
 
-def lead_form(form_id, title="Request your free Medicare review", note=None, interest=True):
+def lead_form(form_id, title="Request your free Medicare review", note=None, interest=True, wide=False):
     note = note or f'Tell us a little about you and Darin will reach out. Prefer to talk now? Call <a href="tel:{TEL}"><strong>{PHONE}</strong></a>.'
     sel = ""
     if interest:
@@ -474,9 +474,20 @@ def lead_form(form_id, title="Request your free Medicare review", note=None, int
             <option>Medicare Advantage</option><option>Medicare Supplement (Basic / Extended Basic)</option><option>Medicare Cost plan</option>
             <option>Part D drug plan</option><option>I winter in another state</option><option>I have VA / TRICARE</option><option>I have Medical Assistance too</option>
           </select></div>'''
-    return f'''<div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">{title}</h2>
-      <p class="lead-card__note">{note}</p>
+    name_f = '<div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>'
+    phone_f = '<div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>'
+    email_f = '<div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>'
+    zip_f = '<div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>'
+    if wide:
+        fields = f'<div class="field-row">{name_f}{phone_f}</div><div class="field-row">{email_f}{zip_f}</div>'
+        intro = f'<div class="lead-card__intro"><h2 class="lead-card__title">{title}</h2><p class="lead-card__note">{note}</p></div>'
+        card_open = '<div class="lead-card lead-card--wide">'
+    else:
+        fields = name_f + "\n        " + phone_f + "\n        " + email_f + "\n        " + zip_f
+        intro = f'<h2 class="lead-card__title">{title}</h2>\n      <p class="lead-card__note">{note}</p>'
+        card_open = '<div class="lead-card" id="get-help">'
+    return f'''{card_open}
+      {intro}
       <form id="{form_id}" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="{WEB3FORMS_KEY}">
         <input type="hidden" name="subject" value="New Medicare review request — Minnesotamedicareenrollment.com">
@@ -484,10 +495,7 @@ def lead_form(form_id, title="Request your free Medicare review", note=None, int
         <input type="hidden" name="redirect" value="{SITE_URL}/thank-you">
         <input type="hidden" name="consent_text" value="{html.escape(CONSENT_TEXT, quote=True)}">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        {fields}
         {sel}
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="consent"><input id="consent" name="consent" type="checkbox" required>
@@ -778,7 +786,37 @@ def build_home():
     ]
     locs = "".join(f'<a class="loc" href="/{c["slug"]}">{c["name"]} <span aria-hidden="true">&rarr;</span></a>' for c in CITIES)
     regs = "".join(f'<a class="loc" href="/{r["slug"]}">{r["name"]} <span aria-hidden="true">&rarr;</span></a>' for r in REGIONS)
-    body = f'''<section class="hero{' hero--photo' if HERO_PHOTO else ''}">
+    trust = ('<span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg> Licensed in Minnesota &middot; MN License #' + LIC + ' &middot; NPN ' + NPN + '</span>'
+             '<span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg> Gerontologist &amp; RSSA&reg;</span>'
+             '<span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M8 13l-2 9 6-4 6 4-2-9"/></svg> 22-year U.S. Air Force veteran</span>'
+             '<span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> Always free to you</span>')
+    if HERO_PHOTO:
+        hp = HERO_PHOTO
+        hw, hh = hp.get("w", 1600), hp.get("h", 1073)
+        hero_html = f'''<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="{hp["src"]}" srcset="{hp["src_sm"]} 800w, {hp["src"]} {hw}w" sizes="100vw" width="{hw}" height="{hh}" alt="" style="object-position:{hp.get("pos", "50% 50%")}" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
+      <p class="eyebrow">Medicare made clear · Statewide in Minnesota</p>
+      <h1>Medicare in Minnesota, explained by someone who actually teaches it.</h1>
+      <p class="hero__sub">Turning 65, retiring, or re-shopping because your plan left the state? Sit down with a credentialed independent agent who will walk you through Medicare Advantage, Minnesota&rsquo;s own Medigap plans, Cost plans and Part D in plain English &mdash; patiently, and at no cost to you.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary btn--lg" href="tel:{TEL}">Call {PHONE}</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
+      </div>
+      <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
+    </div>
+  </div>
+</section>
+<div class="trust"><div class="wrap trust__inner">{trust}</div></div>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+{lead_form("home", wide=True)}
+</div></section>'''
+    else:
+        hero_html = f'''<section class="hero">
   <div class="hero__scene" aria-hidden="true">{SCENES["northwoods"]}</div>
   <div class="wrap hero__inner">
     <div>
@@ -794,13 +832,8 @@ def build_home():
     {lead_form("home")}
   </div>
 </section>
-{hero_photo_html()}
-<div class="trust"><div class="wrap trust__inner">
-    <span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg> Licensed in Minnesota &middot; MN License #{LIC} &middot; NPN {NPN}</span>
-    <span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg> Gerontologist &amp; RSSA&reg;</span>
-    <span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M8 13l-2 9 6-4 6 4-2-9"/></svg> 22-year U.S. Air Force veteran</span>
-    <span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> Always free to you</span>
-</div></div>
+<div class="trust"><div class="wrap trust__inner">{trust}</div></div>'''
+    body = f'''{hero_html}
 <section class="section"><div class="wrap">
     <p class="eyebrow">Minnesota is different</p>
     <h2>Three things about Medicare here that the national websites get wrong</h2>
