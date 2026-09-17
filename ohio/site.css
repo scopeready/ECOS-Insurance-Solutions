@@ -293,3 +293,12 @@ strong { font-weight: 700; }
 .calc__result:empty { display: none; }
 .calc__result p { margin: 0 0 .4rem; }
 .calc__fine { font-size: .82rem; color: var(--ink-soft); }
+
+/* Home-page photo band under the hero */
+.hero-photo{margin:0;background:#fff;line-height:0}
+.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover;object-position:50% 50%}
+@media (max-width:700px){.hero-photo img{aspect-ratio:3/2}}
+.hero--photo{min-height:0}
+.hero--photo .hero__scene{display:none}
+.hero--photo .hero__inner{padding-bottom:clamp(2.6rem,2rem + 4vw,4.6rem)}
+@media (max-width:880px){.hero--photo .hero__inner{padding-bottom:clamp(2.6rem,2rem + 4vw,4.6rem)}}

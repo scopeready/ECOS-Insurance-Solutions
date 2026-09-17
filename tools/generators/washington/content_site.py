@@ -147,3 +147,6 @@ OG = dict(line1="Medicare help in", line2="Washington", sub1="Plain-English, no-
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="ecosinsurancesolutions.com/washington", mark="peak",
           palette=dict(primary=(44, 85, 103), dark=(27, 58, 72), gold=(231, 196, 134), paper=(244, 243, 238), sky=(207, 217, 223),
                        far=(143, 164, 176), mid=(90, 122, 138), green=(47, 93, 63)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-washington-1600.webp', 'src_sm': '/img/hero-washington-800.webp', 'alt': 'A couple walking through the wildflower meadows at Paradise, with Mount Rainier filling the sky behind them', 'pos': '50% 40%'}

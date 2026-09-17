@@ -148,3 +148,6 @@ OG = dict(line1="Medicare help in", line2="North Carolina", sub1="Plain-English,
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="ecosinsurancesolutions.com", mark="pine",
           palette=dict(primary=(31, 78, 121), dark=(20, 54, 89), gold=(233, 196, 106), paper=(246, 242, 233), sky=(207, 227, 243),
                        far=(169, 198, 222), mid=(110, 155, 192), green=(62, 107, 58)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-north-carolina-1600.webp', 'src_sm': '/img/hero-north-carolina-800.webp', 'alt': 'A couple walking the beach at Cape Hatteras, with the black-and-white striped lighthouse behind the dunes', 'pos': '50% 55%'}

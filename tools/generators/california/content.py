@@ -1,5 +1,5 @@
 """California content, assembled for generate.py. Edit the content_* modules; this file only collects them."""
-from content_site import SITE, HOME, NAV, FOOTER_COLS, PLACE_CARDS, OG
+from content_site import SITE, HOME, NAV, FOOTER_COLS, PLACE_CARDS, OG, HERO_PHOTO
 from content_places import CITIES, REGIONS, BASES
 from content_topics_a import TOPICS_A
 from content_topics_b import TOPICS_B

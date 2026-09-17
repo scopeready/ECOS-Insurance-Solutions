@@ -146,3 +146,6 @@ OG = dict(line1="Medicare help in", line2="South Carolina", sub1="Plain-English,
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="ecosinsurancesolutions.com/south-carolina", mark="sun",
           palette=dict(primary=(31, 45, 92), dark=(20, 32, 74), gold=(201, 168, 74), paper=(246, 242, 233), sky=(223, 230, 240),
                        far=(207, 214, 200), mid=(157, 185, 138), green=(46, 107, 72)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-south-carolina-1600.webp', 'src_sm': '/img/hero-south-carolina-800.webp', 'alt': 'A couple strolling past the pastel houses of Rainbow Row in Charleston', 'pos': '50% 50%'}

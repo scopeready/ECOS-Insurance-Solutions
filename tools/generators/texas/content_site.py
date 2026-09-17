@@ -142,3 +142,6 @@ OG = dict(line1="Medicare help in", line2="Texas", sub1="Plain-English, no-cost 
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="texasmedicareenrollment.com", mark="star5",
           palette=dict(primary=(20, 54, 92), dark=(13, 37, 64), gold=(231, 196, 134), paper=(245, 241, 232), sky=(223, 230, 238),
                        far=(207, 216, 211), mid=(157, 176, 138), green=(79, 107, 58)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-texas-1600.webp', 'src_sm': '/img/hero-texas-800.webp', 'alt': 'A couple walking through a field of bluebonnets in the Texas Hill Country, with a live oak, a windmill and a longhorn behind them', 'pos': '50% 50%'}

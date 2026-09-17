@@ -140,3 +140,6 @@ OG = dict(line1="Medicare help in", line2="Utah", sub1="Plain-English, no-cost g
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="medicareenrollmentutah.com", mark="arch",
           palette=dict(primary=(36, 70, 107), dark=(23, 48, 74), gold=(231, 196, 134), paper=(245, 241, 234), sky=(221, 230, 238),
                        far=(143, 163, 184), mid=(127, 154, 112), green=(74, 107, 82)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-utah-1600.webp', 'src_sm': '/img/hero-utah-800.webp', 'alt': 'A couple standing beneath Delicate Arch in Arches National Park at golden hour', 'pos': '50% 40%'}

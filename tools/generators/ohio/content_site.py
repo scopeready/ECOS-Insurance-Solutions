@@ -146,3 +146,6 @@ OG = dict(line1="Medicare help in", line2="Ohio", sub1="Plain-English, no-cost g
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="ecosinsurancesolutions.com/ohio", mark="buckeye",
           palette=dict(primary=(30, 77, 120), dark=(19, 55, 90), gold=(217, 178, 95), paper=(244, 242, 236), sky=(219, 231, 241),
                        far=(205, 214, 210), mid=(143, 165, 131), green=(76, 107, 62)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-ohio-1600.webp', 'src_sm': '/img/hero-ohio-800.webp', 'alt': 'A couple on a wooden footbridge in the Hocking Hills, with a waterfall spilling over the moss-covered gorge behind them', 'pos': '50% 60%'}

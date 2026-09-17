@@ -147,3 +147,6 @@ OG = dict(line1="Medicare help in", line2="Hawaii", sub1="Plain-English, no-cost
           sub2="gerontologist and Air Force veteran. Every island, by phone or video.", domain="ecosinsurancesolutions.com/hawaii", mark="sun",
           palette=dict(primary=(13, 79, 108), dark=(8, 58, 82), gold=(231, 196, 134), paper=(247, 243, 234), sky=(213, 232, 238),
                        far=(180, 208, 214), mid=(96, 150, 140), green=(63, 107, 74)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-hawaii-1600.webp', 'src_sm': '/img/hero-hawaii-800.webp', 'alt': 'A couple wearing plumeria leis at a clifftop lookout above Hanalei Bay on Kauai', 'pos': '50% 60%'}

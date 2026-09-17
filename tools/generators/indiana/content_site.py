@@ -148,3 +148,6 @@ OG = dict(line1="Medicare help in", line2="Indiana", sub1="Plain-English, no-cos
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="ecosinsurancesolutions.com/indiana", mark="sun",
           palette=dict(primary=(46, 90, 58), dark=(30, 63, 40), gold=(230, 194, 106), paper=(245, 240, 227), sky=(221, 229, 224),
                        far=(207, 214, 204), mid=(159, 180, 137), green=(95, 125, 60)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-indiana-1600.webp', 'src_sm': '/img/hero-indiana-800.webp', 'alt': 'A couple walking a country lane toward a red covered bridge in autumn in Parke County, Indiana', 'pos': '50% 50%'}

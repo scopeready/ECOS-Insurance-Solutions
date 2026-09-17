@@ -143,3 +143,6 @@ OG = dict(line1="Medicare help in", line2="California", sub1="Plain-English, no-
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="californiamedicareenrollment.com", mark="sun",
           palette=dict(primary=(27, 78, 115), dark=(16, 52, 79), gold=(233, 196, 106), paper=(247, 244, 236), sky=(219, 231, 240),
                        far=(183, 194, 163), mid=(138, 163, 115), green=(74, 107, 63)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-california-1600.webp', 'src_sm': '/img/hero-california-800.webp', 'alt': 'A couple walking a coastal trail above a turquoise cove on the Big Sur coast, with Bixby Bridge behind them', 'pos': '50% 50%'}

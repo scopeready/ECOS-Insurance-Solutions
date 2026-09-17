@@ -90,3 +90,15 @@ CMS/TPMO rules apply to every page, the hub included.
   show theirs).
 - The hub page names the agency as "ECOS Medicare Solutions" inside "ECOS Insurance
   Solutions"; keep the agency name the state pages use unless the user asks to rebrand.
+
+## Photos
+
+Each state home page carries a photo band under its hero: `<state>/img/hero-<state>-1600.webp`
+and `-800.webp` (WebP, capped near 240 KB), rendered by `<figure class="hero-photo">` at 2:1 on
+desktop and 3:2 on phones. In the generator family the band comes from `HERO_PHOTO` in
+`content_site.py` (Minnesota: in `generate.py`) through `hero_photo_html()`, and `hero--photo`
+on the hero hides the SVG scene. `tools/build_state.py` keeps `<state>/img/` across rebuilds
+(`KEEP_DIRS`) because the engines do not produce it. Colorado, Nevada, Tennessee and Georgia
+carry the same figure by hand in `index.html`; Arizona uses its own full-bleed hero photo in
+`arizona/assets/photos/`. Every photo is an AI-rendered illustrative scene of a place in that
+state, never a real client; the footer says so site-wide.

@@ -282,3 +282,8 @@ a.area-tag:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);border-c
 .byline strong{color:var(--navy)}
 .byline .rev{display:block;margin-top:5px;font-size:.82rem;color:var(--text-muted)}
 @media(max-width:600px){.byline{flex-direction:column;gap:10px}}
+
+/* Home-page photo band under the hero */
+.hero-photo{margin:0;background:#fff;line-height:0}
+.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover;object-position:50% 50%}
+@media (max-width:700px){.hero-photo img{aspect-ratio:3/2}}

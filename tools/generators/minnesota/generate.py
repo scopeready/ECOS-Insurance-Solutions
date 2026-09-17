@@ -33,6 +33,7 @@ LIC = "40620754"                      # Minnesota producer licence, shown beside
 LIC_TXT = f", MN License #{LIC}"
 WEB3FORMS_KEY = "fc793a1c-1dd6-4a2e-9078-e907c4ab0428"   # public by design; same inbox as the sister sites
 QUOTE_URL = "https://planenroll.com/?purl=Darin-Weidauer"
+HERO_PHOTO = {'src': '/img/hero-minnesota-1600.webp', 'src_sm': '/img/hero-minnesota-800.webp', 'alt': 'Two men paddling a red canoe across a misty northern Minnesota lake at dawn, with a loon nearby', 'pos': '50% 50%'}
 TODAY = date(2026, 9, 3)
 ISO = TODAY.isoformat()
 REVIEWED = TODAY.strftime("%B %-d, %Y")
@@ -387,6 +388,13 @@ def header():
   </div>
 </header>
 '''
+
+def hero_photo_html():
+    p = HERO_PHOTO
+    if not p:
+        return ""
+    return (f'<figure class="hero-photo"><img src="{p["src"]}" srcset="{p["src_sm"]} 800w, {p["src"]} 1600w" sizes="100vw" width="1600" height="1073" '
+            f'alt="{p["alt"]}" style="object-position:{p.get("pos", "50% 50%")}" loading="eager" fetchpriority="high" decoding="async"></figure>')
 
 def footer():
     cities = "".join(f'<li><a href="/{c["slug"]}">{c["name"]}</a></li>' for c in CITIES)
@@ -765,7 +773,7 @@ def build_home():
     ]
     locs = "".join(f'<a class="loc" href="/{c["slug"]}">{c["name"]} <span aria-hidden="true">&rarr;</span></a>' for c in CITIES)
     regs = "".join(f'<a class="loc" href="/{r["slug"]}">{r["name"]} <span aria-hidden="true">&rarr;</span></a>' for r in REGIONS)
-    body = f'''<section class="hero">
+    body = f'''<section class="hero{' hero--photo' if HERO_PHOTO else ''}">
   <div class="hero__scene" aria-hidden="true">{SCENES["northwoods"]}</div>
   <div class="wrap hero__inner">
     <div>
@@ -781,6 +789,7 @@ def build_home():
     {lead_form("home")}
   </div>
 </section>
+{hero_photo_html()}
 <div class="trust"><div class="wrap trust__inner">
     <span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg> Licensed in Minnesota &middot; MN License #{LIC} &middot; NPN {NPN}</span>
     <span class="trust__item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5"/></svg> Gerontologist &amp; RSSA&reg;</span>

@@ -12,6 +12,10 @@ from pathlib import Path
 from scenes import SCENES
 from content import (SITE, HOME, NAV, FOOTER_COLS, PLACE_CARDS, CITIES, REGIONS, BASES,
                      TOPIC_PAGES, ABOUT_BODY, FAQ_PAGE, PRIVACY_BODY, TERMS_BODY)
+try:
+    from content import HERO_PHOTO
+except ImportError:
+    HERO_PHOTO = None
 
 # Output directory. Stand-alone: the repo root above source/. In the consolidated site, tools/build_state.py
 # sets ECOS_OUT to a scratch directory and then prefixes every link with /<state> before copying the pages in.
@@ -77,6 +81,13 @@ def header():
   </div>
 </header>
 '''
+
+def hero_photo_html():
+    p = HERO_PHOTO
+    if not p:
+        return ""
+    return (f'<figure class="hero-photo"><img src="{p["src"]}" srcset="{p["src_sm"]} 800w, {p["src"]} 1600w" sizes="100vw" width="1600" height="1073" '
+            f'alt="{p["alt"]}" style="object-position:{p.get("pos", "50% 50%")}" loading="eager" fetchpriority="high" decoding="async"></figure>')
 
 def footer():
     cols = "".join(f'<div><h4>{h}</h4><ul>' + "".join(f'<li>{li}</li>' for li in items) + '</ul></div>' for h, items in FOOTER_COLS)
@@ -426,7 +437,7 @@ def build_home():
     diff = "".join(f'<article class="card help-card"><h3>{h}</h3><p>{p}</p><a class="card__link" href="{href}">{label} <span aria-hidden="true">&rarr;</span></a></article>' for h, p, href, label in H["different_cards"])
     sit = "".join(f'<article class="card help-card"><h3>{h}</h3><p>{p}</p><a class="card__link" href="{href}">{label} <span aria-hidden="true">&rarr;</span></a></article>' for h, p, href, label in H["situations"])
     trust = "".join(f'<span class="trust__item">{icon} {label}</span>' for icon, label in H["trust"])
-    body = f'''<section class="hero">
+    body = f'''<section class="hero{' hero--photo' if HERO_PHOTO else ''}">
   <div class="hero__scene" aria-hidden="true">{SCENES[H["scene"]]}</div>
   <div class="wrap hero__inner">
     <div>
@@ -442,6 +453,7 @@ def build_home():
     {lead_form("home")}
   </div>
 </section>
+{hero_photo_html()}
 <div class="trust"><div class="wrap trust__inner">{trust}</div></div>
 <section class="section"><div class="wrap">
     <p class="eyebrow">{H["different_eyebrow"]}</p>

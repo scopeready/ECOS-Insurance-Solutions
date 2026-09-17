@@ -148,3 +148,6 @@ OG = dict(line1="Medicare help in", line2="Florida", sub1="Plain-English, no-cos
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", byline="Ronilin Weidauer · FL License #W690636 · NPN 19427652", domain="medicareenrollmentflorida.com", mark="sun",
           palette=dict(primary=(15, 92, 110), dark=(10, 63, 76), gold=(231, 196, 134), paper=(246, 242, 232), sky=(217, 233, 238),
                        far=(201, 214, 217), mid=(122, 154, 74), green=(58, 122, 90)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-florida-1600.webp', 'src_sm': '/img/hero-florida-800.webp', 'alt': 'A couple walking barefoot along a white-sand Gulf Coast beach at sunrise, with a fishing pier and pelicans behind them', 'pos': '50% 50%'}

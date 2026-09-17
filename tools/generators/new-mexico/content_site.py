@@ -147,3 +147,6 @@ OG = dict(line1="Medicare help in", line2="New Mexico", sub1="Plain-English, no-
           sub2="gerontologist and Air Force veteran. Statewide, by phone or video.", domain="ecosinsurancesolutions.com/new-mexico", mark="sun",
           palette=dict(primary=(31, 94, 102), dark=(20, 63, 69), gold=(222, 170, 110), paper=(246, 239, 228), sky=(232, 217, 198),
                        far=(201, 184, 163), mid=(138, 154, 118), green=(107, 125, 90)))
+
+# Home-page photo band (served from <state>/img/, kept across rebuilds by tools/build_state.py)
+HERO_PHOTO = {'src': '/img/hero-new-mexico-1600.webp', 'src_sm': '/img/hero-new-mexico-800.webp', 'alt': 'A couple watching hot-air balloons lift off at dawn at the Albuquerque Balloon Fiesta, with the Sandia Mountains behind', 'pos': '50% 45%'}
