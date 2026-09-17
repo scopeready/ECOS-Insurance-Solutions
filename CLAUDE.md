@@ -102,3 +102,12 @@ on the hero hides the SVG scene. `tools/build_state.py` keeps `<state>/img/` acr
 carry the same figure by hand in `index.html`; Arizona uses its own full-bleed hero photo in
 `arizona/assets/photos/`. Every photo is an AI-rendered illustrative scene of a place in that
 state, never a real client; the footer says so site-wide.
+
+Every region, city, county and base page carries the same band with a scene from that place:
+`<state>/img/<slug>-1600.webp` (region pages, rendered at 2K) or `-1200.webp` (the rest, rendered
+at 1248 px) plus `-800.webp`. In the generator family the map is `PLACE_PHOTOS` in `content_site.py`
+(Minnesota: in `generate.py`), keyed by page slug and passed to `hero(..., photo=...)`, which adds
+`hero--photo` and appends the figure. Colorado, Nevada and Tennessee city and county pages carry
+the figure by hand after `<section class="hero hero-sm">`; Georgia place pages after the hero
+section; Arizona city pages swap the SVG in `<div class="scene photo">` for the photo. Adding a
+place page means adding its photo and its `PLACE_PHOTOS` entry (or the hand-placed figure).

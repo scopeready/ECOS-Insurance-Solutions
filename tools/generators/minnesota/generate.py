@@ -33,6 +33,7 @@ LIC = "40620754"                      # Minnesota producer licence, shown beside
 LIC_TXT = f", MN License #{LIC}"
 WEB3FORMS_KEY = "fc793a1c-1dd6-4a2e-9078-e907c4ab0428"   # public by design; same inbox as the sister sites
 QUOTE_URL = "https://planenroll.com/?purl=Darin-Weidauer"
+PLACE_PHOTOS = {'twin-cities': {'src': '/img/twin-cities-1600.webp', 'src_sm': '/img/twin-cities-800.webp', 'alt': 'A retired couple walk the Stone Arch Bridge with the Minneapolis skyline and the falls', 'pos': '50% 50%', 'w': 1600, 'h': 1073}, 'southeast-minnesota': {'src': '/img/southeast-minnesota-1600.webp', 'src_sm': '/img/southeast-minnesota-800.webp', 'alt': 'A retired couple stand at a bluff overlook above the Mississippi River in fall color', 'pos': '50% 50%', 'w': 1600, 'h': 1073}, 'arrowhead-north-shore': {'src': '/img/arrowhead-north-shore-1600.webp', 'src_sm': '/img/arrowhead-north-shore-800.webp', 'alt': 'A retired couple stand on the shore beneath Split Rock Lighthouse on Lake Superior', 'pos': '50% 50%', 'w': 1600, 'h': 1073}, 'central-minnesota': {'src': '/img/central-minnesota-1600.webp', 'src_sm': '/img/central-minnesota-800.webp', 'alt': 'A retired couple sit on a lake dock in the Brainerd Lakes with pines and a pontoon boat', 'pos': '50% 50%', 'w': 1600, 'h': 1073}, 'northwest-minnesota': {'src': '/img/northwest-minnesota-1600.webp', 'src_sm': '/img/northwest-minnesota-800.webp', 'alt': 'A retired couple cross the stepping stones at the Mississippi headwaters at Itasca', 'pos': '50% 50%', 'w': 1600, 'h': 1073}, 'southwest-minnesota': {'src': '/img/southwest-minnesota-1600.webp', 'src_sm': '/img/southwest-minnesota-800.webp', 'alt': 'A retired couple walk a prairie trail with wind turbines and a big sky', 'pos': '50% 50%', 'w': 1600, 'h': 1073}, 'west-central-minnesota': {'src': '/img/west-central-minnesota-1600.webp', 'src_sm': '/img/west-central-minnesota-800.webp', 'alt': 'A retired couple walk a lakeshore near Alexandria with a wooden dock', 'pos': '50% 50%', 'w': 1600, 'h': 1073}, 'minneapolis': {'src': '/img/minneapolis-1200.webp', 'src_sm': '/img/minneapolis-800.webp', 'alt': 'A retired couple stand at Minnehaha Falls with the waterfall behind', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'st-paul': {'src': '/img/st-paul-1200.webp', 'src_sm': '/img/st-paul-800.webp', 'alt': 'A retired couple walk the lawn before the domed Minnesota State Capitol', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'rochester': {'src': '/img/rochester-1200.webp', 'src_sm': '/img/rochester-800.webp', 'alt': 'A retired couple walk around Silver Lake in Rochester with geese', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'duluth': {'src': '/img/duluth-1200.webp', 'src_sm': '/img/duluth-800.webp', 'alt': 'A retired couple walk the Canal Park pier with the Aerial Lift Bridge', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'bloomington': {'src': '/img/bloomington-1200.webp', 'src_sm': '/img/bloomington-800.webp', 'alt': 'A retired couple walk a boardwalk in the Minnesota Valley wildlife refuge', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'brooklyn-park': {'src': '/img/brooklyn-park-1200.webp', 'src_sm': '/img/brooklyn-park-800.webp', 'alt': 'A retired couple walk a Mississippi River park in Brooklyn Park', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'plymouth': {'src': '/img/plymouth-1200.webp', 'src_sm': '/img/plymouth-800.webp', 'alt': 'A retired couple walk the shore of Medicine Lake in Plymouth', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'woodbury': {'src': '/img/woodbury-1200.webp', 'src_sm': '/img/woodbury-800.webp', 'alt': 'A retired couple walk a prairie-and-lake trail in Woodbury', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'maple-grove': {'src': '/img/maple-grove-1200.webp', 'src_sm': '/img/maple-grove-800.webp', 'alt': 'A retired couple walk Elm Creek Park Reserve in fall', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'st-cloud': {'src': '/img/st-cloud-1200.webp', 'src_sm': '/img/st-cloud-800.webp', 'alt': 'A retired couple walk Munsinger Gardens along the Mississippi in St. Cloud', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'eagan': {'src': '/img/eagan-1200.webp', 'src_sm': '/img/eagan-800.webp', 'alt': 'A retired couple walk a Lebanon Hills trail with a lake', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'burnsville': {'src': '/img/burnsville-1200.webp', 'src_sm': '/img/burnsville-800.webp', 'alt': 'A retired couple walk the Minnesota River bluffs in Burnsville', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'mankato': {'src': '/img/mankato-1200.webp', 'src_sm': '/img/mankato-800.webp', 'alt': 'A retired couple stand at Minneopa Falls near Mankato', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'moorhead': {'src': '/img/moorhead-1200.webp', 'src_sm': '/img/moorhead-800.webp', 'alt': 'A retired couple walk the Red River riverfront in Moorhead', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'brainerd': {'src': '/img/brainerd-1200.webp', 'src_sm': '/img/brainerd-800.webp', 'alt': 'A retired couple sit on a dock on Gull Lake near Brainerd', 'pos': '50% 50%', 'w': 1200, 'h': 800}, 'bemidji': {'src': '/img/bemidji-1200.webp', 'src_sm': '/img/bemidji-800.webp', 'alt': 'A retired couple walk the shore of Lake Bemidji with pines', 'pos': '50% 50%', 'w': 1200, 'h': 800}}
 HERO_PHOTO = {'src': '/img/hero-minnesota-1600.webp', 'src_sm': '/img/hero-minnesota-800.webp', 'alt': 'Two men paddling a red canoe across a misty northern Minnesota lake at dawn, with a loon nearby', 'pos': '50% 50%'}
 TODAY = date(2026, 9, 3)
 ISO = TODAY.isoformat()
@@ -389,11 +390,13 @@ def header():
 </header>
 '''
 
-def hero_photo_html():
-    p = HERO_PHOTO
+def hero_photo_html(p=None):
+    if p is None:
+        p = HERO_PHOTO
     if not p:
         return ""
-    return (f'<figure class="hero-photo"><img src="{p["src"]}" srcset="{p["src_sm"]} 800w, {p["src"]} 1600w" sizes="100vw" width="1600" height="1073" '
+    w, h = p.get("w", 1600), p.get("h", 1073)
+    return (f'<figure class="hero-photo"><img src="{p["src"]}" srcset="{p["src_sm"]} 800w, {p["src"]} {w}w" sizes="100vw" width="{w}" height="{h}" '
             f'alt="{p["alt"]}" style="object-position:{p.get("pos", "50% 50%")}" loading="eager" fetchpriority="high" decoding="async"></figure>')
 
 def footer():
@@ -501,9 +504,9 @@ def crumbs(items):
     return ('<div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb">'
             + ' <span aria-hidden="true">/</span> '.join(parts) + '</nav></div>')
 
-def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title="Talk it through with Darin", primary_label=None):
+def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title="Talk it through with Darin", primary_label=None, photo=None):
     primary = primary_label or f"Call {PHONE}"
-    return f'''<section class="hero">
+    return f'''<section class="hero{' hero--photo' if photo else ''}">
   <div class="hero__scene" aria-hidden="true">{SCENES[scene]}</div>
   {crumbs(crumb_items)}
   <div class="wrap hero__inner" style="padding-top:.5rem">
@@ -520,7 +523,7 @@ def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title="Talk it thro
     {lead_form(form_id, form_title, f'No cost, no pressure. Prefer to call? <a href="tel:{TEL}"><strong>{PHONE}</strong></a>.')}
   </div>
 </section>
-'''
+{hero_photo_html(photo) if photo else ''}'''
 
 def faq_html(faqs, eyebrow="Good to know"):
     items = "".join(f'<details><summary>{q}</summary><div class="faq__a"><p>{a}</p></div></details>' for q, a in faqs)
@@ -693,7 +696,7 @@ def build_city(c):
     items = [("Home", "/"), (r["short"], f"/{r['slug']}"), (c["name"], None)]
     sysl = "".join(f"<li>{s}</li>" for s in c["systems"])
     nearby = "".join(f'<a class="loc" href="/{n}">{CITY[n]["name"]} <span aria-hidden="true">&rarr;</span></a>' for n in c["nearby"])
-    body = hero(c["scene"], f"Medicare help · {r['name']}", f"Medicare help in {c['name']}, Minnesota", c["sub"], items, c["slug"], "Request your free Medicare review")
+    body = hero(c["scene"], f"Medicare help · {r['name']}", f"Medicare help in {c['name']}, Minnesota", c["sub"], items, c["slug"], "Request your free Medicare review", photo=PLACE_PHOTOS.get(c["slug"]))
     body += f'''<section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in {c['name']}</p>
     <h2>What to know before you compare plans in {c['county']}</h2>
@@ -740,7 +743,7 @@ def build_region(r):
     cities = "".join(f'<a class="loc" href="/{s}">{CITY[s]["name"]} <span aria-hidden="true">&rarr;</span></a>' for s in r["cities"])
     cost = (f'<p><strong>Cost-plan counties in this region ({PLAN_YEAR}):</strong> {", ".join(r["cost"])}. See <a href="/medicare-cost-plans">where Medicare Cost plans remain in Minnesota</a>.</p>'
             if r["cost"] else '<p><strong>Cost plans:</strong> none of the counties in this region are on the state&rsquo;s list of Cost-plan counties; the choice is Medicare Advantage or Original Medicare with a <a href="/medicare-supplement">Minnesota supplement</a>.</p>')
-    body = hero(r["scene"], r["eyebrow"], r["h1"], r["sub"], items, r["slug"], "Request your free Medicare review")
+    body = hero(r["scene"], r["eyebrow"], r["h1"], r["sub"], items, r["slug"], "Request your free Medicare review", photo=PLACE_PHOTOS.get(r["slug"]))
     body += f'''<section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in the region</p><h2>{r['name']}: what shapes the choice here</h2>
     {"".join(f"<p>{para}</p>" for para in r["intro"])}

@@ -16,6 +16,10 @@ try:
     from content import HERO_PHOTO
 except ImportError:
     HERO_PHOTO = None
+try:
+    from content import PLACE_PHOTOS
+except ImportError:
+    PLACE_PHOTOS = {}
 
 # Output directory. Stand-alone: the repo root above source/. In the consolidated site, tools/build_state.py
 # sets ECOS_OUT to a scratch directory and then prefixes every link with /<state> before copying the pages in.
@@ -82,11 +86,13 @@ def header():
 </header>
 '''
 
-def hero_photo_html():
-    p = HERO_PHOTO
+def hero_photo_html(p=None):
+    if p is None:
+        p = HERO_PHOTO
     if not p:
         return ""
-    return (f'<figure class="hero-photo"><img src="{p["src"]}" srcset="{p["src_sm"]} 800w, {p["src"]} 1600w" sizes="100vw" width="1600" height="1073" '
+    w, h = p.get("w", 1600), p.get("h", 1073)
+    return (f'<figure class="hero-photo"><img src="{p["src"]}" srcset="{p["src_sm"]} 800w, {p["src"]} {w}w" sizes="100vw" width="{w}" height="{h}" '
             f'alt="{p["alt"]}" style="object-position:{p.get("pos", "50% 50%")}" loading="eager" fetchpriority="high" decoding="async"></figure>')
 
 def footer():
@@ -167,9 +173,9 @@ def crumbs(items):
     return ('<div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb">'
             + ' <span aria-hidden="true">/</span> '.join(parts) + '</nav></div>')
 
-def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title=None):
+def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title=None, photo=None):
     form_title = form_title or f"Talk it through with {A_FIRST}"
-    return f'''<section class="hero">
+    return f'''<section class="hero{' hero--photo' if photo else ''}">
   <div class="hero__scene" aria-hidden="true">{SCENES[scene]}</div>
   {crumbs(crumb_items)}
   <div class="wrap hero__inner" style="padding-top:.5rem">
@@ -186,7 +192,7 @@ def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title=None):
     {lead_form(form_id, form_title, f'No cost, no pressure. Prefer to call? <a href="tel:{TEL}"><strong>{PHONE}</strong></a>.')}
   </div>
 </section>
-'''
+{hero_photo_html(photo) if photo else ''}'''
 
 def faq_html(faqs, eyebrow="Good to know"):
     items = "".join(f'<details><summary>{q}</summary><div class="faq__a"><p>{a}</p></div></details>' for q, a in faqs)
@@ -359,7 +365,7 @@ def build_city(c):
     r = REGION[c["region"]]
     items = [("Home", "/"), (r["short"], f"/{r['slug']}"), (c["name"], None)]
     nearby = "".join(f'<a class="loc" href="/{n}">{(CITY.get(n) or BASE.get(n))["name"]} <span aria-hidden="true">&rarr;</span></a>' for n in c["nearby"])
-    body = hero(c["scene"], f"Medicare help · {r['name']}", f"Medicare help in {c['name']}, {STATE}", c["sub"], items, c["slug"], "Request your free Medicare review")
+    body = hero(c["scene"], f"Medicare help · {r['name']}", f"Medicare help in {c['name']}, {STATE}", c["sub"], items, c["slug"], "Request your free Medicare review", photo=PLACE_PHOTOS.get(c["slug"]))
     body += f'''<section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in {c['name']}</p>
     <h2>What to know before you compare plans in {c['county']}</h2>
@@ -386,7 +392,7 @@ def build_base(b):
     r = REGION[b["region"]]
     items = [("Home", "/"), ("Veterans", "/veterans"), (b["name"], None)]
     nearby = "".join(f'<a class="loc" href="/{n}">{(CITY.get(n) or BASE.get(n))["name"]} <span aria-hidden="true">&rarr;</span></a>' for n in b["nearby"])
-    body = hero(b["scene"], f"Medicare for military communities · {r['name']}", b["h1"], b["sub"], items, b["slug"], "Request your free Medicare review")
+    body = hero(b["scene"], f"Medicare for military communities · {r['name']}", b["h1"], b["sub"], items, b["slug"], "Request your free Medicare review", photo=PLACE_PHOTOS.get(b["slug"]))
     body += f'''<section class="section"><div class="wrap">
     <p class="eyebrow">Medicare near {b['name']}</p>
     <h2>{b['h2']}</h2>
@@ -407,7 +413,7 @@ def build_region(r):
     items = [("Home", "/"), (r["name"], None)]
     sysl = "".join(f"<li>{s}</li>" for s in r["systems"])
     cities = "".join(f'<a class="loc" href="/{s}">{(CITY.get(s) or BASE.get(s))["name"]} <span aria-hidden="true">&rarr;</span></a>' for s in r["cities"])
-    body = hero(r["scene"], r["eyebrow"], r["h1"], r["sub"], items, r["slug"], "Request your free Medicare review")
+    body = hero(r["scene"], r["eyebrow"], r["h1"], r["sub"], items, r["slug"], "Request your free Medicare review", photo=PLACE_PHOTOS.get(r["slug"]))
     body += f'''<section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in the region</p><h2>{r['name']}: what shapes the choice here</h2>
     {"".join(f"<p>{para}</p>" for para in r["intro"])}
