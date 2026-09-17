@@ -71,9 +71,8 @@ def header():
 <header class="site-header">
   <div class="wrap site-header__inner">
     <a class="brand" href="/" aria-label="{ORG} home">
-      {S["logo_svg"]}
-      <span><span class="brand__name">{ORG}</span><br>
-      <span class="brand__tag">{S["brand_tag"]}</span></span>
+      <img class="brand__logo" src="https://www.ecosinsurancesolutions.com/assets/ecos-compact-color.svg" alt="ECOS Insurance Solutions" width="160" height="67">
+      <span class="brand__tag">{S["brand_tag"]}</span>
     </a>
     <nav class="nav" aria-label="Primary">
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks"><span class="visually-hidden">Menu</span><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
@@ -107,7 +106,7 @@ def footer():
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <p class="footer-brand">{ORG}</p>
+        <img class="footer-logo" src="https://www.ecosinsurancesolutions.com/assets/ecos-full-reverse.svg" alt="ECOS Insurance Solutions" width="200" height="84">
         <p style="margin-bottom:.6em">{S["footer_tagline"]}</p>
         <p><a href="tel:{TEL}"><strong>{PHONE}</strong></a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>
         <p style="font-size:.85rem">{A_NAME}, licensed insurance agent, NPN {A_NPN}{A_LIC_TXT}. Statewide by phone and video.</p>
