@@ -27,6 +27,7 @@ ROOT = Path(os.environ.get("ECOS_OUT") or Path(__file__).resolve().parent.parent
 S = SITE
 SITE_URL, ORG, PHONE, TEL, EMAIL, NPN = S["url"], S["org"], S["phone"], S["tel"], S["email"], S["npn"]
 STATE, PLAN_YEAR, ISO, REVIEWED, FIG = S["state"], S["plan_year"], S["iso"], S["reviewed"], S["fig"]
+STATE_SLUG = STATE.lower().replace(" ", "-")
 NETWORK = S["network"]
 SAMEAS_ORG = [u for _, u in NETWORK] + S.get("sameas_org_extra", [])
 SAMEAS_DARIN = S["sameas_darin"]
@@ -76,7 +77,8 @@ def header():
     </a>
     <nav class="nav" aria-label="Primary">
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks"><span class="visually-hidden">Menu</span><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-      <ul class="nav__links" id="navLinks">{links}</ul>
+      <ul class="nav__links" id="navLinks"><li><a class="nav__ecos-home" href="https://www.ecosinsurancesolutions.com/">ECOS Home</a></li>{links}</ul>
+      <img class="nav__flag" src="https://www.ecosinsurancesolutions.com/assets/flags/flag-{STATE_SLUG}.svg" alt="{STATE} state flag" width="32" height="21" loading="lazy">
       <a class="header-call" href="tel:{TEL}">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.1-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg>
         {PHONE}

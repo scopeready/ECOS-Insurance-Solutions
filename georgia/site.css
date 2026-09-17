@@ -185,7 +185,7 @@ strong { font-weight: 700; }
 }
 .nav__links a.nav__ecos-home:hover { color: var(--pine-dark); border-bottom-color: transparent; }
 .nav__flag {
-  flex: none; width: 28px; height: 19px; object-fit: cover; border-radius: 3px;
+  flex: none; width: 32px; height: 21px; object-fit: contain; background: #fff; border-radius: 3px;
   border: 1px solid var(--line); box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 .header-call {
