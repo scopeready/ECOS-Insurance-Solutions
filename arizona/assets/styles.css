@@ -59,6 +59,7 @@ table{border-collapse:collapse;}
 .head-inner{display:flex;align-items:center;gap:20px;min-height:78px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap;}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);margin-right:auto;}
 .logo-mark{width:44px;height:44px;flex:0 0 auto;}
+.brand__logo{height:44px;width:auto;flex:0 0 auto;}
 .brand-txt strong{display:block;font-family:"Fraunces",Georgia,serif;font-size:1.16rem;line-height:1.1;letter-spacing:-.02em;font-weight:600;}
 .brand-txt small{display:block;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--clay);font-weight:700;}
 .nav{display:flex;align-items:center;gap:24px;flex-wrap:wrap;}
@@ -228,6 +229,7 @@ table{border-collapse:collapse;}
 .site-foot a:hover{text-decoration:underline;}
 .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:34px;}
 .foot-brand{font-family:"Fraunces",Georgia,serif;color:#fff;font-size:1.2rem;font-weight:600;margin-bottom:.4em;}
+.footer-logo{height:40px;width:auto;margin-bottom:.6em;}
 .foot-h{color:#fff;font-weight:700;text-transform:uppercase;font-size:.75rem;letter-spacing:.14em;margin-bottom:.7em;}
 .foot-offices{list-style:none;padding:0;margin:0;}
 .foot-offices li{margin-bottom:1em;}
