@@ -51,23 +51,28 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f4ec"/><stop offset="1" stop-color="#dbe7f0"/></linearGradient><linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3e3c4"/><stop offset="1" stop-color="#e9b98a"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/><circle cx="1120" cy="120" r="62" fill="#e9c46a" opacity=".7"/><path d="M0 360L0 220Q240.0 170 480 200Q720.0 206 960 236Q1200.0 184 1440 214L1440 360Z" fill="#b7c2a3" opacity=".6"/><rect x="0" y="250" width="1440" height="110" fill="#c9b989"/><circle cx="60" cy="276" r="16" fill="#4a6b3f"/><rect x="58" y="286" width="4" height="20" fill="#5a4030"/><circle cx="156" cy="318" r="16" fill="#4a6b3f"/><rect x="154" y="328" width="4" height="20" fill="#5a4030"/><circle cx="252" cy="276" r="16" fill="#4a6b3f"/><rect x="250" y="286" width="4" height="20" fill="#5a4030"/><circle cx="348" cy="318" r="16" fill="#4a6b3f"/><rect x="346" y="328" width="4" height="20" fill="#5a4030"/><circle cx="444" cy="276" r="16" fill="#4a6b3f"/><rect x="442" y="286" width="4" height="20" fill="#5a4030"/><circle cx="540" cy="318" r="16" fill="#4a6b3f"/><rect x="538" y="328" width="4" height="20" fill="#5a4030"/><circle cx="636" cy="276" r="16" fill="#4a6b3f"/><rect x="634" y="286" width="4" height="20" fill="#5a4030"/><circle cx="732" cy="318" r="16" fill="#4a6b3f"/><rect x="730" y="328" width="4" height="20" fill="#5a4030"/><circle cx="828" cy="276" r="16" fill="#4a6b3f"/><rect x="826" y="286" width="4" height="20" fill="#5a4030"/><circle cx="924" cy="318" r="16" fill="#4a6b3f"/><rect x="922" y="328" width="4" height="20" fill="#5a4030"/><circle cx="1020" cy="276" r="16" fill="#4a6b3f"/><rect x="1018" y="286" width="4" height="20" fill="#5a4030"/><circle cx="1116" cy="318" r="16" fill="#4a6b3f"/><rect x="1114" y="328" width="4" height="20" fill="#5a4030"/><circle cx="1212" cy="276" r="16" fill="#4a6b3f"/><rect x="1210" y="286" width="4" height="20" fill="#5a4030"/><circle cx="1308" cy="318" r="16" fill="#4a6b3f"/><rect x="1306" y="328" width="4" height="20" fill="#5a4030"/><circle cx="1404" cy="276" r="16" fill="#4a6b3f"/><rect x="1402" y="286" width="4" height="20" fill="#5a4030"/><rect x="1040" y="222" width="70" height="30" fill="#c0503a"/><path d="M1032 224l43-24 43 24z" fill="#8a3a2a"/><rect x="1120" y="200" width="16" height="52" fill="#9aa4ad"/></svg></div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/california">Home</a> <span aria-hidden="true">/</span> <a href="/california/los-angeles-county">Los Angeles County</a> <span aria-hidden="true">/</span> <span>Santa Clarita</span></nav></div>
-  <div class="wrap hero__inner" style="padding-top:.5rem">
-    <div>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/california/img/santa-clarita-1200.webp" srcset="/california/img/santa-clarita-800.webp 800w, /california/img/santa-clarita-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/california">Home</a> <span aria-hidden="true">/</span> <a href="/california/los-angeles-county">Los Angeles County</a> <span aria-hidden="true">/</span> <span>Santa Clarita</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
       <p class="eyebrow">Medicare help · Los Angeles County</p>
       <h1>Medicare help in Santa Clarita, California</h1>
       <p class="hero__sub">Henry Mayo Newhall, Facey Medical Group, Kaiser and Providence Holy Cross &mdash; a retiree-heavy valley at the county&rsquo;s north edge where the plan-versus-group question is unusually clear.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17027066564">Call (702) 706-6564</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
-    <div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">Request your free Medicare review</h2>
-      <p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>.</p>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+<div class="lead-card lead-card--wide">
+      <div class="lead-card__intro"><h2 class="lead-card__title">Request your free Medicare review</h2><p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>, or <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">enroll yourself online</a>.</p></div>
       <form id="santa-clarita" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="fc793a1c-1dd6-4a2e-9078-e907c4ab0428">
         <input type="hidden" name="subject" value="New Medicare review request — ecosinsurancesolutions.com/california">
@@ -75,10 +80,7 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/california/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div><div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option><option>I'm turning 65 soon</option><option>Review my current plan</option><option>My plan was discontinued</option><option>Medicare Advantage</option><option>Medicare Supplement (Medigap)</option><option>Part D drug plan</option><option>Kaiser vs. other plans</option><option>I'm moving to or from California</option><option>I have VA / TRICARE</option><option>I have Medi-Cal too</option></select></div>
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -89,9 +91,7 @@
         <p class="form-fineprint">We never ask about your health on this form. See our <a href="/california/privacy">Privacy Policy</a>. This is a solicitation for insurance. Not connected with or endorsed by the U.S. government or the federal Medicare program.</p>
       </form>
     </div>
-  </div>
-</section>
-<figure class="hero-photo"><img src="/california/img/santa-clarita-1200.webp" srcset="/california/img/santa-clarita-800.webp 800w, /california/img/santa-clarita-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="A retired couple walk a trail at Vasquez Rocks with tilted sandstone slabs against a blue sky" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure><section class="section"><div class="wrap">
+</div></section><section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in Santa Clarita</p>
     <h2>What to know before you compare plans in Los Angeles County</h2>
     <p>Santa Clarita shares Los Angeles County&rsquo;s menu, but the local map is simple: Henry Mayo Newhall is the hospital, Facey (Providence) and a handful of other groups are the doctors, and Kaiser serves members from its Santa Clarita medical offices with hospital care in Panorama City and Woodland Hills. Which group your doctor belongs to decides most Advantage choices here.</p><p>We compare what is sold at your ZIP code, confirm your doctors and medical group, and set Advantage beside a Medigap policy so the trade-off is plain.</p>

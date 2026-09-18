@@ -52,23 +52,28 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f2ec"/><stop offset="1" stop-color="#dbe6ee"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/><circle cx="1200" cy="118" r="62" fill="#e7c486" opacity=".55"/><path d="M0 300C360 290 720 306 1440 292V360H0Z" fill="#b8a76c"/><path d="M0 330C360 320 720 336 1440 322V360H0Z" fill="#7c9a4a"/><g transform="translate(220 250)" stroke="#cfd8dc" stroke-width="3" fill="none"><line x1="0" y1="0" x2="0" y2="70"/><g transform="rotate(20)"><line x1="0" y1="0" x2="0" y2="-34"/><line x1="0" y1="0" x2="30" y2="17"/><line x1="0" y1="0" x2="-30" y2="17"/></g></g><g transform="translate(330 262)" stroke="#cfd8dc" stroke-width="3" fill="none"><line x1="0" y1="0" x2="0" y2="58"/><g transform="rotate(75)"><line x1="0" y1="0" x2="0" y2="-34"/><line x1="0" y1="0" x2="30" y2="17"/><line x1="0" y1="0" x2="-30" y2="17"/></g></g><g transform="translate(410 256)" stroke="#cfd8dc" stroke-width="3" fill="none"><line x1="0" y1="0" x2="0" y2="62"/><g transform="rotate(130)"><line x1="0" y1="0" x2="0" y2="-34"/><line x1="0" y1="0" x2="30" y2="17"/><line x1="0" y1="0" x2="-30" y2="17"/></g></g><g fill="#2b4b62"><rect x="1010" y="200" width="70" height="160"/><path d="M1010 200h70l-35-28z"/><rect x="1090" y="236" width="90" height="124"/><rect x="1090" y="236" width="90" height="10" fill="#1d3a4e"/></g></svg></div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/minnesota">Home</a> <span aria-hidden="true">/</span> <a href="/minnesota/northwest-minnesota">Northwest</a> <span aria-hidden="true">/</span> <span>Moorhead</span></nav></div>
-  <div class="wrap hero__inner" style="padding-top:.5rem">
-    <div>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/minnesota/img/moorhead-1200.webp" srcset="/minnesota/img/moorhead-800.webp 800w, /minnesota/img/moorhead-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/minnesota">Home</a> <span aria-hidden="true">/</span> <a href="/minnesota/northwest-minnesota">Northwest</a> <span aria-hidden="true">/</span> <span>Moorhead</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
       <p class="eyebrow">Medicare help · Northwest Minnesota &amp; the Red River Valley</p>
       <h1>Medicare help in Moorhead, Minnesota</h1>
       <p class="hero__sub">Moorhead, Dilworth, Barnesville and Hawley &mdash; where your hospital is probably in Fargo, and your plan needs to know that.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17027066564">Call (702) 706-6564</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
-    <div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">Request your free Medicare review</h2>
-      <p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>.</p>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+<div class="lead-card lead-card--wide">
+      <div class="lead-card__intro"><h2 class="lead-card__title">Request your free Medicare review</h2><p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>, or <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">enroll yourself online</a>.</p></div>
       <form id="moorhead" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="fc793a1c-1dd6-4a2e-9078-e907c4ab0428">
         <input type="hidden" name="subject" value="New Medicare review request — ecosinsurancesolutions.com/minnesota">
@@ -76,10 +81,7 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/minnesota/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, Medicare Cost, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div><div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option>
             <option>I'm turning 65 soon</option><option>Review my current plan</option><option>My plan was discontinued</option>
@@ -94,9 +96,7 @@
         <p class="form-fineprint">We never ask about your health on this form. See our <a href="/minnesota/privacy">Privacy Policy</a>. This is a solicitation for insurance. Not connected with or endorsed by the U.S. government or the federal Medicare program.</p>
       </form>
     </div>
-  </div>
-</section>
-<figure class="hero-photo"><img src="/minnesota/img/moorhead-1200.webp" srcset="/minnesota/img/moorhead-800.webp 800w, /minnesota/img/moorhead-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="A retired couple walk the Red River riverfront in Moorhead" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure><section class="section"><div class="wrap">
+</div></section><section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in Moorhead</p>
     <h2>What to know before you compare plans in Clay County</h2>
     <p>Clay County residents get most of their care across the river at Sanford Health and Essentia Health in Fargo. Original Medicare and a Minnesota supplement cover them without a second thought; a Medicare Advantage plan sold in Clay County has to include Fargo providers in its network, and not all do.</p><p>Clay County is not a Cost-plan county. We compare the Advantage plans that actually reach Fargo against a Basic or Extended Basic supplement plus Part D.</p>

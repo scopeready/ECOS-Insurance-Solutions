@@ -181,12 +181,37 @@ def lead_form(form_id, title="Request your free Medicare review", note=None, int
 
 def crumbs(items):
     parts = [f'<a href="{p}">{n}</a>' if p else f'<span>{n}</span>' for n, p in items]
-    return ('<div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb">'
+    return ('<div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb">'
             + ' <span aria-hidden="true">/</span> '.join(parts) + '</nav></div>')
 
 def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title=None, photo=None):
     form_title = form_title or f"Talk it through with {A_FIRST}"
-    return f'''<section class="hero{' hero--photo' if photo else ''}">
+    if photo:
+        hw, hh = photo.get("w", 1200), photo.get("h", 800)
+        enroll_note = f'No cost, no pressure. Prefer to call? <a href="tel:{TEL}"><strong>{PHONE}</strong></a>, or <a href="{S["quote_url"]}" target="_blank" rel="noopener">enroll yourself online</a>.'
+        return f'''<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="{photo["src"]}" srcset="{photo["src_sm"]} 800w, {photo["src"]} {hw}w" sizes="100vw" width="{hw}" height="{hh}" alt="" style="object-position:{photo.get("pos", "50% 50%")}" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  {crumbs(crumb_items)}
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
+      <p class="eyebrow">{eyebrow}</p>
+      <h1>{h1}</h1>
+      <p class="hero__sub">{sub}</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary btn--lg" href="tel:{TEL}">Call {PHONE}</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
+      </div>
+      <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
+    </div>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+{lead_form(form_id, form_title, enroll_note, wide=True)}
+</div></section>'''
+    return f'''<section class="hero">
   <div class="hero__scene" aria-hidden="true">{SCENES[scene]}</div>
   {crumbs(crumb_items)}
   <div class="wrap hero__inner" style="padding-top:.5rem">
@@ -202,8 +227,7 @@ def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title=None, photo=N
     </div>
     {lead_form(form_id, form_title, f'No cost, no pressure. Prefer to call? <a href="tel:{TEL}"><strong>{PHONE}</strong></a>.')}
   </div>
-</section>
-{hero_photo_html(photo) if photo else ''}'''
+</section>'''
 
 def faq_html(faqs, eyebrow="Good to know"):
     items = "".join(f'<details><summary>{q}</summary><div class="faq__a"><p>{a}</p></div></details>' for q, a in faqs)

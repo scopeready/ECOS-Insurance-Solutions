@@ -51,23 +51,28 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f1ea"/><stop offset="1" stop-color="#dde6ee"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/><circle cx="1170" cy="110" r="54" fill="#e7c486" opacity=".6"/><path d="M0 360L0 230 240 140 480 210 720 120 960 200 1200 130 1440 210 L1440 360Z" fill="#8fa3b8"/><path d="M212 174L240 140L268 174L254 168L244 178L232 166L222 176Z" fill="#f4f6f8"/><path d="M692 154L720 120L748 154L734 148L724 158L712 146L702 156Z" fill="#f4f6f8"/><path d="M1172 164L1200 130L1228 164L1214 158L1204 168L1192 156L1182 166Z" fill="#f4f6f8"/><path d="M0 200L1440 90" stroke="#5a4a3c" stroke-width="3"/><rect x="192" y="185" width="16" height="22" rx="3" fill="#2b4b62"/><rect x="452" y="165" width="16" height="22" rx="3" fill="#2b4b62"/><rect x="712" y="145" width="16" height="22" rx="3" fill="#2b4b62"/><rect x="972" y="126" width="16" height="22" rx="3" fill="#2b4b62"/><rect x="1232" y="106" width="16" height="22" rx="3" fill="#2b4b62"/><path d="M0 320C240 312 480 328 720 320 960 312 1200 328 1440 320V360H0Z" fill="#4a6b52" opacity="1"/><rect x="97" y="242" width="6" height="80" fill="#e9e2d4"/><ellipse cx="100" cy="242" rx="22" ry="34" fill="#d9a441"/><rect x="147" y="262" width="6" height="60" fill="#e9e2d4"/><ellipse cx="150" cy="262" rx="22" ry="34" fill="#d9a441"/><rect x="237" y="232" width="6" height="90" fill="#e9e2d4"/><ellipse cx="240" cy="232" rx="22" ry="34" fill="#d9a441"/><rect x="617" y="252" width="6" height="70" fill="#e9e2d4"/><ellipse cx="620" cy="252" rx="22" ry="34" fill="#d9a441"/><rect x="677" y="226" width="6" height="96" fill="#e9e2d4"/><ellipse cx="680" cy="226" rx="22" ry="34" fill="#d9a441"/><rect x="1077" y="238" width="6" height="84" fill="#e9e2d4"/><ellipse cx="1080" cy="238" rx="22" ry="34" fill="#d9a441"/><rect x="1127" y="258" width="6" height="64" fill="#e9e2d4"/><ellipse cx="1130" cy="258" rx="22" ry="34" fill="#d9a441"/><rect x="1357" y="232" width="6" height="90" fill="#e9e2d4"/><ellipse cx="1360" cy="232" rx="22" ry="34" fill="#d9a441"/></svg></div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/utah">Home</a> <span aria-hidden="true">/</span> <a href="/utah/park-city-wasatch-back">the Wasatch Back</a> <span aria-hidden="true">/</span> <span>Park City</span></nav></div>
-  <div class="wrap hero__inner" style="padding-top:.5rem">
-    <div>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/utah/img/park-city-1200.webp" srcset="/utah/img/park-city-800.webp 800w, /utah/img/park-city-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/utah">Home</a> <span aria-hidden="true">/</span> <a href="/utah/park-city-wasatch-back">the Wasatch Back</a> <span aria-hidden="true">/</span> <span>Park City</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
       <p class="eyebrow">Medicare help · Park City &amp; the Wasatch Back</p>
       <h1>Medicare help in Park City, Utah</h1>
       <p class="hero__sub">Park City retirees are often two-home households, with Intermountain Park City Hospital for local care, Salt Lake over the pass, and a plan question that starts with where you spend the winter and the summer.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17027066564">Call (702) 706-6564</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
-    <div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">Request your free Medicare review</h2>
-      <p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>.</p>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+<div class="lead-card lead-card--wide">
+      <div class="lead-card__intro"><h2 class="lead-card__title">Request your free Medicare review</h2><p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>, or <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">enroll yourself online</a>.</p></div>
       <form id="park-city" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="fc793a1c-1dd6-4a2e-9078-e907c4ab0428">
         <input type="hidden" name="subject" value="New Medicare review request — ecosinsurancesolutions.com/utah">
@@ -75,10 +80,7 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/utah/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div><div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option><option>I'm turning 65 soon</option><option>Review my current plan</option><option>Medicare Advantage</option><option>Medicare Supplement (Medigap)</option><option>Part D drug plan</option><option>I winter in St. George / Arizona / Nevada</option><option>I have VA / TRICARE</option><option>I have Medicaid too</option></select></div>
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -89,9 +91,7 @@
         <p class="form-fineprint">We never ask about your health on this form. See our <a href="/utah/privacy">Privacy Policy</a>. This is a solicitation for insurance. Not connected with or endorsed by the U.S. government or the federal Medicare program.</p>
       </form>
     </div>
-  </div>
-</section>
-<figure class="hero-photo"><img src="/utah/img/park-city-1200.webp" srcset="/utah/img/park-city-800.webp 800w, /utah/img/park-city-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="A retired couple walk a ski-town mountain trail above Park City with the slopes" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure><section class="section"><div class="wrap">
+</div></section><section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in Park City</p>
     <h2>What to know before you compare plans in Summit County</h2>
     <p>Summit County offers a moderate Advantage menu built mostly around Intermountain, every Medigap carrier in Utah and the full Part D lineup. Because county-based plans are tied to permanent residence and many Park City households keep a second home, a Medigap policy is often the practical choice.</p><p>We compare Advantage against a supplement with your calendar and your doctors in front of us.</p>

@@ -358,3 +358,10 @@ strong { font-weight: 700; }
 @media (max-width:760px){
   .lead-card--wide{grid-template-columns:1fr}
 }
+.hero--overlay .eyebrow.crumb{color:rgba(255,255,255,.85)}
+.hero--overlay .eyebrow.crumb a{color:#fff}
+.hero--overlay .eyebrow.crumb a:hover{color:var(--gold)}
+@media (max-width:880px){
+  .hero--overlay .eyebrow.crumb{color:var(--ink-soft)}
+  .hero--overlay .eyebrow.crumb a{color:var(--lake)}
+}

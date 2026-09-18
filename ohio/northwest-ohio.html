@@ -51,23 +51,28 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f2ec"/><stop offset="1" stop-color="#dbe7f1"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/><circle cx="1200" cy="104" r="52" fill="#d9b25f" opacity=".6"/><path d="M0 262C180 256 360 268 540 262 720 256 900 268 1080 262 1260 256 1440 262V360H0Z" fill="#cdd6d2"/><g fill="#8a8578"><rect x="240" y="200" width="30" height="120"/><rect x="274" y="200" width="30" height="120"/><rect x="308" y="200" width="30" height="120"/><rect x="230" y="186" width="118" height="16"/><rect x="270" y="150" width="40" height="40"/></g><g fill="#3a5670"><rect x="520" y="170" width="34" height="190"/><rect x="562" y="140" width="46" height="220"/><rect x="616" y="186" width="26" height="174"/><rect x="650" y="150" width="40" height="210"/><rect x="700" y="172" width="48" height="188"/><rect x="756" y="196" width="30" height="164"/></g><g fill="#d9b25f" opacity=".7"><rect x="576" y="160" width="4" height="6"/><rect x="588" y="190" width="4" height="6"/><rect x="662" y="170" width="4" height="6"/><rect x="716" y="190" width="4" height="6"/></g><rect x="0" y="302" width="1440" height="58" fill="#2f6a99" opacity="1"/><rect x="0" y="320" width="1440" height="40" fill="#4a84ad" opacity=".7"/><path d="M120 332c120-6 240 4 360-2 120-6 240 6 360 0 120-6 200 4 300 0" stroke="#e9f1f5" stroke-width="2" fill="none" opacity=".5"/><g fill="#1f2428" opacity=".75"><rect x="880" y="286" width="380" height="8"/><path d="M960 286v-70h12v70M1180 286v-70h12v70M972 224l208-6" stroke="#1f2428" stroke-width="4" fill="none"/></g></svg></div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/ohio">Home</a> <span aria-hidden="true">/</span> <span>Northwest Ohio</span></nav></div>
-  <div class="wrap hero__inner" style="padding-top:.5rem">
-    <div>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/ohio/img/northwest-ohio-1600.webp" srcset="/ohio/img/northwest-ohio-800.webp 800w, /ohio/img/northwest-ohio-1600.webp 1600w" sizes="100vw" width="1600" height="1073" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/ohio">Home</a> <span aria-hidden="true">/</span> <span>Northwest Ohio</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
       <p class="eyebrow">Medicare by region · Toledo, Findlay, Lima, Sandusky &amp; the lake shore</p>
       <h1>Medicare help across Northwest Ohio</h1>
       <p class="hero__sub">Lucas, Wood, Hancock, Allen, Erie, Sandusky and the flat farm counties between &mdash; ProMedica and Mercy Health in Toledo, strong regional hospitals in Findlay and Lima, and a Paramount plan that now belongs to Medical Mutual.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17027066564">Call (702) 706-6564</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
-    <div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">Request your free Medicare review</h2>
-      <p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>.</p>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+<div class="lead-card lead-card--wide">
+      <div class="lead-card__intro"><h2 class="lead-card__title">Request your free Medicare review</h2><p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>, or <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">enroll yourself online</a>.</p></div>
       <form id="northwest-ohio" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="fc793a1c-1dd6-4a2e-9078-e907c4ab0428">
         <input type="hidden" name="subject" value="New Medicare review request — ecosinsurancesolutions.com/ohio">
@@ -75,10 +80,7 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/ohio/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div><div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option><option>I'm turning 65 soon</option><option>Review my current plan</option><option>My plan left my county</option><option>Medicare Advantage</option><option>Medicare Supplement (Medigap)</option><option>Part D drug plan</option><option>I have OPERS / STRS / SERS / union retiree coverage</option><option>I have VA / TRICARE</option><option>I have Medicaid or MyCare Ohio</option></select></div>
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -89,9 +91,7 @@
         <p class="form-fineprint">We never ask about your health on this form. See our <a href="/ohio/privacy">Privacy Policy</a>. This is a solicitation for insurance. Not connected with or endorsed by the U.S. government or the federal Medicare program.</p>
       </form>
     </div>
-  </div>
-</section>
-<figure class="hero-photo"><img src="/ohio/img/northwest-ohio-1600.webp" srcset="/ohio/img/northwest-ohio-800.webp 800w, /ohio/img/northwest-ohio-1600.webp 1600w" sizes="100vw" width="1600" height="1073" alt="A retired couple walk the Maumee riverfront in Toledo with the glass skyline" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure><section class="section"><div class="wrap">
+</div></section><section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in the region</p><h2>Northwest Ohio: what shapes the choice here</h2>
     <p>Toledo has a moderate Advantage menu split between ProMedica and Mercy Health, with the University of Toledo Medical Center as the region&rsquo;s academic hospital. Because patients drive in from Bowling Green, Fremont, Defiance and Bryan, a plan&rsquo;s network has to reach the whole corner of the state, and the ProMedica&ndash;Medical Mutual dispute that ran into late 2025 showed how much that matters.</p><p>South and west of Toledo the counties are flat, farmed and thinly served: Findlay leans on Blanchard Valley, Lima on Mercy Health St. Rita&rsquo;s, and the counties between on one hospital apiece. Advantage menus are shorter here and shifted for 2026, which is where Original Medicare with a Medigap policy earns its keep.</p>
     <p><strong>Local plans to know:</strong> Paramount, long ProMedica&rsquo;s insurance arm, became part of Medical Mutual in 2024, and Medical Mutual and ProMedica only settled their 2026 network contract in November 2025 &mdash; a reminder that a system can be in a plan one year and out the next. UAW retirees from the Toledo Jeep and transmission plants carry Trust coverage with its own Part B rules.</p>

@@ -332,3 +332,25 @@ a.area-tag:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);border-c
 @media (max-width:760px){
   .form-card--wide{grid-template-columns:1fr}
 }
+
+/* ---- City/county hero: photo as background, same treatment as the homepage ---- */
+.hero-sm.hero-sm--overlay{position:relative;overflow:hidden}
+.hero-sm--overlay .hero-bg{position:absolute;inset:0;z-index:0}
+.hero-sm--overlay .hero-bg img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-sm--overlay .hero-bg .hero-scrim{
+  position:absolute;inset:0;
+  background:linear-gradient(100deg,
+    color-mix(in srgb, var(--navy) 90%, transparent) 0%,
+    color-mix(in srgb, var(--navy) 78%, transparent) 40%,
+    color-mix(in srgb, var(--navy) 40%, transparent) 65%,
+    color-mix(in srgb, var(--navy) 0%, transparent) 90%);
+}
+.hero-sm--overlay .container{position:relative;z-index:1}
+@media (max-width:760px){
+  .hero-sm--overlay .hero-bg .hero-scrim{
+    background:linear-gradient(100deg,
+      color-mix(in srgb, var(--navy) 92%, transparent) 0%,
+      color-mix(in srgb, var(--navy) 85%, transparent) 55%,
+      color-mix(in srgb, var(--navy) 60%, transparent) 100%);
+  }
+}
