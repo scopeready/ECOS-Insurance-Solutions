@@ -12,6 +12,14 @@ from pathlib import Path
 from scenes import SCENES
 from content import (SITE, HOME, NAV, FOOTER_COLS, PLACE_CARDS, CITIES, REGIONS, BASES,
                      TOPIC_PAGES, ABOUT_BODY, FAQ_PAGE, PRIVACY_BODY, TERMS_BODY)
+try:
+    from content import HERO_PHOTO
+except ImportError:
+    HERO_PHOTO = None
+try:
+    from content import PLACE_PHOTOS
+except ImportError:
+    PLACE_PHOTOS = {}
 
 # Output directory. Stand-alone: the repo root above source/. In the consolidated site, tools/build_state.py
 # sets ECOS_OUT to a scratch directory and then prefixes every link with /<state> before copying the pages in.
@@ -19,6 +27,7 @@ ROOT = Path(os.environ.get("ECOS_OUT") or Path(__file__).resolve().parent.parent
 S = SITE
 SITE_URL, ORG, PHONE, TEL, EMAIL, NPN = S["url"], S["org"], S["phone"], S["tel"], S["email"], S["npn"]
 STATE, PLAN_YEAR, ISO, REVIEWED, FIG = S["state"], S["plan_year"], S["iso"], S["reviewed"], S["fig"]
+STATE_SLUG = STATE.lower().replace(" ", "-")
 NETWORK = S["network"]
 SAMEAS_ORG = [u for _, u in NETWORK] + S.get("sameas_org_extra", [])
 SAMEAS_DARIN = S["sameas_darin"]
@@ -62,21 +71,32 @@ def header():
 <header class="site-header">
   <div class="wrap site-header__inner">
     <a class="brand" href="/" aria-label="{ORG} home">
-      {S["logo_svg"]}
-      <span><span class="brand__name">{ORG}</span><br>
-      <span class="brand__tag">{S["brand_tag"]}</span></span>
+      <img class="brand__logo" src="https://www.ecosinsurancesolutions.com/assets/ecos-compact-color.svg" alt="ECOS Insurance Solutions" width="160" height="67">
+      <span class="brand__tag">{S["brand_tag"]}</span>
     </a>
     <nav class="nav" aria-label="Primary">
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks"><span class="visually-hidden">Menu</span><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-      <ul class="nav__links" id="navLinks">{links}</ul>
-      <a class="header-call" href="tel:{TEL}">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.1-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg>
-        {PHONE}
-      </a>
+      <ul class="nav__links" id="navLinks"><li><a class="nav__ecos-home" href="https://www.ecosinsurancesolutions.com/">ECOS Home</a></li>{links}</ul>
+      <div class="nav__flag-phone">
+        <img class="nav__flag" src="https://www.ecosinsurancesolutions.com/assets/flags/flag-{STATE_SLUG}.svg" alt="{STATE} state flag" width="52" height="35" loading="lazy">
+        <a class="header-call" href="tel:{TEL}">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.1-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg>
+          {PHONE}
+        </a>
+      </div>
     </nav>
   </div>
 </header>
 '''
+
+def hero_photo_html(p=None):
+    if p is None:
+        p = HERO_PHOTO
+    if not p:
+        return ""
+    w, h = p.get("w", 1600), p.get("h", 1073)
+    return (f'<figure class="hero-photo"><img src="{p["src"]}" srcset="{p["src_sm"]} 800w, {p["src"]} {w}w" sizes="100vw" width="{w}" height="{h}" '
+            f'alt="{p["alt"]}" style="object-position:{p.get("pos", "50% 50%")}" loading="eager" fetchpriority="high" decoding="async"></figure>')
 
 def footer():
     cols = "".join(f'<div><h4>{h}</h4><ul>' + "".join(f'<li>{li}</li>' for li in items) + '</ul></div>' for h, items in FOOTER_COLS)
@@ -88,7 +108,7 @@ def footer():
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <p class="footer-brand">{ORG}</p>
+        <img class="footer-logo" src="https://www.ecosinsurancesolutions.com/assets/ecos-full-reverse.svg" alt="ECOS Insurance Solutions" width="200" height="84">
         <p style="margin-bottom:.6em">{S["footer_tagline"]}</p>
         <p><a href="tel:{TEL}"><strong>{PHONE}</strong></a><br><a href="mailto:{EMAIL}">{EMAIL}</a></p>
         <p style="font-size:.85rem">{A_NAME}, licensed insurance agent, NPN {A_NPN}{A_LIC_TXT}. Statewide by phone and video.</p>
@@ -101,6 +121,7 @@ def footer():
       {bases}
     </nav>
     <div class="footer-net"><span>Our network of sites:</span> {net}</div>
+    <div class="enroll-self" style="margin:0 0 1.2em;padding:14px 16px;border:1px solid rgba(255,255,255,.28);border-radius:10px;font-size:.95rem;line-height:1.5"><strong>Prefer to enroll on your own?</strong> <a href="https://my.destinationrx.com/hub/s/S3TQKLMRA" target="_blank" rel="noopener">Search plans and enroll online</a> at your own pace, or visit <a href="{S['quote_url']}" target="_blank" rel="noopener">{S['quote_url'].replace('https://','')}</a>. Both open in a new tab, so this site stays open for you to come back to. Questions at any step? Call and {A_FIRST} will walk you through it.</div>
     <div class="disclaimer">
       <p><strong>Medicare disclaimer.</strong> {S["tpmo"]}</p>
       <p>{ORG} is not connected with or endorsed by the U.S. government or the federal Medicare program, and is not affiliated with {S["not_affiliated"]}, the U.S. Department of Veterans Affairs, the Department of Defense, or the TRICARE program. This is a solicitation for insurance. A licensed insurance agent may contact you.</p>
@@ -119,16 +140,27 @@ CONSENT_TEXT = ("By checking the consent box and submitting this form, I give EC
                 "and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, "
                 "and that I can opt out at any time.")
 
-def lead_form(form_id, title="Request your free Medicare review", note=None, interest=True):
+def lead_form(form_id, title="Request your free Medicare review", note=None, interest=True, wide=False):
     note = note or f'Tell us a little about you and {A_FIRST} will reach out. Prefer to talk now? Call <a href="tel:{TEL}"><strong>{PHONE}</strong></a>.'
     sel = ""
     if interest:
         opts = "".join(f"<option>{o}</option>" for o in S["interest_options"])
         sel = f'''<div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option>{opts}</select></div>'''
-    return f'''<div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">{title}</h2>
-      <p class="lead-card__note">{note}</p>
+    name_f = '<div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>'
+    phone_f = '<div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>'
+    email_f = '<div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>'
+    zip_f = '<div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>'
+    if wide:
+        fields = f'<div class="field-row">{name_f}{phone_f}</div><div class="field-row">{email_f}{zip_f}</div>'
+        intro = f'<div class="lead-card__intro"><h2 class="lead-card__title">{title}</h2><p class="lead-card__note">{note}</p></div>'
+        card_open = '<div class="lead-card lead-card--wide">'
+    else:
+        fields = name_f + "\n        " + phone_f + "\n        " + email_f + "\n        " + zip_f
+        intro = f'<h2 class="lead-card__title">{title}</h2>\n      <p class="lead-card__note">{note}</p>'
+        card_open = '<div class="lead-card" id="get-help">'
+    return f'''{card_open}
+      {intro}
       <form id="{form_id}" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="{S["web3forms_key"]}">
         <input type="hidden" name="subject" value="New Medicare review request — {S["domain"]}">
@@ -136,10 +168,7 @@ def lead_form(form_id, title="Request your free Medicare review", note=None, int
         <input type="hidden" name="redirect" value="{SITE_URL}/thank-you">
         <input type="hidden" name="consent_text" value="{html.escape(CONSENT_TEXT, quote=True)}">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        {fields}
         {sel}
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="consent"><input id="consent" name="consent" type="checkbox" required>
@@ -155,9 +184,9 @@ def crumbs(items):
     return ('<div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb">'
             + ' <span aria-hidden="true">/</span> '.join(parts) + '</nav></div>')
 
-def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title=None):
+def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title=None, photo=None):
     form_title = form_title or f"Talk it through with {A_FIRST}"
-    return f'''<section class="hero">
+    return f'''<section class="hero{' hero--photo' if photo else ''}">
   <div class="hero__scene" aria-hidden="true">{SCENES[scene]}</div>
   {crumbs(crumb_items)}
   <div class="wrap hero__inner" style="padding-top:.5rem">
@@ -174,7 +203,7 @@ def hero(scene, eyebrow, h1, sub, crumb_items, form_id, form_title=None):
     {lead_form(form_id, form_title, f'No cost, no pressure. Prefer to call? <a href="tel:{TEL}"><strong>{PHONE}</strong></a>.')}
   </div>
 </section>
-'''
+{hero_photo_html(photo) if photo else ''}'''
 
 def faq_html(faqs, eyebrow="Good to know"):
     items = "".join(f'<details><summary>{q}</summary><div class="faq__a"><p>{a}</p></div></details>' for q, a in faqs)
@@ -347,7 +376,7 @@ def build_city(c):
     r = REGION[c["region"]]
     items = [("Home", "/"), (r["short"], f"/{r['slug']}"), (c["name"], None)]
     nearby = "".join(f'<a class="loc" href="/{n}">{(CITY.get(n) or BASE.get(n))["name"]} <span aria-hidden="true">&rarr;</span></a>' for n in c["nearby"])
-    body = hero(c["scene"], f"Medicare help · {r['name']}", f"Medicare help in {c['name']}, {STATE}", c["sub"], items, c["slug"], "Request your free Medicare review")
+    body = hero(c["scene"], f"Medicare help · {r['name']}", f"Medicare help in {c['name']}, {STATE}", c["sub"], items, c["slug"], "Request your free Medicare review", photo=PLACE_PHOTOS.get(c["slug"]))
     body += f'''<section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in {c['name']}</p>
     <h2>What to know before you compare plans in {c['county']}</h2>
@@ -374,7 +403,7 @@ def build_base(b):
     r = REGION[b["region"]]
     items = [("Home", "/"), ("Veterans", "/veterans"), (b["name"], None)]
     nearby = "".join(f'<a class="loc" href="/{n}">{(CITY.get(n) or BASE.get(n))["name"]} <span aria-hidden="true">&rarr;</span></a>' for n in b["nearby"])
-    body = hero(b["scene"], f"Medicare for military communities · {r['name']}", b["h1"], b["sub"], items, b["slug"], "Request your free Medicare review")
+    body = hero(b["scene"], f"Medicare for military communities · {r['name']}", b["h1"], b["sub"], items, b["slug"], "Request your free Medicare review", photo=PLACE_PHOTOS.get(b["slug"]))
     body += f'''<section class="section"><div class="wrap">
     <p class="eyebrow">Medicare near {b['name']}</p>
     <h2>{b['h2']}</h2>
@@ -395,7 +424,7 @@ def build_region(r):
     items = [("Home", "/"), (r["name"], None)]
     sysl = "".join(f"<li>{s}</li>" for s in r["systems"])
     cities = "".join(f'<a class="loc" href="/{s}">{(CITY.get(s) or BASE.get(s))["name"]} <span aria-hidden="true">&rarr;</span></a>' for s in r["cities"])
-    body = hero(r["scene"], r["eyebrow"], r["h1"], r["sub"], items, r["slug"], "Request your free Medicare review")
+    body = hero(r["scene"], r["eyebrow"], r["h1"], r["sub"], items, r["slug"], "Request your free Medicare review", photo=PLACE_PHOTOS.get(r["slug"]))
     body += f'''<section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in the region</p><h2>{r['name']}: what shapes the choice here</h2>
     {"".join(f"<p>{para}</p>" for para in r["intro"])}
@@ -425,7 +454,33 @@ def build_home():
     diff = "".join(f'<article class="card help-card"><h3>{h}</h3><p>{p}</p><a class="card__link" href="{href}">{label} <span aria-hidden="true">&rarr;</span></a></article>' for h, p, href, label in H["different_cards"])
     sit = "".join(f'<article class="card help-card"><h3>{h}</h3><p>{p}</p><a class="card__link" href="{href}">{label} <span aria-hidden="true">&rarr;</span></a></article>' for h, p, href, label in H["situations"])
     trust = "".join(f'<span class="trust__item">{icon} {label}</span>' for icon, label in H["trust"])
-    body = f'''<section class="hero">
+    if HERO_PHOTO:
+        hp = HERO_PHOTO
+        hw, hh = hp.get("w", 1600), hp.get("h", 1073)
+        hero_html = f'''<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="{hp["src"]}" srcset="{hp["src_sm"]} 800w, {hp["src"]} {hw}w" sizes="100vw" width="{hw}" height="{hh}" alt="" style="object-position:{hp.get("pos", "50% 50%")}" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
+      <p class="eyebrow">{H["eyebrow"]}</p>
+      <h1>{H["h1"]}</h1>
+      <p class="hero__sub">{H["sub"]}</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary btn--lg" href="tel:{TEL}">Call {PHONE}</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
+      </div>
+      <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
+    </div>
+  </div>
+</section>
+<div class="trust"><div class="wrap trust__inner">{trust}</div></div>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+{lead_form("home", wide=True)}
+</div></section>'''
+    else:
+        hero_html = f'''<section class="hero">
   <div class="hero__scene" aria-hidden="true">{SCENES[H["scene"]]}</div>
   <div class="wrap hero__inner">
     <div>
@@ -441,7 +496,8 @@ def build_home():
     {lead_form("home")}
   </div>
 </section>
-<div class="trust"><div class="wrap trust__inner">{trust}</div></div>
+<div class="trust"><div class="wrap trust__inner">{trust}</div></div>'''
+    body = f'''{hero_html}
 <section class="section"><div class="wrap">
     <p class="eyebrow">{H["different_eyebrow"]}</p>
     <h2>{H["different_h2"]}</h2>

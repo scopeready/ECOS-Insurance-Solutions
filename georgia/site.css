@@ -167,10 +167,12 @@ strong { font-weight: 700; }
   display: flex; align-items: center; justify-content: space-between;
   gap: 1rem; min-height: 76px; padding-block: .5rem;
 }
-.brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--ink); }
+.brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--ink); flex-shrink: 0; }
 .brand__mark { flex: none; }
+.brand__logo { flex: none; height: 44px; width: auto; }
 .brand__name { font-family: var(--display); font-weight: 600; font-size: 1.32rem; line-height: 1.05; }
-.brand__tag { font-size: .76rem; color: var(--ink-soft); letter-spacing: .02em; }
+.brand__tag { font-size: .76rem; color: var(--ink-soft); letter-spacing: .02em; max-width: 12em; line-height: 1.25; }
+@media (max-width: 640px) { .brand__tag { display: none; } }
 
 .nav { display: flex; align-items: center; gap: clamp(.6rem, 1.5vw, 1.6rem); }
 .nav__links { display: flex; gap: clamp(.6rem, 1.4vw, 1.4rem); list-style: none; margin: 0; padding: 0; }
@@ -179,6 +181,16 @@ strong { font-weight: 700; }
   padding: .4rem .2rem; border-bottom: 2px solid transparent;
 }
 .nav__links a:hover { color: var(--pine-dark); border-bottom-color: var(--gold); }
+.nav__links a.nav__ecos-home {
+  color: var(--ink-soft); font-weight: 600; padding-right: .9rem; margin-right: .1rem;
+  border-right: 1px solid var(--line); white-space: nowrap;
+}
+.nav__links a.nav__ecos-home:hover { color: var(--pine-dark); border-bottom-color: transparent; }
+.nav__flag-phone { display: flex; flex-direction: column; align-items: center; gap: .3rem; flex: none; }
+.nav__flag {
+  flex: none; width: 52px; height: 35px; object-fit: contain; background: #fff; border-radius: 4px;
+  border: 1px solid var(--line); box-shadow: 0 1px 3px rgba(0,0,0,.18);
+}
 .header-call {
   display: inline-flex; align-items: center; gap: .5rem;
   font-weight: 800; color: var(--pine-dark); text-decoration: none;
@@ -339,6 +351,7 @@ figure.scenery figcaption {
 
 /* ---- Footer + compliance ------------------------------------------------ */
 .site-footer { background: #16201b; color: #cdd6cf; font-size: .95rem; padding-block: clamp(2.4rem, 2rem + 2vw, 3.4rem); }
+.footer-logo { height: 40px; width: auto; margin-bottom: .6em; }
 .site-footer a { color: #e7efe8; }
 .site-footer a:hover { color: var(--gold); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2rem; }
@@ -420,3 +433,58 @@ figure.scenery figcaption {
 .footer-net span{color:#fff;font-weight:700;margin-right:.3rem}
 .footer-net a{text-decoration:none}
 .footer-net a:hover{text-decoration:underline}
+
+/* Home-page photo band under the hero */
+.hero-photo{margin:0;background:#fff;line-height:0}
+.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover;object-position:50% 50%}
+@media (max-width:700px){.hero-photo img{aspect-ratio:3/2}}
+.hero--photo{min-height:0}
+.hero--photo .hero__scene{display:none}
+.hero--photo .hero__inner{padding-bottom:clamp(2.6rem,2rem + 4vw,4.6rem)}
+@media (max-width:880px){.hero--photo .hero__inner{padding-bottom:clamp(2.6rem,2rem + 4vw,4.6rem)}}
+
+/* ---- Homepage hero v2: photo as background, text overlaid clear of the couple ---- */
+.hero--overlay{min-height:clamp(560px,58vw,720px);background:var(--pine-dark)}
+.hero--overlay .hero-bg{position:absolute;inset:0;z-index:0}
+.hero--overlay .hero-bg img{width:100%;height:100%;object-fit:cover;object-position:70% 56%;display:block}
+.hero--overlay .hero-scrim{
+  position:absolute;inset:0;
+  background:linear-gradient(115deg,rgba(18,63,51,.95) 0%,rgba(18,63,51,.90) 40%,rgba(18,63,51,.55) 58%,rgba(18,63,51,0) 78%);
+}
+.hero--overlay .hero__inner-v2{position:relative;z-index:1;padding-block:clamp(3.2rem,5vw,4.8rem)}
+.hero-copy{max-width:min(600px,58vw)}
+.hero-copy .eyebrow{color:#e7c486}
+.hero-copy .eyebrow::before{background:#e7c486}
+.hero-copy h1{color:#fff}
+.hero-copy .hero__sub{color:#dfe8e2}
+.hero-copy .hero__nocost{color:#f4efe1}
+.btn--outline-light{background:transparent;color:#fff;border-color:rgba(255,255,255,.8)}
+.btn--outline-light:hover{background:rgba(255,255,255,.14);color:#fff}
+@media (max-width:880px){
+  .hero--overlay{min-height:0;background:none}
+  .hero--overlay .hero-bg{position:relative;inset:auto;height:0;padding-top:82%;overflow:hidden}
+  .hero--overlay .hero-bg img{position:absolute;inset:0;object-position:74% 42%}
+  .hero--overlay .hero-scrim{background:linear-gradient(180deg,rgba(18,63,51,0) 60%,rgba(245,242,232,1) 100%)}
+  .hero--overlay .hero__inner-v2{padding-block:1.5rem 1.2rem}
+  .hero-copy{max-width:none}
+  .hero-copy .eyebrow{color:var(--gold-deep)}
+  .hero-copy .eyebrow::before{background:var(--gold)}
+  .hero-copy h1{color:var(--ink)}
+  .hero-copy .hero__sub{color:var(--ink-soft)}
+  .hero-copy .hero__nocost{color:var(--pine-dark)}
+  .hero--overlay .btn--outline-light{background:transparent;color:var(--pine-dark);border-color:var(--pine)}
+  .hero--overlay .btn--outline-light:hover{background:var(--pine-tint);color:var(--pine-dark)}
+}
+
+/* ---- Wide horizontal request section (replaces the old narrow floating card) ---- */
+.section--lead-wide{padding-block:clamp(2.4rem,3vw,3.6rem)}
+.lead-card--wide{
+  max-width:none; display:grid; grid-template-columns:minmax(240px,340px) 1fr;
+  gap:clamp(1.6rem,3vw,3rem); align-items:start; padding:clamp(1.6rem,2vw,2.4rem) clamp(1.6rem,2.5vw,2.8rem);
+  background:var(--pine-tint); border:1px solid #cfe0d6;
+}
+.lead-card--wide .lead-card__title{font-size:var(--step-2)}
+.field-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+@media (max-width:760px){
+  .lead-card--wide{grid-template-columns:1fr}
+}

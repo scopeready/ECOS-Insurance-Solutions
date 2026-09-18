@@ -96,12 +96,18 @@ strong { font-weight: 700; }
 .site-header { position: sticky; top: 0; z-index: 100; background: rgba(244,242,236,.94); backdrop-filter: saturate(1.2) blur(8px); border-bottom: 1px solid var(--line); }
 .site-header__inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 76px; padding-block: .5rem; }
 .brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--ink); flex: none; }
+.brand__logo { height: 44px; width: auto; flex: none; }
 .brand__mark { flex: none; }
 .brand__name { font-family: var(--display); font-weight: 600; font-size: 1.25rem; line-height: 1.05; white-space: nowrap; }
 .brand__tag { font-size: .76rem; color: var(--ink-soft); letter-spacing: .02em; }
 .nav { display: flex; align-items: center; gap: clamp(.6rem, 1.5vw, 1.4rem); }
-.nav__links { display: flex; gap: clamp(.5rem, 1.2vw, 1.2rem); list-style: none; margin: 0; padding: 0; }
+.nav__links { display: flex; flex-wrap: wrap; row-gap: .3rem; gap: clamp(.5rem, 1.2vw, 1.2rem); list-style: none; margin: 0; padding: 0; }
 .nav__links a { text-decoration: none; color: var(--ink); font-weight: 600; font-size: .95rem; padding: .4rem .2rem; border-bottom: 2px solid transparent; white-space: nowrap; }
+.nav__links a.nav__ecos-home { color: var(--ink-soft); font-weight: 600; padding-right: .8rem; margin-right: .1rem; border-right: 1px solid var(--line); }
+.nav__links a.nav__ecos-home:hover { color: var(--ink); border-bottom-color: transparent; }
+.nav__flag-phone { display: flex; flex-direction: column; align-items: center; gap: .3rem; flex: none; }
+.nav__flag { flex: none; width: 52px; height: 35px; object-fit: contain; background: #fff; border-radius: 4px; border: 1px solid var(--line); box-shadow: 0 1px 3px rgba(0,0,0,.18); }
+@media (max-width: 1140px) { .nav__flag { display: none; } }
 .nav__links a:hover { color: var(--lake-dark); border-bottom-color: var(--gold); }
 .header-call { display: inline-flex; align-items: center; gap: .5rem; font-weight: 800; color: var(--lake-dark); text-decoration: none; font-size: 1.1rem; white-space: nowrap; min-height: 44px; }
 .header-call:hover { color: var(--maple); }
@@ -210,6 +216,7 @@ strong { font-weight: 700; }
 .site-footer a { color: #e6edf2; }
 .site-footer a:hover { color: var(--gold); }
 .footer-brand { font-family: var(--display); font-size: 1.3rem; color: #fff; margin-bottom: .4em; }
+.footer-logo { height: 40px; width: auto; margin-bottom: .6em; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 2rem; }
 .footer-grid h4, .footer-areas h4 { color: #fff; font-family: var(--body); font-size: .85rem; text-transform: uppercase; letter-spacing: .12em; margin: 0 0 .9rem; }
 .footer-grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
@@ -293,3 +300,61 @@ strong { font-weight: 700; }
 .calc__result:empty { display: none; }
 .calc__result p { margin: 0 0 .4rem; }
 .calc__fine { font-size: .82rem; color: var(--ink-soft); }
+
+/* Home-page photo band under the hero */
+.hero-photo{margin:0;background:#fff;line-height:0}
+.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover;object-position:50% 50%}
+@media (max-width:700px){.hero-photo img{aspect-ratio:3/2}}
+.hero--photo{min-height:0}
+.hero--photo .hero__scene{display:none}
+.hero--photo .hero__inner{padding-bottom:clamp(2.6rem,2rem + 4vw,4.6rem)}
+@media (max-width:880px){.hero--photo .hero__inner{padding-bottom:clamp(2.6rem,2rem + 4vw,4.6rem)}}
+
+/* ---- Homepage hero v2: photo as background, text overlaid clear of the couple ---- */
+.hero--overlay{min-height:clamp(560px,58vw,720px);background:var(--lake-dark)}
+.hero--overlay .hero-bg{position:absolute;inset:0;z-index:0}
+.hero--overlay .hero-bg img{width:100%;height:100%;object-fit:cover;display:block}
+.hero--overlay .hero-scrim{
+  position:absolute;inset:0;
+  background:linear-gradient(115deg,
+    color-mix(in srgb, var(--lake-dark) 95%, transparent) 0%,
+    color-mix(in srgb, var(--lake-dark) 90%, transparent) 40%,
+    color-mix(in srgb, var(--lake-dark) 55%, transparent) 58%,
+    color-mix(in srgb, var(--lake-dark) 0%, transparent) 78%);
+}
+.hero--overlay .hero__inner-v2{position:relative;z-index:1;padding-block:clamp(3.2rem,5vw,4.8rem)}
+.hero-copy{max-width:min(600px,58vw)}
+.hero-copy .eyebrow{color:var(--gold)}
+.hero-copy .eyebrow::before{background:var(--gold)}
+.hero-copy h1{color:#fff}
+.hero-copy .hero__sub{color:#e4ece7}
+.hero-copy .hero__nocost{color:#f4efe1}
+.btn--outline-light{background:transparent;color:#fff;border-color:rgba(255,255,255,.8)}
+.btn--outline-light:hover{background:rgba(255,255,255,.14);color:#fff}
+@media (max-width:880px){
+  .hero--overlay{min-height:0;background:none}
+  .hero--overlay .hero-bg{position:relative;inset:auto;height:0;padding-top:82%;overflow:hidden}
+  .hero--overlay .hero-bg img{position:absolute;inset:0}
+  .hero--overlay .hero-scrim{background:linear-gradient(180deg, transparent 60%, var(--paper) 100%)}
+  .hero--overlay .hero__inner-v2{padding-block:1.5rem 1.2rem}
+  .hero-copy{max-width:none}
+  .hero-copy .eyebrow{color:var(--gold-deep)}
+  .hero-copy h1{color:var(--ink)}
+  .hero-copy .hero__sub{color:var(--ink-soft)}
+  .hero-copy .hero__nocost{color:var(--lake-dark)}
+  .hero--overlay .btn--outline-light{background:transparent;color:var(--lake-dark);border-color:var(--lake)}
+  .hero--overlay .btn--outline-light:hover{background:var(--lake-tint);color:var(--lake-dark)}
+}
+
+/* ---- Wide horizontal request section (replaces the old narrow floating card on the homepage) ---- */
+.section--lead-wide{padding-block:clamp(2.4rem,3vw,3.6rem)}
+.lead-card--wide{
+  max-width:none; display:grid; grid-template-columns:minmax(240px,340px) 1fr;
+  gap:clamp(1.6rem,3vw,3rem); align-items:start; padding:clamp(1.6rem,2vw,2.4rem) clamp(1.6rem,2.5vw,2.8rem);
+  background:var(--lake-tint); border:1px solid var(--line);
+}
+.lead-card--wide .lead-card__title{font-size:var(--step-2)}
+.field-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+@media (max-width:760px){
+  .lead-card--wide{grid-template-columns:1fr}
+}

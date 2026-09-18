@@ -35,6 +35,7 @@ from migrate import NEW_HOST, rewrite_abs_links, rewrite_domains, clean_path, TE
 
 DROP = {"CNAME", "vercel.json", "robots.txt", ".nojekyll"}
 KEEP_IF_MISSING = {"darin.jpg", "og-image.png"}
+KEEP_DIRS = {"img"}  # photos placed by hand (hero bands), not produced by the engines
 
 
 def normalise_new_host(text, state):
@@ -77,14 +78,22 @@ def main():
                 text = normalise_new_host(text, state)
                 f.write_text(text, encoding="utf-8")
         keep = {}
+        keep_dirs = {}
         if out.is_dir():
             for name in KEEP_IF_MISSING:
                 if (out / name).is_file() and not (tmp / name).is_file():
                     keep[name] = (out / name).read_bytes()
+            for name in KEEP_DIRS:
+                if (out / name).is_dir() and not (tmp / name).exists():
+                    keep_dirs[name] = {f.name: f.read_bytes() for f in (out / name).iterdir() if f.is_file()}
             shutil.rmtree(out)
         shutil.copytree(tmp, out)
         for name, data in keep.items():
             (out / name).write_bytes(data)
+        for name, files in keep_dirs.items():
+            (out / name).mkdir(exist_ok=True)
+            for fname, data in files.items():
+                (out / name / fname).write_bytes(data)
         if not (out / "darin.jpg").is_file():
             shutil.copy2(REPO / "texas" / "darin.jpg", out / "darin.jpg")  # the same headshot every section uses
     n = len(list(out.glob("*.html")))

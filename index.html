@@ -65,15 +65,14 @@ nav.main a{text-decoration:none;font-weight:600;color:var(--navy)}
 nav.main a.call{background:var(--gold);color:var(--navy-deep);padding:10px 16px;border-radius:8px;white-space:nowrap}
 /* hero */
 .hero{background:linear-gradient(180deg,#FBF8F2,var(--tint));color:var(--ink);padding:64px 0 56px;border-bottom:1px solid var(--line)}
-.hero .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;align-items:center}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center}
 .hero .eyebrow{color:var(--gold-deep)}
 .hero h1{color:var(--navy)}
 .hero .lead{color:var(--muted);max-width:58ch}
 .hero .actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:8px}
 .hero .actions .online{color:var(--navy);font-weight:600;padding:8px 0}
 .hero .fig{border-radius:16px;overflow:hidden;box-shadow:0 16px 40px rgba(60,40,10,.18);border:1px solid var(--line);background:#fff}
-.hero .fig img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
-.hero .cap{font-size:.85rem;color:var(--faint);margin-top:10px}
+.hero .fig img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:100% 50%}
 /* sections */
 section{padding:60px 0}
 section.alt{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -95,6 +94,7 @@ section.alt{background:var(--surface);border-top:1px solid var(--line);border-bo
 .scard .natlbl,.office .natlbl{margin-top:.25em}
 .offices{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:28px}
 .office{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:12px;padding:22px}
+.office--home{border-top-color:var(--navy);background:var(--tint)}
 .office h3{margin-bottom:.2em}
 .office address{font-style:normal;line-height:1.5;margin:.3em 0 .6em}
 .office .phone{font-weight:700;text-decoration:none;color:var(--ink);font-size:1.1rem}
@@ -127,6 +127,15 @@ footer li{margin:4px 0}
 footer .flogo{width:220px;height:auto;margin-bottom:14px;display:block}
 .disclaimer{border-top:1px solid rgba(255,255,255,.2);padding-top:18px;font-size:.88rem;line-height:1.5;color:#B9C4D6}
 .disclaimer p{margin:0 0 .8em}
+/* free book section */
+.book-promo{background:var(--navy);padding:56px 0}
+.book-promo .book-promo-inner{display:grid;grid-template-columns:170px 1fr;gap:36px;align-items:center}
+.book-promo h2{color:#fff}
+.book-promo .eyebrow{color:var(--gold)}
+.book-promo .lead{color:#D8DEE8;max-width:60ch}
+.book-promo .note{color:#AFB9CC}
+.book-cover{width:170px;height:auto;border-radius:6px;box-shadow:0 18px 40px rgba(0,0,0,.35);display:block}
+@media (max-width:760px){.book-promo .book-promo-inner{grid-template-columns:1fr;text-align:center}.book-cover{margin:0 auto}}
 @media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero .fig{max-width:560px}footer .cols{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.logo img{height:44px}.logo .compact{display:none}.logo .mobile{display:block}nav.main{gap:14px;font-size:.95rem}nav.main a:not(.call){display:none}.about{grid-template-columns:1fr}footer .cols{grid-template-columns:1fr}}
 </style>
@@ -136,7 +145,7 @@ footer .flogo{width:220px;height:auto;margin-bottom:14px;display:block}
 <div class="topbar"><div class="wrap"><span>Darin Weidauer, licensed insurance agent · NPN 18580338</span><span>National number <a href="tel:+14242950627">(424) 295-0627</a> · <a href="mailto:darinweidauer@ecos.care">darinweidauer@ecos.care</a></span></div></div>
 <header class="site"><div class="wrap">
 <a class="logo" href="/" aria-label="ECOS Insurance Solutions home"><img class="compact" src="/assets/ecos-compact-color.svg" alt="ECOS Insurance Solutions" width="153" height="64"><img class="mobile" src="/assets/ecos-mobile-color.svg" alt="ECOS Insurance Solutions" width="131" height="44"></a>
-<nav class="main" aria-label="Main"><a href="#states">Your state</a><a href="#compare">Compare plans online</a><a href="#offices">Offices</a><a href="#how">How it works</a><a href="#about">About</a><a class="call" href="tel:+14242950627">Call (424) 295-0627</a></nav>
+<nav class="main" aria-label="Main"><a href="#states">Your state</a><a href="#book">Free book</a><a href="#compare">Compare plans online</a><a href="#offices">Offices</a><a href="#how">How it works</a><a href="#about">About</a><a class="call" href="tel:+14242950627">Call (424) 295-0627</a></nav>
 </div></header>
 
 <main id="main">
@@ -151,8 +160,19 @@ footer .flogo{width:220px;height:auto;margin-bottom:14px;display:block}
 <a class="online ext" href="https://my.destinationrx.com/hub/s/S3TQKLMRA" target="_blank" rel="noopener">Compare plans and enroll online</a>
 </div>
 </div>
-<div><div class="fig"><img src="/assets/hero-kitchen-table.webp" alt="A couple in their late sixties at a kitchen table, the man on the phone, the woman reading a single page" width="1192" height="800" fetchpriority="high"></div><p class="cap">Illustrative image. Not a client or employee.</p></div>
+<div><div class="fig"><img src="/assets/hero-kitchen-table.webp" alt="A couple in their late sixties at a kitchen table, the man on the phone, the woman reading a single page" width="1192" height="800" fetchpriority="high"></div></div>
 </div></div>
+
+<section class="book-promo" id="book"><div class="wrap book-promo-inner">
+<img class="book-cover" src="/assets/book-cover.webp" alt="Retire With Confidence: The Medicare Guide, 2026 Edition, by Darin Weidauer" width="170" height="255" loading="eager">
+<div>
+<div class="eyebrow">Free Book</div>
+<h2>Retire With Confidence: The Medicare Guide</h2>
+<p class="lead">295 pages, 2026 Edition, by Darin Weidauer. The same plain-English guidance we give at the kitchen table &mdash; enrollment deadlines, Medicare Advantage vs. Medigap, Part D costs, and the mistakes that cost retirees the most.</p>
+<button type="button" class="btn btn-gold js-book-open">Get the free book</button>
+<p class="note">We'll email your copy after a short form. No spam, no obligation.</p>
+</div>
+</div></section>
 
 <section id="compare"><div class="wrap">
 <h2>Two ways to get started</h2>
@@ -207,6 +227,7 @@ footer .flogo{width:220px;height:auto;margin-bottom:14px;display:block}
 <h2>Meet in person</h2>
 <p class="lead">Four offices, all by appointment. Most reviews happen at the member's home, so if travelling is a chore, we come to you.</p>
 <div class="offices">
+<div class="office office--home"><div class="eyebrow">Wherever you are</div><h3>Your Home</h3><p>Prefer to stay put? Darin comes to you &mdash; at your kitchen table, over coffee, on your own schedule. Most reviews actually happen in members' homes.</p><div class="row"><a href="#review">Book a visit</a></div><p class="hours">No office visit required. Just tell us what works for you.</p></div>
 <div class="office"><div class="eyebrow">California</div><h3>Seal Beach</h3><address>13936 Seal Beach Blvd<br>Seal Beach, CA 90740</address><a class="phone" href="tel:+14242950627">(424) 295-0627</a><span class="natlbl">National number</span><div class="row"><a class="ext" href="https://www.google.com/maps/dir/?api=1&destination=13936+Seal+Beach+Blvd%2C+Seal+Beach%2C+CA+90740" target="_blank" rel="noopener">Directions</a><a href="#review">Book a visit</a></div><p class="hours">By appointment only. We also come to you.</p></div>
 <div class="office"><div class="eyebrow">Arizona</div><h3>Sun City</h3><address>10740 W Bell Rd<br>Sun City, AZ 85351</address><a class="phone" href="tel:+14808450246">(480) 845-0246</a><div class="row"><a class="ext" href="https://www.google.com/maps/dir/?api=1&destination=10740+W+Bell+Rd%2C+Sun+City%2C+AZ+85351" target="_blank" rel="noopener">Directions</a><a href="#review">Book a visit</a></div><p class="hours">By appointment only. We also come to you.</p></div>
 <div class="office"><div class="eyebrow">Arizona</div><h3>Mesa</h3><address>5110 E Southern Ave, Suite 101<br>Mesa, AZ 85206</address><a class="phone" href="tel:+14808450246">(480) 845-0246</a><div class="row"><a class="ext" href="https://www.google.com/maps/dir/?api=1&destination=5110+E+Southern+Ave+Suite+101%2C+Mesa%2C+AZ+85206" target="_blank" rel="noopener">Directions</a><a href="#review">Book a visit</a></div><p class="hours">By appointment only. We also come to you.</p></div>
@@ -286,10 +307,11 @@ footer .flogo{width:220px;height:auto;margin-bottom:14px;display:block}
 <div><h3>States</h3><ul><li><a href="/arizona">Arizona</a> · <a href="/california">California</a> · <a href="/colorado">Colorado</a> · <a href="/florida">Florida</a></li><li><a href="/georgia">Georgia</a> · <a href="/hawaii">Hawaii</a> · <a href="/indiana">Indiana</a> · <a href="/minnesota">Minnesota</a></li><li><a href="/nevada">Nevada</a> · <a href="/new-mexico">New Mexico</a> · <a href="/north-carolina">North Carolina</a> · <a href="/ohio">Ohio</a></li><li><a href="/south-carolina">South Carolina</a> · <a href="/tennessee">Tennessee</a> · <a href="/texas">Texas</a> · <a href="/utah">Utah</a> · <a href="/washington">Washington</a></li></ul></div>
 <div><h3>Official and independent</h3><ul><li><a href="https://www.medicare.gov">Medicare.gov</a></li><li><a href="tel:+18006334227">1-800-MEDICARE (1-800-633-4227)</a>, TTY 1-877-486-2048</li><li><a href="https://www.shiphelp.org">Find your state's SHIP counselor</a></li><li><a href="https://www.mymedigaprate.com">MyMedigapRate</a> · <a href="https://www.myecos360.com/darin-weidauer">MyECOS360</a></li></ul></div>
 </div>
+<div class="enroll-self" style="margin:0 0 1.2em;padding:14px 16px;border:1px solid rgba(255,255,255,.28);border-radius:10px;font-size:.95rem;line-height:1.5"><strong>Prefer to enroll on your own?</strong> <a href="https://my.destinationrx.com/hub/s/S3TQKLMRA" target="_blank" rel="noopener">Search plans and enroll online</a> at your own pace, or visit <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">planenroll.com/?purl=Darin-Weidauer</a>. Both open in a new tab, so this site stays open for you to come back to. Questions at any step? Call and Darin will walk you through it.</div>
 <div class="disclaimer">
 <p><strong>Medicare disclaimer.</strong> We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov, 1-800-MEDICARE (TTY 1-877-486-2048), 24 hours a day, 7 days a week, or your State Health Insurance Assistance Program to get information on all of your options.</p>
-<p>ECOS Medicare Solutions is not connected with or endorsed by the United States government or the federal Medicare program. This is a solicitation of insurance. A licensed insurance agent may contact you. Medicare cost figures on the state guides are based on 2026 CMS data. Online plan comparison, enrollment and the member sign-in open in a new tab on separate platforms made available through our agency; a click on those links is not an enrollment.</p>
-<p>&copy; 2026 ECOS Medicare Solutions. All rights reserved. Privacy and terms are published on each state guide.</p>
+<p>ECOS Medicare Solutions is not connected with or endorsed by the United States government or the federal Medicare program. This is a solicitation of insurance. A licensed insurance agent may contact you. Medicare cost figures on the state guides are based on 2026 CMS data. Lifestyle photographs on this site are illustrative and do not depict clients or staff. Online plan comparison, enrollment and the member sign-in open in a new tab on separate platforms made available through our agency; a click on those links is not an enrollment.</p>
+<p>&copy; 2026 ECOS Medicare Solutions. All rights reserved. <a href="/privacy">Privacy Policy</a>. State-specific terms are published on each state guide.</p>
 </div>
 </div></footer>
 
@@ -309,5 +331,6 @@ footer .flogo{width:220px;height:auto;margin-bottom:14px;display:block}
 </script>
 
 <script src="/analytics.js" defer></script>
+<script src="/assets/book-request.js" defer></script>
 </body>
 </html>

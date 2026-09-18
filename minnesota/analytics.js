@@ -12,7 +12,7 @@
  * Mark BOTH as key events (conversions) in GA4: Admin -> Events -> "Mark as key event".
  */
 (function () {
-  var MEASUREMENT_ID = 'G-7CXH7ZLSP1';
+  var MEASUREMENT_ID = 'G-XXXXXXXXXX';
   if (!/^G-[A-Z0-9]{8,12}$/.test(MEASUREMENT_ID) || /^G-X+$/.test(MEASUREMENT_ID)) {
     if (window.console && console.info) console.info('[analytics] No GA4 Measurement ID configured yet — tracking is off. Set MEASUREMENT_ID in analytics.js.');
     return;

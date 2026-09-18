@@ -27,7 +27,7 @@ OLD_DOMAINS = ["georgiamedicareenrollment.com", "medicareenrollmentarizona.com",
                "medicareenrollmentflorida.com"]
 IGNORE_DIRS = {".git", "scripts", "tools", "docs", "node_modules"}
 # Served, but not a state section: no index/sitemap/llms/404 expected inside.
-ASSET_DIRS = {"assets"}
+ASSET_DIRS = {"assets", "api"}
 
 
 def served_files(root):
