@@ -43,6 +43,10 @@
       ".ecos-book-modal{background:#fff;border-radius:14px;max-width:460px;width:100%;max-height:90vh;overflow:auto;padding:28px;position:relative;font-family:var(--body,'IBM Plex Sans',system-ui,sans-serif);box-shadow:0 24px 60px rgba(10,31,64,.35)}" +
       ".ecos-book-modal h2{font-family:var(--display,'Red Hat Display',system-ui,sans-serif);color:var(--navy,#0F2D5A);font-size:1.4rem;margin:0 0 6px}" +
       ".ecos-book-modal p.sub{color:var(--muted,#4A4F57);margin:0 0 18px;font-size:.98rem}" +
+      ".ecos-book-modal-head{display:flex;gap:14px;align-items:flex-start;margin-bottom:18px}" +
+      ".ecos-book-modal-head h2{margin:0 0 6px}" +
+      ".ecos-book-modal-head p.sub{margin:0}" +
+      ".ecos-book-cover-thumb{flex:0 0 auto;width:64px;height:auto;border-radius:5px;box-shadow:0 8px 20px rgba(10,31,64,.3)}" +
       ".ecos-book-modal label{display:block;font-weight:600;font-size:.92rem;margin:12px 0 4px;color:var(--ink,#1D2129)}" +
       ".ecos-book-modal input[type=text],.ecos-book-modal input[type=email],.ecos-book-modal input[type=tel]{width:100%;font:inherit;font-size:1rem;padding:11px 13px;border:1px solid #BFC3C9;border-radius:8px}" +
       ".ecos-book-modal .consent{display:flex;gap:9px;align-items:flex-start;margin:14px 0;font-size:.86rem;color:var(--muted,#4A4F57)}" +
@@ -60,6 +64,9 @@
       ".ecos-book-popup.show{transform:translateY(0);opacity:1;pointer-events:auto}" +
       ".ecos-book-popup .eyebrow{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-deep,#8A6A2B);font-weight:700;margin-bottom:.4em}" +
       ".ecos-book-popup h3{font-family:var(--display,'Red Hat Display',system-ui,sans-serif);color:var(--navy,#0F2D5A);font-size:1.08rem;margin:0 0 6px}" +
+      ".ecos-book-popup-head{display:flex;gap:10px;align-items:flex-start;margin-bottom:2px}" +
+      ".ecos-book-popup-head .eyebrow{margin-bottom:.2em}" +
+      ".ecos-book-popup-head h3{margin:0}" +
       ".ecos-book-popup p{font-size:.9rem;color:var(--muted,#4A4F57);margin:0 0 12px}" +
       ".ecos-book-popup .row{display:flex;gap:10px;align-items:center}" +
       ".ecos-book-popup button.cta{background:var(--gold,#C6A15B);color:var(--navy-deep,#0A1F40);border:none;border-radius:8px;padding:10px 14px;font-weight:700;font-size:.92rem;cursor:pointer}" +
@@ -107,8 +114,13 @@
     modal.innerHTML =
       '<button type="button" class="ecos-book-close" aria-label="Close">&times;</button>' +
       '<div class="ecos-book-form-view">' +
+      '<div class="ecos-book-modal-head">' +
+      '<img class="ecos-book-cover-thumb" src="/assets/book-cover.webp" alt="Retire With Confidence book cover" width="64" height="96">' +
+      '<div>' +
       '<h2 id="ecosBookTitle">Get your free copy of Retire With Confidence</h2>' +
       '<p class="sub">The Medicare Guide &mdash; 295 pages, 2026 Edition. We\'ll email your download link.</p>' +
+      '</div>' +
+      '</div>' +
       '<form novalidate>' +
       '<label for="ecosBookName">Full name</label>' +
       '<input id="ecosBookName" name="name" type="text" autocomplete="name" required maxlength="100">' +
@@ -243,8 +255,11 @@
     popup.setAttribute("aria-label", "Free book offer");
     popup.innerHTML =
       '<button type="button" class="ecos-book-close" aria-label="Dismiss">&times;</button>' +
-      '<p class="eyebrow">Free Book</p>' +
-      "<h3>Retire With Confidence</h3>" +
+      '<div class="ecos-book-popup-head">' +
+      '<img class="ecos-book-cover-thumb" src="/assets/book-cover.webp" alt="" width="48" height="72">' +
+      '<div><p class="eyebrow">Free Book</p>' +
+      "<h3>Retire With Confidence</h3></div>" +
+      "</div>" +
       "<p>295 pages on Medicare, decided in plain English. Get your free copy by email.</p>" +
       '<div class="row"><button type="button" class="cta">Get the free book</button></div>';
     document.body.appendChild(popup);
