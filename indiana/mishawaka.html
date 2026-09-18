@@ -51,23 +51,28 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f0e3"/><stop offset="1" stop-color="#dde5e0"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/><circle cx="1170" cy="118" r="60" fill="#e6c26a" opacity=".6"/><path d="M0 252C300 236 700 258 1440 240V360H0Z" fill="#cfd6cc"/><path d="M0 278C260 262 520 288 780 272 1040 256 1240 284 1440 266V360H0Z" fill="#9fb489"/><g><rect x="240" y="262" width="80" height="44" fill="#9b3b25"/><path d="M232 262l48-30 48 30z" fill="#7a2c1a"/><rect x="270" y="280" width="16" height="26" fill="#4a3728"/><rect x="296" y="274" width="12" height="12" fill="#e3d8bd"/></g><g transform="translate(150 306) scale(0.8)"><rect x="-6" y="-34" width="12" height="38" fill="#4a3728"/><path d="M-58-34c-24-26 4-70 44-64 18-30 72-22 74 10 30-2 44 40 12 52-8 22-52 24-74 8-22 14-64 10-56-6z" fill="#2e5a3a"/></g><g transform="translate(420 306) scale(0.9)"><rect x="-6" y="-34" width="12" height="38" fill="#4a3728"/><path d="M-58-34c-24-26 4-70 44-64 18-30 72-22 74 10 30-2 44 40 12 52-8 22-52 24-74 8-22 14-64 10-56-6z" fill="#5f7d3c"/></g><path d="M0 306C240 298 480 314 720 306 960 298 1200 314 1440 306V360H0Z" fill="#5f7d3c" opacity="1"/><path d="M0 318C300 312 600 324 900 318 1200 312 1350 322 1440 318V360H0Z" fill="#4f7f95"/><rect x="880" y="292" width="220" height="7" fill="#8a6a48"/><rect x="896" y="299" width="5" height="26" fill="#6a4e34"/><rect x="936" y="299" width="5" height="26" fill="#6a4e34"/><rect x="976" y="299" width="5" height="26" fill="#6a4e34"/><rect x="1016" y="299" width="5" height="26" fill="#6a4e34"/><rect x="1056" y="299" width="5" height="26" fill="#6a4e34"/><rect x="1096" y="299" width="5" height="26" fill="#6a4e34"/><g><path d="M600 318l14 12h70l14-12z" fill="#5b5148"/><rect x="646" y="278" width="3" height="40" fill="#5b5148"/><path d="M649 278l30 32h-30z" fill="#f5f0e3"/></g><path d="M100 340c60-4 120 4 180 0M1200 346c60-4 120 4 180 0" stroke="#dfe8ee" stroke-width="2" fill="none" opacity=".5"/></svg></div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/indiana">Home</a> <span aria-hidden="true">/</span> <a href="/indiana/north-central-indiana">North Central Indiana</a> <span aria-hidden="true">/</span> <span>Mishawaka</span></nav></div>
-  <div class="wrap hero__inner" style="padding-top:.5rem">
-    <div>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/indiana/img/mishawaka-1200.webp" srcset="/indiana/img/mishawaka-800.webp 800w, /indiana/img/mishawaka-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/indiana">Home</a> <span aria-hidden="true">/</span> <a href="/indiana/north-central-indiana">North Central Indiana</a> <span aria-hidden="true">/</span> <span>Mishawaka</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
       <p class="eyebrow">Medicare help · South Bend, Elkhart &amp; North Central Indiana</p>
       <h1>Medicare help in Mishawaka, Indiana</h1>
       <p class="hero__sub">Mishawaka is home to Saint Joseph Health System&rsquo;s main campus, with Beacon&rsquo;s hospitals a few miles either side &mdash; the two-system question in its purest form.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17027066564">Call (702) 706-6564</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
-    <div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">Request your free Medicare review</h2>
-      <p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>.</p>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+<div class="lead-card lead-card--wide">
+      <div class="lead-card__intro"><h2 class="lead-card__title">Request your free Medicare review</h2><p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>, or <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">enroll yourself online</a>.</p></div>
       <form id="mishawaka" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="fc793a1c-1dd6-4a2e-9078-e907c4ab0428">
         <input type="hidden" name="subject" value="New Medicare review request — ecosinsurancesolutions.com/indiana">
@@ -75,10 +80,7 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/indiana/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div><div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option><option>I'm turning 65 soon</option><option>Review my current plan</option><option>My Medigap premium went up</option><option>Medicare Advantage</option><option>Medicare Supplement (Medigap)</option><option>Part D drug plan</option><option>I winter in Florida or Arizona</option><option>I have VA / TRICARE</option><option>I have Medicaid too</option></select></div>
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -89,9 +91,7 @@
         <p class="form-fineprint">We never ask about your health on this form. See our <a href="/indiana/privacy">Privacy Policy</a>. This is a solicitation for insurance. Not connected with or endorsed by the U.S. government or the federal Medicare program.</p>
       </form>
     </div>
-  </div>
-</section>
-<figure class="hero-photo"><img src="/indiana/img/mishawaka-1200.webp" srcset="/indiana/img/mishawaka-800.webp 800w, /indiana/img/mishawaka-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="A retired couple walk the Central Park riverwalk in Mishawaka with the bridge" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure><section class="section"><div class="wrap">
+</div></section><section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in Mishawaka</p>
     <h2>What to know before you compare plans in St. Joseph County</h2>
     <p>St. Joseph County offers a solid Advantage menu, every Medigap carrier in Indiana and the full Part D lineup. Saint Joseph Health System&rsquo;s Mishawaka Medical Center and Beacon&rsquo;s Memorial Hospital of South Bend and Beacon Granger contract with different carriers, so a plan that includes one may exclude the other, and the lists change every October.</p><p>Mishawaka and Granger also have a sizeable snowbird population; our snowbirds guide covers which plans travel. We compare what is sold at your ZIP code, confirm your doctors and pharmacy, and set Advantage beside a Medigap policy.</p>

@@ -51,23 +51,28 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f2ec"/><stop offset="1" stop-color="#dbe7f1"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/><circle cx="1200" cy="96" r="50" fill="#d9b25f" opacity=".6"/><path d="M0 262C180 256 360 268 540 262 720 256 900 268 1080 262 1260 256 1440 262V360H0Z" fill="#cdd6d2"/><path d="M120 320v-70q110.0-50 220 0v70z" fill="#5c6670"/><rect x="197.0" y="280" width="66.0" height="40" fill="#1f2428" opacity=".35"/><path d="M360 320v-70q80.0-50 160 0v70z" fill="#5c6670"/><rect x="416.0" y="280" width="48.0" height="40" fill="#1f2428" opacity=".35"/><path d="M1140 320v-70q100.0-50 200 0v70z" fill="#5c6670"/><rect x="1210.0" y="280" width="60.0" height="40" fill="#1f2428" opacity=".35"/><g fill="#5c6670"><rect x="1010" y="220" width="16" height="100"/><rect x="990" y="196" width="56" height="30" rx="4"/><rect x="994" y="200" width="48" height="12" fill="#d9b25f" opacity=".6"/></g><path d="M0 320C240 312 480 328 720 320 960 312 1200 328 1440 320V360H0Z" fill="#8fa583" opacity="1"/><g transform="translate(560 300)" fill="#1f2428" opacity=".85"><path d="M-90 0h180l-14-10H-76z"/><path d="M-20-8l24-46h10l-4 46z"/><path d="M-70-8l-40-22h12l44 22zM20-8l70-22h12l-70 22z"/><path d="M84-6l16-22h6l-6 22z"/><circle cx="-40" cy="4" r="4"/><circle cx="40" cy="4" r="4"/></g><rect x="0" y="330" width="1440" height="30" fill="#8a8578"/><path d="M0 344h1440" stroke="#d9b25f" stroke-width="3" stroke-dasharray="40 30"/></svg></div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/ohio">Home</a> <span aria-hidden="true">/</span> <a href="/ohio/southwest-ohio">Southwest Ohio</a> <span aria-hidden="true">/</span> <span>Dayton</span></nav></div>
-  <div class="wrap hero__inner" style="padding-top:.5rem">
-    <div>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/ohio/img/dayton-1200.webp" srcset="/ohio/img/dayton-800.webp 800w, /ohio/img/dayton-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/ohio">Home</a> <span aria-hidden="true">/</span> <a href="/ohio/southwest-ohio">Southwest Ohio</a> <span aria-hidden="true">/</span> <span>Dayton</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
       <p class="eyebrow">Medicare help · Southwest Ohio</p>
       <h1>Medicare help in Dayton, Ohio</h1>
       <p class="hero__sub">Dayton&rsquo;s Medicare menu is deep and split between Premier Health and Kettering Health, with Wright-Patterson&rsquo;s Air Force retirees and the Dayton VA adding two more layers to the question.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17027066564">Call (702) 706-6564</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
-    <div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">Request your free Medicare review</h2>
-      <p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>.</p>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+<div class="lead-card lead-card--wide">
+      <div class="lead-card__intro"><h2 class="lead-card__title">Request your free Medicare review</h2><p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>, or <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">enroll yourself online</a>.</p></div>
       <form id="dayton" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="fc793a1c-1dd6-4a2e-9078-e907c4ab0428">
         <input type="hidden" name="subject" value="New Medicare review request — ecosinsurancesolutions.com/ohio">
@@ -75,10 +80,7 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/ohio/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div><div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option><option>I'm turning 65 soon</option><option>Review my current plan</option><option>My plan left my county</option><option>Medicare Advantage</option><option>Medicare Supplement (Medigap)</option><option>Part D drug plan</option><option>I have OPERS / STRS / SERS / union retiree coverage</option><option>I have VA / TRICARE</option><option>I have Medicaid or MyCare Ohio</option></select></div>
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -89,9 +91,7 @@
         <p class="form-fineprint">We never ask about your health on this form. See our <a href="/ohio/privacy">Privacy Policy</a>. This is a solicitation for insurance. Not connected with or endorsed by the U.S. government or the federal Medicare program.</p>
       </form>
     </div>
-  </div>
-</section>
-<figure class="hero-photo"><img src="/ohio/img/dayton-1200.webp" srcset="/ohio/img/dayton-800.webp 800w, /ohio/img/dayton-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="A retired couple walk RiverScape MetroPark along the Great Miami River" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure><section class="section"><div class="wrap">
+</div></section><section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in Dayton</p>
     <h2>What to know before you compare plans in Montgomery County</h2>
     <p>Montgomery County offers a wide Advantage menu, every Medigap carrier in Ohio and the full Part D lineup. Premier Health&rsquo;s Miami Valley Hospital and Kettering Health&rsquo;s campuses across the Miami Valley contract with different carriers, so which system your doctors belong to shapes the shortlist before price does.</p><p>Dayton is also an Air Force town. Wright-Patterson&rsquo;s retirees reach 65 with TRICARE For Life, which makes a Medigap policy and a Part D plan usually unnecessary; veterans without TFL use the Dayton VA Medical Center and need Part B on time. GM and Delphi retirees carry UAW trust coverage with its own rules. We sort out which layers you have and compare from there.</p>

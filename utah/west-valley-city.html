@@ -51,23 +51,28 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f1ea"/><stop offset="1" stop-color="#dde6ee"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/><circle cx="200" cy="106" r="50" fill="#e7c486" opacity=".6"/><path d="M0 360L0 220 180 130 360 200 520 110 700 190 880 120 1060 200 1240 130 1440 210 L1440 360Z" fill="#8fa3b8"/><path d="M152 164L180 130L208 164L194 158L184 168L172 156L162 166Z" fill="#f4f6f8"/><path d="M492 144L520 110L548 144L534 138L524 148L512 136L502 146Z" fill="#f4f6f8"/><path d="M852 154L880 120L908 154L894 148L884 158L872 146L862 156Z" fill="#f4f6f8"/><path d="M1212 164L1240 130L1268 164L1254 158L1244 168L1232 156L1222 166Z" fill="#f4f6f8"/><g fill="#2b4b62"><rect x="480" y="200" width="40" height="160"/><rect x="530" y="160" width="44" height="200"/><rect x="584" y="180" width="34" height="180"/><rect x="628" y="120" width="50" height="240"/><rect x="690" y="190" width="36" height="170"/><rect x="736" y="150" width="58" height="210"/><rect x="804" y="200" width="30" height="160"/><rect x="844" y="170" width="40" height="190"/></g><g fill="#cfc6b4"><rect x="900" y="230" width="180" height="130"/><rect x="955" y="196" width="70" height="40"/><path d="M955 200a35 35 0 0 1 70 0z"/><rect x="986" y="176" width="8" height="24"/></g><g fill="#e7c486" opacity=".7"><rect x="540" y="180" width="4" height="6"/><rect x="552" y="200" width="4" height="6"/><rect x="640" y="140" width="4" height="6"/><rect x="652" y="170" width="4" height="6"/><rect x="748" y="170" width="4" height="6"/><rect x="770" y="190" width="4" height="6"/><rect x="856" y="190" width="4" height="6"/></g><path d="M0 330C240 322 480 338 720 330 960 322 1200 338 1440 330V360H0Z" fill="#7f9a70" opacity="1"/></svg></div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/utah">Home</a> <span aria-hidden="true">/</span> <a href="/utah/salt-lake-valley">the Salt Lake Valley</a> <span aria-hidden="true">/</span> <span>West Valley City</span></nav></div>
-  <div class="wrap hero__inner" style="padding-top:.5rem">
-    <div>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/utah/img/west-valley-city-1200.webp" srcset="/utah/img/west-valley-city-800.webp 800w, /utah/img/west-valley-city-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/utah">Home</a> <span aria-hidden="true">/</span> <a href="/utah/salt-lake-valley">the Salt Lake Valley</a> <span aria-hidden="true">/</span> <span>West Valley City</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
       <p class="eyebrow">Medicare help · Salt Lake Valley</p>
       <h1>Medicare help in West Valley City, Utah</h1>
       <p class="hero__sub">West Valley, Magna, Kearns and Taylorsville have the full Salt Lake County menu, Jordan Valley Medical Center close by, and a large share of the valley&rsquo;s dual-eligible households.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17027066564">Call (702) 706-6564</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
-    <div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">Request your free Medicare review</h2>
-      <p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>.</p>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+<div class="lead-card lead-card--wide">
+      <div class="lead-card__intro"><h2 class="lead-card__title">Request your free Medicare review</h2><p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>, or <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">enroll yourself online</a>.</p></div>
       <form id="west-valley-city" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="fc793a1c-1dd6-4a2e-9078-e907c4ab0428">
         <input type="hidden" name="subject" value="New Medicare review request — ecosinsurancesolutions.com/utah">
@@ -75,10 +80,7 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/utah/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div><div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option><option>I'm turning 65 soon</option><option>Review my current plan</option><option>Medicare Advantage</option><option>Medicare Supplement (Medigap)</option><option>Part D drug plan</option><option>I winter in St. George / Arizona / Nevada</option><option>I have VA / TRICARE</option><option>I have Medicaid too</option></select></div>
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -89,9 +91,7 @@
         <p class="form-fineprint">We never ask about your health on this form. See our <a href="/utah/privacy">Privacy Policy</a>. This is a solicitation for insurance. Not connected with or endorsed by the U.S. government or the federal Medicare program.</p>
       </form>
     </div>
-  </div>
-</section>
-<figure class="hero-photo"><img src="/utah/img/west-valley-city-1200.webp" srcset="/utah/img/west-valley-city-800.webp 800w, /utah/img/west-valley-city-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="A retired couple walk the Jordan River Parkway trail" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure><section class="section"><div class="wrap">
+</div></section><section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in West Valley City</p>
     <h2>What to know before you compare plans in Salt Lake County</h2>
     <p>West-side residents have Salt Lake County&rsquo;s broad Advantage menu, every Medigap carrier in Utah and the full Part D lineup. Jordan Valley (Holy Cross), Intermountain Medical Center and St. Mark&rsquo;s each contract differently, and many west-side families qualify for both Medicare and Utah Medicaid, which makes Dual Special Needs Plans part of the conversation.</p><p>We compare what is sold at your ZIP code, confirm your doctors and pharmacy, and check whether a Medicare Savings Program applies.</p>

@@ -51,23 +51,28 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img" aria-hidden="true"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f2ec"/><stop offset="1" stop-color="#dbe7f1"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/><circle cx="1200" cy="100" r="54" fill="#d9b25f" opacity=".6"/><path d="M0 262C180 256 360 268 540 262 720 256 900 268 1080 262 1260 256 1440 262V360H0Z" fill="#cdd6d2"/><g fill="#2f4a63"><rect x="420" y="196" width="36" height="164"/><rect x="464" y="150" width="30" height="210"/><rect x="500" y="176" width="46" height="184"/><rect x="552" y="96" width="34" height="264"/><rect x="592" y="140" width="40" height="220"/><rect x="640" y="120" width="26" height="240"/><rect x="672" y="160" width="54" height="200"/><rect x="734" y="132" width="30" height="228"/><rect x="770" y="186" width="40" height="174"/><rect x="816" y="170" width="48" height="190"/><rect x="870" y="204" width="30" height="156"/></g><g fill="#d9b25f" opacity=".7"><rect x="560" y="120" width="4" height="6"/><rect x="572" y="150" width="4" height="6"/><rect x="600" y="160" width="4" height="6"/><rect x="646" y="140" width="4" height="6"/><rect x="690" y="180" width="4" height="6"/><rect x="742" y="150" width="4" height="6"/><rect x="830" y="190" width="4" height="6"/><rect x="506" y="190" width="4" height="6"/></g><path d="M552 96l17-22 17 22z" fill="#2f4a63"/><rect x="646" y="100" width="14" height="20" fill="#2f4a63"/><path d="M646 100l7-14 7 14z" fill="#2f4a63"/><rect x="0" y="300" width="1440" height="60" fill="#2f6a99" opacity="1"/><rect x="0" y="318" width="1440" height="42" fill="#4a84ad" opacity=".7"/><path d="M120 330c120-6 240 4 360-2 120-6 240 6 360 0 120-6 200 4 300 0" stroke="#e9f1f5" stroke-width="2" fill="none" opacity=".5"/><g fill="#1f2428" opacity=".8"><rect x="1040" y="286" width="220" height="14" rx="3"/><rect x="1058" y="270" width="36" height="16"/><rect x="1226" y="266" width="26" height="20"/><rect x="1236" y="256" width="6" height="10"/></g><g><rect x="200" y="240" width="18" height="60" fill="#e9e2d4"/><rect x="196" y="234" width="26" height="8" fill="#a6131f"/><rect x="203" y="222" width="12" height="12" fill="#d9b25f"/></g></svg></div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/ohio">Home</a> <span aria-hidden="true">/</span> <a href="/ohio/northeast-ohio">Northeast Ohio</a> <span aria-hidden="true">/</span> <span>Cleveland</span></nav></div>
-  <div class="wrap hero__inner" style="padding-top:.5rem">
-    <div>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/ohio/img/cleveland-1200.webp" srcset="/ohio/img/cleveland-800.webp 800w, /ohio/img/cleveland-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb" aria-label="Breadcrumb"><a href="/ohio">Home</a> <span aria-hidden="true">/</span> <a href="/ohio/northeast-ohio">Northeast Ohio</a> <span aria-hidden="true">/</span> <span>Cleveland</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy">
       <p class="eyebrow">Medicare help · Northeast Ohio</p>
       <h1>Medicare help in Cleveland, Ohio</h1>
       <p class="hero__sub">Cuyahoga County has one of the deepest Medicare Advantage menus in the country and a care map split three ways: Cleveland Clinic, University Hospitals and MetroHealth each contract with different plans.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17027066564">Call (702) 706-6564</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
-    <div class="lead-card" id="get-help">
-      <h2 class="lead-card__title">Request your free Medicare review</h2>
-      <p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>.</p>
+  </div>
+</section>
+<section class="section section--lead-wide" id="get-help"><div class="wrap">
+<div class="lead-card lead-card--wide">
+      <div class="lead-card__intro"><h2 class="lead-card__title">Request your free Medicare review</h2><p class="lead-card__note">No cost, no pressure. Prefer to call? <a href="tel:+17027066564"><strong>(702) 706-6564</strong></a>, or <a href="https://planenroll.com/?purl=Darin-Weidauer" target="_blank" rel="noopener">enroll yourself online</a>.</p></div>
       <form id="cleveland" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="fc793a1c-1dd6-4a2e-9078-e907c4ab0428">
         <input type="hidden" name="subject" value="New Medicare review request — ecosinsurancesolutions.com/ohio">
@@ -75,10 +80,7 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/ohio/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div><div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <div class="field"><label for="interest">What can we help with? (optional)</label>
           <select id="interest" name="interest"><option value="">Choose one…</option><option>I'm turning 65 soon</option><option>Review my current plan</option><option>My plan left my county</option><option>Medicare Advantage</option><option>Medicare Supplement (Medigap)</option><option>Part D drug plan</option><option>I have OPERS / STRS / SERS / union retiree coverage</option><option>I have VA / TRICARE</option><option>I have Medicaid or MyCare Ohio</option></select></div>
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -89,9 +91,7 @@
         <p class="form-fineprint">We never ask about your health on this form. See our <a href="/ohio/privacy">Privacy Policy</a>. This is a solicitation for insurance. Not connected with or endorsed by the U.S. government or the federal Medicare program.</p>
       </form>
     </div>
-  </div>
-</section>
-<figure class="hero-photo"><img src="/ohio/img/cleveland-1200.webp" srcset="/ohio/img/cleveland-800.webp 800w, /ohio/img/cleveland-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="A retired couple walk the Edgewater Park beach with the Cleveland skyline" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure><section class="section"><div class="wrap">
+</div></section><section class="section"><div class="wrap">
     <p class="eyebrow">Medicare in Cleveland</p>
     <h2>What to know before you compare plans in Cuyahoga County</h2>
     <p>Cleveland offers dozens of Medicare Advantage plans &mdash; KFF counted 80 or more in Cuyahoga County for 2025 &mdash; plus every Medigap carrier in Ohio and the full Part D lineup. The network question is the whole question: Cleveland Clinic&rsquo;s main campus and community hospitals, University Hospitals&rsquo; Cleveland Medical Center and its suburban hospitals, and MetroHealth each sign their own Advantage contracts, and Medical Mutual, headquartered downtown, sells plans against the national carriers.</p><p>Cleveland is also home to the Louis Stokes VA Medical Center, which serves 24 northeast Ohio counties, and to a large union-retiree population whose UAW, steelworker and city plans set their own Medicare rules. We compare what is sold at your ZIP code, confirm your doctors and pharmacy, and set Advantage beside a Medigap policy so the trade-off is plain.</p>

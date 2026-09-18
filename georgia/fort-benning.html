@@ -51,31 +51,25 @@
   </div>
 </header>
 <main id="main">
-<section class="hero hero--photo">
-  <div class="hero__scene" aria-hidden="true">
-    <svg viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" role="img"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f2e8"/><stop offset="1" stop-color="#dfe7e4"/></linearGradient></defs><rect width="1440" height="360" fill="url(#sky)"/>
-<circle cx="1160" cy="140" r="60" fill="#e7c486" opacity=".5"/>
-<path d="M0 252C260 222 470 256 760 240 1040 226 1250 258 1440 232V360H0Z" fill="#cdd9cd"/>
-<path d="M0 300C300 280 560 308 900 298V360H0Z" fill="#6f9a82"/>
-<path d="M560 360c40-70 220-92 360-92 180 0 360 30 520 92" fill="#bcdcea" opacity=".95"/>
-<path d="M0 330C320 318 700 338 1040 326 1240 320 1340 330 1440 326V360H0Z" fill="#2f7a5f"/>
-<g fill="#143f31"><path d="M120 330l15-50 15 50zM128 300l8-24 8 24z"/><path d="M1300 330l12-38 12 38z"/></g></svg>
+<section class="hero hero--overlay">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="/georgia/img/fort-benning-1200.webp" srcset="/georgia/img/fort-benning-800.webp 800w, /georgia/img/fort-benning-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
   </div>
-  <div class="wrap" style="padding-top:1.1rem"><nav class="eyebrow" aria-label="Breadcrumb" style="color:var(--ink-soft)"><a href="/georgia">Home</a> <span aria-hidden="true">/</span> <a href="/georgia/veterans">Veterans</a> <span aria-hidden="true">/</span> <span>Fort Benning</span></nav></div>
-  <div class="wrap" style="padding:.4rem 0 2rem">
-    <div style="max-width:48rem">
+  <div class="wrap" style="padding-top:1.1rem;position:relative;z-index:1"><nav class="eyebrow crumb-overlay" aria-label="Breadcrumb"><a href="/georgia">Home</a> <span aria-hidden="true">/</span> <a href="/georgia/veterans">Veterans</a> <span aria-hidden="true">/</span> <span>Fort Benning</span></nav></div>
+  <div class="wrap hero__inner-v2">
+    <div class="hero-copy" style="max-width:48rem">
       <p class="eyebrow">Veterans &amp; Medicare · Columbus, Georgia</p>
       <h1>Retired from Fort Benning? Your Medicare has a wrinkle worth getting right.</h1>
       <p class="hero__sub">Columbus is home to one of Georgia's largest military-retiree communities. If you carry TRICARE For Life &mdash; or VA health care &mdash; the way it works alongside Medicare can save you real money, or cost you, depending on a few decisions. Here's the plain-English version, from a local agent.</p>
       <div class="hero__actions">
         <a class="btn btn--primary btn--lg" href="tel:+17702855174">Call (770) 285-5174</a>
-        <a class="btn btn--ghost btn--lg" href="#get-help">Request a free review</a>
+        <a class="btn btn--outline-light btn--lg" href="#get-help">Request a free review</a>
       </div>
       <p class="hero__nocost"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> No cost, no obligation, no pressure.</p>
     </div>
   </div>
 </section>
-<figure class="hero-photo"><img src="/georgia/img/fort-benning-1200.webp" srcset="/georgia/img/fort-benning-800.webp 800w, /georgia/img/fort-benning-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="A retired couple at the Chattahoochee Riverwalk in Columbus" style="object-position:50% 50%" loading="eager" fetchpriority="high" decoding="async"></figure>
 
 <section class="section">
   <div class="wrap">
@@ -131,10 +125,10 @@
         <input type="hidden" name="redirect" value="https://www.ecosinsurancesolutions.com/georgia/thank-you">
         <input type="hidden" name="consent_text" value="By checking the consent box and submitting this form, I give ECOS Medicare Solutions and a licensed insurance agent permission to contact me at the phone number and email I provided — including by phone call, text message (SMS), and email, using automated technology such as an autodialer or prerecorded/artificial voice — about Medicare Advantage, Medicare Supplement, and Part D plan options. I understand consent is not a condition of purchase and that message and data rates may apply, and that I can opt out at any time.">
         <input type="hidden" name="consent_timestamp" id="consent_timestamp" value="">
-        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div>
+        <div class="field-row"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div></div>
+        <div class="field-row"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="zip">ZIP code or city</label><input id="zip" name="zip_or_city" type="text" autocomplete="postal-code" required></div></div>
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="consent"><input id="consent" name="consent" type="checkbox" required>
           <label for="consent">By checking this box and submitting, I give ECOS Medicare Solutions and a licensed agent permission to contact me at the number and email above &mdash; by phone call, text (SMS), and email, including with automated technology &mdash; about Medicare plan options. Consent is not a condition of purchase. Message &amp; data rates may apply; I can opt out anytime.</label>

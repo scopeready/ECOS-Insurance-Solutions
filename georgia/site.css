@@ -476,6 +476,14 @@ figure.scenery figcaption {
   .hero--overlay .btn--outline-light:hover{background:var(--pine-tint);color:var(--pine-dark)}
 }
 
+.crumb-overlay{color:rgba(255,255,255,.85)}
+.crumb-overlay a{color:#fff}
+.crumb-overlay a:hover{color:#e7c486}
+@media (max-width:880px){
+  .crumb-overlay{color:var(--ink-soft)}
+  .crumb-overlay a{color:var(--pine)}
+}
+
 /* ---- Wide horizontal request section (replaces the old narrow floating card) ---- */
 .section--lead-wide{padding-block:clamp(2.4rem,3vw,3.6rem)}
 .lead-card--wide{
